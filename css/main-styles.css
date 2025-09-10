@@ -861,3 +861,39 @@ body {
   font-size: 16px;
   color: #555555; /* kontrastreicher als vorheriges opacity: 0.8 */
 }
+/* ===== MOBILE ÜBERSCHRIFTEN FIX ===== */
+
+/* iPhone und kleine Screens */
+@media (max-width: 480px) {
+    .page-header h1 {
+        font-size: 28px !important; /* Statt 42px */
+        line-height: 1.2;
+        padding: 0 10px;
+        word-wrap: break-word;
+    }
+    
+    .hero h1 {
+        font-size: 32px !important; /* Statt größer */
+        line-height: 1.2;
+        padding: 0 15px;
+    }
+    
+    /* Allgemeine H1 auf mobil */
+    h1 {
+        font-size: 24px !important;
+        line-height: 1.3;
+    }
+}
+
+/* Mittlere Phones */
+@media (max-width: 767px) {
+    .page-header h1 {
+        font-size: 32px !important;
+        line-height: 1.2;
+    }
+    
+    .hero h1 {
+        font-size: 36px !important;
+        line-height: 1.2;
+    }
+}
