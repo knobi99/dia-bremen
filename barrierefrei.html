@@ -116,6 +116,7 @@
             border-bottom-color: var(--helles-blau);
         }
 
+        /* KORRIGIERTE CONTACT-BOX STYLES */
         .contact-box {
             background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
             padding: 40px;
@@ -123,6 +124,10 @@
             margin: 40px 0;
             border: 1px solid #e2e8f0;
             border-left: 6px solid var(--helles-blau);
+            /* Mobile Optimierungen */
+            word-wrap: break-word !important;
+            overflow-wrap: break-word !important;
+            hyphens: auto !important;
         }
 
         .contact-box h4 {
@@ -130,6 +135,18 @@
             margin-bottom: 20px;
             color: var(--hauptblau);
             font-weight: 600;
+            /* Mobile Optimierung */
+            word-wrap: break-word !important;
+            overflow-wrap: break-word !important;
+        }
+
+        .contact-box h5 {
+            margin: 24px 0 16px 0;
+            color: var(--hauptblau);
+            font-weight: 600;
+            font-size: 18px;
+            /* Mobile Optimierung */
+            word-wrap: break-word !important;
         }
 
         .contact-box address {
@@ -143,14 +160,47 @@
 
         .contact-box li {
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             gap: 12px;
-            margin-bottom: 12px;
+            margin-bottom: 16px;
+            line-height: 1.6;
+            /* Mobile Textumbruch */
+            word-wrap: break-word !important;
+            overflow-wrap: break-word !important;
+            hyphens: auto !important;
+        }
+
+        .contact-box li strong {
+            color: var(--hauptblau);
+            font-weight: 600;
+            word-wrap: break-word !important;
+        }
+
+        .contact-box li em {
+            font-style: italic;
+            color: #059669;
+            word-wrap: break-word !important;
+            display: block;
+            margin-top: 4px;
         }
 
         .contact-box a {
             color: var(--helles-blau);
             font-weight: 500;
+        }
+
+        .contact-box p {
+            margin-bottom: 16px;
+            line-height: 1.7;
+            word-wrap: break-word !important;
+            overflow-wrap: break-word !important;
+            hyphens: auto !important;
+        }
+
+        /* Globale Sicherheit für alle Elemente in contact-box */
+        .contact-box * {
+            max-width: 100% !important;
+            box-sizing: border-box !important;
         }
 
         .content-wrapper hr {
@@ -160,10 +210,26 @@
             background: linear-gradient(90deg, transparent 0%, #e2e8f0 20%, #e2e8f0 80%, transparent 100%);
         }
 
-        /* Responsive Anpassungen */
+        /* RESPONSIVE ANPASSUNGEN */
         @media (max-width: 1023px) {
             .content-wrapper {
                 padding: 40px;
+            }
+            
+            .contact-box {
+                padding: 32px !important;
+                margin: 32px 0 !important;
+            }
+            
+            .contact-box h4 {
+                font-size: 20px !important;
+                margin-bottom: 16px !important;
+                line-height: 1.3 !important;
+            }
+            
+            .contact-box h5 {
+                font-size: 17px !important;
+                margin: 20px 0 14px 0 !important;
             }
         }
 
@@ -192,6 +258,54 @@
             .content-wrapper h3 {
                 font-size: 22px;
             }
+
+            /* CONTACT BOX MOBILE */
+            .contact-box {
+                padding: 24px !important;
+                margin: 24px 0 !important;
+                max-width: 100% !important;
+                box-sizing: border-box !important;
+            }
+            
+            .contact-box h4 {
+                font-size: 18px !important;
+                margin-bottom: 16px !important;
+                line-height: 1.4 !important;
+                word-break: break-word !important;
+            }
+            
+            .contact-box h5 {
+                font-size: 16px !important;
+                margin: 16px 0 12px 0 !important;
+                line-height: 1.4 !important;
+            }
+            
+            .contact-box li {
+                margin-bottom: 14px !important;
+                font-size: 15px !important;
+                line-height: 1.5 !important;
+                word-break: break-word !important;
+                overflow-wrap: anywhere !important;
+                display: block !important; /* Änderung von flex zu block für bessere mobile Darstellung */
+            }
+            
+            .contact-box p {
+                font-size: 15px !important;
+                line-height: 1.6 !important;
+                margin-bottom: 14px !important;
+            }
+            
+            .contact-box strong {
+                word-break: break-word !important;
+                display: inline-block !important;
+                max-width: 100% !important;
+            }
+            
+            .contact-box em {
+                font-size: 14px !important;
+                line-height: 1.4 !important;
+                margin-top: 6px !important;
+            }
         }
 
         @media (max-width: 480px) {
@@ -199,8 +313,49 @@
                 padding: 24px 16px;
             }
 
+            /* CONTACT BOX SEHR KLEINE BILDSCHIRME */
             .contact-box {
-                padding: 24px;
+                padding: 20px !important;
+                border-radius: 8px !important;
+                margin: 20px 0 !important;
+            }
+            
+            .contact-box h4 {
+                font-size: 17px !important;
+                margin-bottom: 14px !important;
+                word-break: break-word !important;
+                hyphens: auto !important;
+            }
+            
+            .contact-box h5 {
+                font-size: 15px !important;
+                margin: 14px 0 10px 0 !important;
+            }
+            
+            .contact-box li {
+                margin-bottom: 12px !important;
+                font-size: 14px !important;
+                line-height: 1.5 !important;
+                word-break: break-word !important;
+                overflow-wrap: anywhere !important;
+                hyphens: auto !important;
+            }
+            
+            .contact-box p {
+                font-size: 14px !important;
+                line-height: 1.5 !important;
+                margin-bottom: 12px !important;
+            }
+            
+            .contact-box strong {
+                word-break: break-word !important;
+                hyphens: auto !important;
+            }
+            
+            .contact-box em {
+                font-size: 13px !important;
+                line-height: 1.4 !important;
+                word-break: break-word !important;
             }
         }
     </style>
@@ -359,23 +514,28 @@
                         
                         <h5>Durchgeführte Tests:</h5>
                         <ul>
-                            <li><strong>Test 1: WAVE Web Accessibility Evaluator</strong><br>
+                            <li>
+                                <strong>Test 1: WAVE Web Accessibility Evaluator</strong><br>
                                 Ergebnis: 9/9 Seiten - 0 Errors, 0 Contrast Errors<br>
                                 <em>Alle Farbkontrast- und Strukturprobleme behoben</em>
                             </li>
-                            <li><strong>Test 2: Tastaturnavigation</strong><br>
+                            <li>
+                                <strong>Test 2: Tastaturnavigation</strong><br>
                                 Ergebnis: Vollständig funktional<br>
                                 <em>Skip-Links, Tab-Reihenfolge, Focus-Indikatoren bestanden</em>
                             </li>
-                            <li><strong>Test 3: Lighthouse Accessibility Scores</strong><br>
+                            <li>
+                                <strong>Test 3: Lighthouse Accessibility Scores</strong><br>
                                 Ergebnis: 98-100/100 (Zielwert: ≥95)<br>
                                 <em>Übertrifft Mindestanforderungen deutlich</em>
                             </li>
-                            <li><strong>Test 4: Screenreader-Kompatibilität (NVDA)</strong><br>
+                            <li>
+                                <strong>Test 4: Screenreader-Kompatibilität (NVDA)</strong><br>
                                 Ergebnis: Erfolgreich kompatibel<br>
                                 <em>Überschriften, Alt-Texte, Link-Beschreibungen korrekt</em>
                             </li>
-                            <li><strong>Test 5: HTML-Validierung (W3C)</strong><br>
+                            <li>
+                                <strong>Test 5: HTML-Validierung (W3C)</strong><br>
                                 Ergebnis: Strukturell valide<br>
                                 <em>Keine kritischen Parse-Errors, robuste Assistenztechnologie-Kompatibilität</em>
                             </li>
