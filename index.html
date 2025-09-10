@@ -1,14 +1,387 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>DIA Bremen</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1a4971">
+    <title>Digital im Alter Bremen-Nord - Digitale Kompetenzen für Senioren</title>
+    <meta name="description" content="Digital im Alter Bremen-Nord bietet Tablet- und Smartphone-Kurse für Senioren. Lernen Sie den Umgang mit digitalen Technologien in kleinen Gruppen mit viel Geduld.">
+    <link rel="stylesheet" href="css/main-styles.css">
+    <link rel="stylesheet" href="css/footer-styles.css">
+    <!-- Performance Optimierungen -->
+    <link rel="preload" href="css/main-styles.css" as="style">
+    <!--<link rel="preload" href="css/footer-styles.css" as="style"> -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    
 </head>
 <body>
-  <h1>Hallo von DIA Bremen</h1>
- <h1>Digital im Alter Bremen-Nord</h1>
- <p>Bei uns lernen Sie den Umgang mit digitalen Technologien - ohne Fachchargon, mit viel Geduld und in angenehmer Atmosphäre. 
-   Wir vermitteln Ihnen grundlegende digitale Kompetenzen für ein selbstbestimmtes digitales Leben.</p>
+    <!-- Skip-Link für Barrierefreiheit -->
+    <a href="#main-content" class="skip-link">Zum Hauptinhalt springen</a>
+
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="header-content">
+            <div class="logo">
+                <img src="images/dia-logo.png" 
+     alt="Digital im Alter Logo" 
+     width="175" 
+     height="100"
+     loading="eager">
+            </div>
+            <div class="contact-info">
+                <div><span class="visually-hidden">Telefonnummer: </span>📞 +49 178 1603960</div>
+                <div><span class="visually-hidden">E-Mail: </span>✉ hallo@dia-bremen.de</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav" role="navigation" aria-label="Hauptnavigation">
+        <div class="nav-content">
+            <ul>
+                <li><a href="index.html" class="active" aria-current="page">🏠 Start</a></li>
+                <li><a href="termine.html">📅 Termine</a></li>
+                <li><a href="tipps.html">💻 Digitaler Alltag und Tipps</a></li>
+                <li><a href="ueber.html">ℹ️ Über Uns</a></li>
+                <li><a href="kontakt.html">📞 Kontakt</a></li>
+            </ul>
+            
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="start" role="banner">
+        <div class="hero-content">
+            <h1>Digital im Alter Bremen-Nord</h1>
+            <p>Bei uns lernen Sie den Umgang mit digitalen Technologien - ohne Fachchargon, mit viel Geduld und in angenehmer Atmosphäre. Wir vermitteln Ihnen grundlegende digitale Kompetenzen für ein selbstbestimmtes digitales Leben.</p>
+            <div class="hero-buttons">
+                <a href="ueber.html" class="btn btn-primary">Unsere Angebote</a>
+                <a href="termine.html" class="btn btn-secondary">Aktuelle Termine</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main id="main-content" role="main">
+        <!-- Main Sections -->
+        <section class="main-sections" aria-labelledby="angebote-heading">
+            <div class="container">
+                <h2 id="angebote-heading" class="visually-hidden">Unsere Hauptangebote</h2>
+                <div class="sections-grid">
+                    <article class="section-card" id="termine">
+                        <div class="section-icon" aria-hidden="true">📅</div>
+                        <h3>Aktuelles &amp; Termine</h3>
+                        <p>Hier finden Sie die neuesten Termine und Veranstaltungen in der Nähe. Von Tablet-Kursen über Sprechstunden bis zu Informationsveranstaltungen - bleiben Sie informiert über alle wichtigen Angebote in Bremen-Nord.</p>
+                        <a href="termine.html" class="btn btn-primary">Mehr erfahren</a>
+                    </article>
+
+                    <article class="section-card" id="tipps">
+                        <div class="section-icon" aria-hidden="true">💻</div>
+                        <h3>Digitaler Alltag</h3>
+                        <p>Entdecken Sie, wie digitale Technologien Ihren Alltag bereichern können. Unsere Tipps und Anleitungen zeigen Ihnen, wie Sie Bedienungsgänge sowohl persönlich als auch digital meistern können.</p>
+                        <a href="tipps.html" class="btn btn-primary">Mehr erfahren</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section" id="ueber" aria-labelledby="ueber-heading">
+            <div class="container">
+                <div class="section-divider" aria-hidden="true"></div>
+
+                <div class="about-content">
+                    <!-- Text (links auf Desktop) -->
+                    <div class="about-text">
+                        <h2 id="ueber-heading">Über Digital im Alter</h2>
+                        <p>Seit Januar 2023 unterstützen unsere ehrenamtlichen Digital-Trainer und Trainerinnen Senioren in Bremen-Nord. In kleinen Gruppen von maximal 6 Teilnehmern vermitteln wir grundlegende digitale Kompetenzen.</p>
+                        <p>Mit unseren praxisnahen Kursen und individueller Betreuung helfen wir älteren Menschen, selbstbewusst am digitalen Leben teilzuhaben.</p>
+                        <p><strong>Unsere Mission:</strong> Wir möchten digitale Teilhabe für alle Generationen ermöglichen und die digitale Kluft überwinden. Dabei steht nicht die Technik im Vordergrund, sondern der Mensch mit seinen individuellen Bedürfnissen und Fragen.</p>
+                    </div>
+
+                    <!-- Bild (rechts auf Desktop) mit semantischer Bildunterschrift -->
+                    <figure class="about-image">
+                        <img src="images/gruppe.png" 
+     alt="Eine Gruppe von Senioren sitzt  um einen Tisch und lernt  den Umgang mit Tablets und Smartphones"
+     loading="lazy"
+     width="600" 
+     height="400">
+                        <figcaption>Gemeinsam lernen in entspannter Atmosphäre</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats-section" id="stats" aria-labelledby="stats-heading">
+            <div class="container">
+                <h2 id="stats-heading" class="stats-heading">Unsere Erfolge auf einen Blick</h2>
+                <div class="stats-grid" role="list">
+
+                    <div class="stat-card" role="listitem">
+                        <div class="stat-number" data-target="200" data-plus="true" aria-label="mehr als 200">0</div>
+                        <div class="stat-label">Teilnehmerinnen und Teilnehmer</div>
+                    </div>
+
+                    <div class="stat-card" role="listitem">
+                        <div class="stat-number" data-target="10" aria-label="10">0</div>
+                        <div class="stat-label">Trainerinnen und Trainer</div>
+                    </div>
+
+                    <div class="stat-card" role="listitem">
+                        <div class="stat-number" data-target="25" data-plus="true" aria-label="mehr als 25">0</div>
+                        <div class="stat-label">Kurse</div>
+                    </div>
+
+                    <div class="stat-card" role="listitem">
+                        <div class="stat-number" data-target="95" aria-label="95 Prozent">0</div>
+                        <div class="stat-label"> % Zufriedenheit</div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="kontakt" aria-labelledby="kontakt-heading">
+            <div class="container">
+                <h2 id="kontakt-heading">Nehmen Sie Kontakt mit uns auf – wie es Ihnen am liebsten ist:</h2>
+                <div class="contact-grid" role="list">
+                    <article class="contact-item" role="listitem">
+                        <div class="contact-icon" aria-hidden="true">✉️</div>
+                        <h3>Digital</h3>
+                        <p>Schreiben Sie uns eine E-Mail<br><a href="mailto:hallo@dia-bremen.de" style="color: var(--helles-blau);">hallo@dia-bremen.de</a></p>
+                        <p><strong>Antwortzeit:</strong><br>Innerhalb von 24<br>Stunden<br>oder nutzen Sie unser<br>Kontaktformular</p>
+                    </article>
+                    <article class="contact-item" role="listitem">
+                        <div class="contact-icon" aria-hidden="true">📞</div>
+                        <h3>Telefonisch</h3>
+                        <p>Rufen Sie uns an<br><a href="tel:+49178 1603960" style="color: var(--helles-blau);">+49178 1603960</a></p>
+                        <p><strong>Erreichbar:</strong><br>Mittwoch von 10-11 Uhr</p>
+                        <p>Wir beraten Sie gerne zu allen<br>Fragen oder vereinbaren mit<br>Ihnen einen persönlichen Termin.</p>
+                    </article>
+                    <article class="contact-item" role="listitem">
+                        <div class="contact-icon" aria-hidden="true">🏢</div>
+                        <h3>Persönlich</h3>
+                        <p>Besuchen Sie unsere<br>Sprechstunden vor Ort. Wir sind<br>in verschiedenen Stadtteilen<br>für Sie da.</p>
+                        <p><strong>Alle aktuellen Termine und Orte<br>finden Sie im Bereich "Aktuelles<br>&amp; Termine".</strong></p>
+                    </article>
+                </div>
+                <div style="text-align: center; margin-top: 40px; font-size: 18px;">
+                    💙 <strong>Wir freuen uns auf Sie – egal auf welchem Weg!</strong>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<!-- Skip-Link für Footer -->
+<a href="#footer-content" class="skip-to-footer">Direkt zum Footer</a>
+
+<!-- Section Divider -->
+<div class="section-divider" aria-hidden="true"></div>
+
+<!-- Footer -->
+<footer class="footer" role="contentinfo" lang="de" id="footer-content">
+    <div class="footer-content">
+        <div class="footer-top">
+            <section class="footer-about" aria-labelledby="about-heading">
+                <h3 id="about-heading">Digital im Alter Bremen-Nord</h3>
+                <p>Ein Projekt der Seniorenvertretung Bremen in Kooperation mit der Abteilung "Denksport & Digitales" der SG Marßel.</p>
+                <p>Unser Ziel ist es, älteren Menschen den Zugang zur digitalen Welt zu erleichtern und digitale Teilhabe für alle Generationen zu ermöglichen.</p>
+                <p><strong>Niemand soll digital abgehängt werden!</strong></p>
+            </section>
+
+            <nav class="footer-links" aria-labelledby="footer-nav-heading">
+                <h4 id="footer-nav-heading">Schnellzugriff</h4>
+                <ul role="list">
+                    <li><a href="index.html"><span aria-hidden="true">🏠</span> Startseite</a></li>
+                    <li><a href="termine.html"><span aria-hidden="true">📅</span> Aktuelle Termine</a></li>
+                    <li><a href="tipps.html"><span aria-hidden="true">💻</span> Digitale Tipps</a></li>
+                    <li><a href="ueber.html"><span aria-hidden="true">ℹ️</span> Über das Projekt</a></li>
+                    <li><a href="kontakt.html"><span aria-hidden="true">📞</span> Kontakt</a></li>
+                </ul>
+            </nav>
+
+            <section class="footer-contact" aria-labelledby="contact-heading">
+                <h4 id="contact-heading">Kontakt</h4>
+                <address>
+                    <p><span aria-hidden="true">📞</span> <a href="tel:+491781603960" aria-label="Telefonnummer anrufen">0178-1603960</a></p>
+                    <p><span aria-hidden="true">✉</span> <a href="mailto:hallo@dia-bremen.de" aria-label="E-Mail senden">hallo@dia-bremen.de</a></p>
+                    <p><strong>Sprechzeiten:</strong><br>
+                    <span aria-label="Mittwoch von 10 bis 11 Uhr">Mittwoch 10:00 - 11:00 Uhr</span></p>
+                </address>
+            </section>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-copyright">
+                <p>&copy; 2025 Digital im Alter Bremen-Nord - ♿ Barrierefrei gemäß 
+                <abbr title="Web Content Accessibility Guidelines 2.1">WCAG 2.1 AA konform</abbr> – 
+                <a href="barrierefrei.html#ausfuehrlich" aria-label="Ausführliche Barrierefreiheitserklärung lesen">Erklärung lesen</a></p>
+            </div>
+            
+            <nav class="footer-legal" aria-labelledby="legal-nav-heading">
+                <h4 id="legal-nav-heading" class="visually-hidden">Rechtliche Informationen</h4>
+                <a href="impressum.html" aria-label="Impressum aufrufen"><span aria-hidden="true">📄</span> Impressum</a>
+                <a href="datenschutz.html" aria-label="Datenschutzerklärung aufrufen"><span aria-hidden="true">🔒</span> Datenschutz</a>
+                <a href="bilderrechte.html" aria-label="Bilderrechte aufrufen"><span aria-hidden="true">🖼️</span> Bilderrechte</a>
+            </nav>
+        </div>
+    </div>
+</footer>
+
+    <!-- JavaScript für Statistik-Animation -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const counters = document.querySelectorAll(".stat-number");
+            let started = false;
+
+            function animateCounter(counter) {
+                const target = +counter.getAttribute("data-target");
+                let current = 0;
+                const increment = target / 100;
+                const hasPlus = counter.dataset.plus;
+                const hasPercent = counter.dataset.percent;
+                
+                const interval = setInterval(() => {
+                    current += increment;
+                    if (current >= target) {
+                        counter.innerText = (hasPlus ? ">" : "") + target + (hasPercent ? "%" : "");
+                        // Für Screenreader: Endwert aktualisieren
+                        const ariaLabel = target + (hasPlus ? " oder mehr" : "") + (hasPercent ? " Prozent" : "");
+                        counter.setAttribute("aria-label", ariaLabel);
+                        clearInterval(interval);
+                    } else {
+                        // Während der Animation auch das > Zeichen und % anzeigen
+                        const currentValue = Math.ceil(current);
+                        counter.innerText = (hasPlus ? ">" : "") + currentValue + (hasPercent ? "%" : "");
+                    }
+                }, 20);
+            }
+
+            function isInViewport(element) {
+                const rect = element.getBoundingClientRect();
+                return rect.top <= window.innerHeight && rect.bottom >= 0;
+            }
+
+            function startCounters() {
+                counters.forEach(counter => animateCounter(counter));
+            }
+
+            // Event: scroll oder sofort starten, wenn sichtbar
+            window.addEventListener("scroll", () => {
+                const statsSection = document.getElementById("stats");
+                if (!started && isInViewport(statsSection)) {
+                    startCounters();
+                    started = true;
+                }
+            });
+
+            // Falls Section schon beim Laden sichtbar
+            const statsSection = document.getElementById("stats");
+            if (isInViewport(statsSection) && !started) {
+                startCounters();
+                started = true;
+            }
+        });
+
+        // Focus-visible Polyfill für bessere Keyboard-Navigation
+        (function() {
+            function applyFocusVisiblePolyfill(scope) {
+                var hadKeyboardEvent = true;
+
+                var handleKeyDown = function(e) {
+                    if (e.metaKey || e.altKey || e.ctrlKey) {
+                        return;
+                    }
+                    hadKeyboardEvent = true;
+                };
+
+                var handlePointerDown = function() {
+                    hadKeyboardEvent = false;
+                };
+
+                var handleFocus = function(e) {
+                    if (hadKeyboardEvent && e.target.classList) {
+                        e.target.classList.add('focus-visible');
+                    }
+                };
+
+                var handleBlur = function(e) {
+                    if (e.target.classList) {
+                        e.target.classList.remove('focus-visible');
+                    }
+                };
+
+                scope.addEventListener('keydown', handleKeyDown, true);
+                scope.addEventListener('mousedown', handlePointerDown, true);
+                scope.addEventListener('pointerdown', handlePointerDown, true);
+                scope.addEventListener('touchstart', handlePointerDown, true);
+                scope.addEventListener('focus', handleFocus, true);
+                scope.addEventListener('blur', handleBlur, true);
+
+                if (scope.classList) {
+                    scope.classList.add('js-focus-visible');
+                }
+            }
+
+            if (typeof window !== 'undefined' && typeof document !== 'undefined') {
+                applyFocusVisiblePolyfill(document);
+            }
+        })();
+
+        // Announce page changes for screen readers
+        function announcePageChange(message) {
+            const announcement = document.createElement('div');
+            announcement.setAttribute('aria-live', 'polite');
+            announcement.setAttribute('aria-atomic', 'true');
+            announcement.className = 'visually-hidden';
+            announcement.textContent = message;
+            document.body.appendChild(announcement);
+            
+            setTimeout(() => {
+                document.body.removeChild(announcement);
+            }, 1000);
+        }
+
+        // Improve form accessibility
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add proper labels to form elements if they exist
+            const inputs = document.querySelectorAll('input, select, textarea');
+            inputs.forEach(input => {
+                if (!input.getAttribute('aria-label') && !input.getAttribute('aria-labelledby')) {
+                    const label = document.querySelector(`label[for="${input.id}"]`);
+                    if (!label && input.placeholder) {
+                        input.setAttribute('aria-label', input.placeholder);
+                    }
+                }
+            });
+        });
+    </script>
+
+    <!-- Structured Data für bessere Suchmaschinenoptimierung -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Digital im Alter Bremen-Nord",
+        "description": "Digitale Kompetenzen für Senioren in Bremen-Nord. Tablet- und Smartphone-Kurse in kleinen Gruppen.",
+        "url": "https://dia-bremen.de",
+        "logo": "https://dia-bremen.de/images/dia-logo.png",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+49-178-1603960",
+            "email": "hallo@dia-bremen.de",
+            "contactType": "customer service",
+            "availableLanguage": "German"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Bremen-Nord",
+            "addressCountry": "DE"
+        },
+        "sameAs": []
+    }
+    </script>
 </body>
 </html>
