@@ -12,6 +12,253 @@
     <link rel="preload" href="css/main-styles.css" as="style">
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     
+    <style>
+        /* MOBILE RESPONSIVE FIXES FÜR KONTAKT-SEITE */
+        
+        /* Globale Textumbruch-Sicherheit */
+        h1, h2, h3, h4, h5, h6 {
+            word-wrap: break-word !important;
+            overflow-wrap: break-word !important;
+            hyphens: auto !important;
+            max-width: 100% !important;
+        }
+        
+        /* Container und Sections */
+        .container {
+            max-width: 100% !important;
+            padding: 0 15px !important;
+            box-sizing: border-box !important;
+        }
+        
+        .main-sections, .about-section, .stats-section, .contact-section {
+            padding: 40px 0 !important;
+        }
+        
+        /* Grid Anpassungen für Mobile */
+        .sections-grid {
+            display: grid !important;
+        }
+        
+        /* Tablet und größer */
+        @media (min-width: 768px) {
+            .sections-grid {
+                grid-template-columns: repeat(3, 1fr) !important;
+                gap: 30px !important;
+            }
+        }
+        
+        /* Mobile: Eine Spalte */
+        @media (max-width: 767px) {
+            .sections-grid {
+                grid-template-columns: 1fr !important;
+                gap: 20px !important;
+            }
+            
+            /* Überschriften Mobile */
+            h1 {
+                font-size: 28px !important;
+                line-height: 1.2 !important;
+                margin-bottom: 15px !important;
+            }
+            
+            h2 {
+                font-size: 24px !important;
+                line-height: 1.3 !important;
+                margin-bottom: 30px !important;
+                text-align: center !important;
+                padding: 0 10px !important;
+            }
+            
+            h3 {
+                font-size: 20px !important;
+                line-height: 1.4 !important;
+                margin-bottom: 15px !important;
+            }
+            
+            /* Hero Section Mobile */
+            .hero {
+                height: 350px !important;
+                padding: 40px 0 !important;
+            }
+            
+            .hero-content {
+                padding: 0 20px !important;
+                max-width: 100% !important;
+            }
+            
+            .hero h1 {
+                font-size: 32px !important;
+                margin-bottom: 15px !important;
+            }
+            
+            .hero p {
+                font-size: 18px !important;
+                line-height: 1.4 !important;
+            }
+            
+            /* Section Cards Mobile */
+            .section-card {
+                padding: 25px 20px !important;
+                margin-bottom: 20px !important;
+            }
+            
+            .section-card h3 {
+                font-size: 18px !important;
+                margin-bottom: 15px !important;
+            }
+            
+            .section-card p {
+                font-size: 16px !important;
+                line-height: 1.5 !important;
+                margin-bottom: 10px !important;
+            }
+            
+            /* Buttons Mobile */
+            .btn {
+                width: 100% !important;
+                max-width: 300px !important;
+                margin: 15px auto !important;
+                padding: 15px 20px !important;
+                font-size: 16px !important;
+                display: block !important;
+                text-align: center !important;
+            }
+            
+            /* FAQ Cards Mobile */
+            .stat-card {
+                padding: 25px 20px !important;
+                margin-bottom: 20px !important;
+            }
+            
+            .stat-card h3 {
+                font-size: 18px !important;
+                margin-bottom: 15px !important;
+                line-height: 1.4 !important;
+            }
+            
+            .stat-card p {
+                font-size: 15px !important;
+                line-height: 1.5 !important;
+            }
+            
+            /* Stats Section Mobile */
+            .stats-section {
+                padding: 40px 0 !important;
+            }
+            
+            .stats-heading {
+                font-size: 22px !important;
+                margin-bottom: 30px !important;
+                padding: 0 20px !important;
+            }
+            
+            /* Contact Section Mobile */
+            .contact-section {
+                padding: 40px 0 !important;
+            }
+            
+            .contact-section h2 {
+                font-size: 20px !important;
+                margin-bottom: 20px !important;
+                padding: 0 20px !important;
+            }
+            
+            .contact-section p {
+                font-size: 16px !important;
+                padding: 0 20px !important;
+                margin-bottom: 20px !important;
+            }
+        }
+        
+        /* Sehr kleine Mobile (iPhone SE, etc.) */
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 10px !important;
+            }
+            
+            h1 {
+                font-size: 24px !important;
+            }
+            
+            h2 {
+                font-size: 20px !important;
+                line-height: 1.2 !important;
+                margin-bottom: 25px !important;
+                padding: 0 5px !important;
+            }
+            
+            h3 {
+                font-size: 18px !important;
+            }
+            
+            .hero {
+                height: 300px !important;
+                padding: 30px 0 !important;
+            }
+            
+            .hero-content {
+                padding: 0 15px !important;
+            }
+            
+            .hero h1 {
+                font-size: 28px !important;
+            }
+            
+            .hero p {
+                font-size: 16px !important;
+            }
+            
+            .section-card {
+                padding: 20px 15px !important;
+            }
+            
+            .section-card h3 {
+                font-size: 17px !important;
+            }
+            
+            .section-card p {
+                font-size: 15px !important;
+            }
+            
+            .stats-heading {
+                font-size: 20px !important;
+                padding: 0 15px !important;
+            }
+            
+            .stat-card {
+                padding: 20px 15px !important;
+            }
+            
+            .stat-card h3 {
+                font-size: 16px !important;
+            }
+            
+            .stat-card p {
+                font-size: 14px !important;
+            }
+            
+            .btn {
+                padding: 12px 18px !important;
+                font-size: 15px !important;
+            }
+        }
+        
+        /* Notfall-CSS für extrem lange Texte */
+        * {
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+        
+        /* Text in Boxen sicher umbrechen */
+        .section-card div,
+        .stat-card div,
+        .section-card p,
+        .stat-card p {
+            word-wrap: break-word !important;
+            overflow-wrap: break-word !important;
+            hyphens: auto !important;
+        }
+    </style>
 </head>
 <body>
     <!-- Skip-Link für Barrierefreiheit -->
@@ -61,9 +308,9 @@
         <section class="main-sections" aria-labelledby="contact-methods-title">
             <div class="container">
                 <h2 id="contact-methods-title">🤝 Nehmen Sie Kontakt mit uns auf</h2>
-                <p style="text-align: center; font-size: 20px; margin-bottom: 40px; color: var(--textfarbe);">Drei einfache Wege, um uns zu erreichen</p>
+                <p style="text-align: center; font-size: 20px; margin-bottom: 40px; color: var(--textfarbe); padding: 0 20px;">Drei einfache Wege, um uns zu erreichen</p>
 
-                <div class="sections-grid" style="grid-template-columns: repeat(3, 1fr); gap: 30px;">
+                <div class="sections-grid">
                     <!-- Telefonisch -->
                     <article class="section-card">
                         <div class="section-icon" aria-hidden="true">📞</div>
@@ -119,9 +366,9 @@
         <section class="about-section" id="sprechstunden" aria-labelledby="sprechstunden-title">
             <div class="container">
                 <h2 id="sprechstunden-title" style="text-align: center; margin-bottom: 60px;">🏢 Unsere Sprechstunden vor Ort</h2>
-                <p style="text-align: center; font-size: 20px; margin-bottom: 60px; color: var(--textfarbe);">Kommen Sie einfach vorbei - keine Anmeldung nötig!</p>
+                <p style="text-align: center; font-size: 20px; margin-bottom: 60px; color: var(--textfarbe); padding: 0 20px;">Kommen Sie einfach vorbei - keine Anmeldung nötig!</p>
                 
-                <div class="sections-grid" style="grid-template-columns: repeat(3, 1fr); gap: 30px;">
+                <div class="sections-grid">
                     <!-- Lesum -->
                     <article class="section-card">
                         <div class="section-icon" aria-hidden="true">📚</div>
@@ -180,7 +427,7 @@
         <section class="stats-section" aria-labelledby="faq-title">
             <div class="container">
                 <h2 id="faq-title" class="stats-heading">❓ Häufige Fragen</h2>
-                <p style="font-size: 18px; margin-bottom: 40px; opacity: 0.95;">Die wichtigsten Antworten auf einen Blick</p>
+                <p style="font-size: 18px; margin-bottom: 40px; opacity: 0.95; padding: 0 20px;">Die wichtigsten Antworten auf einen Blick</p>
 
                 <div class="sections-grid">
                     <div class="stat-card" style="flex-direction: column; text-align: left; padding: 30px;">
@@ -220,7 +467,7 @@
         <section class="contact-section" aria-labelledby="emergency-title">
             <div class="container">
                 <h2 id="emergency-title" style="text-align: center;">🆘 Brauchen Sie sofort Hilfe?</h2>
-                <p style="text-align: center; font-size: 18px; margin-bottom: 30px;">Bei dringenden Fragen oder Problemen sind wir für Sie da!</p>
+                <p style="text-align: center; font-size: 18px; margin-bottom: 30px; padding: 0 20px;">Bei dringenden Fragen oder Problemen sind wir für Sie da!</p>
                 <div style="text-align: center;">
                     <a href="tel:+491781603960" class="btn btn-primary" style="font-size: 20px; padding: 18px 35px;">
                         📞 Sofort anrufen
