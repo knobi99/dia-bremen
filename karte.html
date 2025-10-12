@@ -32,10 +32,29 @@
             padding: 15px 20px;
             border-radius: 8px;
             margin-bottom: 20px;
+            font-size: 16px;        /* ← 14px → 16px */
+            line-height: 1.6;       /* ← 1.5 → 1.6 */
         }
         
         .a11y-banner strong {
             color: var(--hauptblau);
+        }
+        
+        .mobile-tip {
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 10px;
+            padding: 10px;
+            background: #fff9e6;
+            border-radius: 6px;
+            display: none;
+        }
+        
+        @media (max-width: 768px) {
+            .mobile-tip {
+                display: block;
+            }
         }
         
         .toggle-list-btn {
@@ -223,6 +242,41 @@
             #map {
                 height: 400px;
             }
+            /* NEU: Barrierefreiheits-Banner kleiner auf Mobile */
+            .a11y-banner {
+                font-size: 14px !important;
+                line-height: 1.5 !important;
+            }
+            
+            /* Mobile Popup-Optimierung */
+            .leaflet-popup-content-wrapper {
+                max-height: 60vh !important;
+                overflow-y: auto !important;
+            }
+            
+            .leaflet-popup-content {
+                margin: 10px 12px !important;
+                font-size: 14px !important;
+            }
+            
+            /* Größerer Schließen-Button auf Mobile */
+            .leaflet-popup-close-button {
+                width: 30px !important;
+                height: 30px !important;
+                font-size: 24px !important;
+                font-weight: bold !important;
+                color: #1a4971 !important;
+                padding: 0 !important;
+            }
+            
+            .popup-content h3 {
+                font-size: 16px !important;
+            }
+            
+            .popup-content p,
+            .popup-content ul li {
+                font-size: 13px !important;
+            }
         }
         
         .popup-content h3 {
@@ -234,6 +288,7 @@
         .popup-content p {
             margin: 6px 0;
             font-size: 14px;
+            line-height: 1.4;
         }
 
         .popup-content .event-date {
@@ -244,6 +299,7 @@
             display: inline-block;
             margin: 8px 0;
             font-weight: bold;
+            font-size: 13px;
         }
         
         .popup-link {
@@ -259,6 +315,17 @@
         
         .popup-link:hover {
             background: #0f3555;
+        }
+        
+        /* Besserer Schließen-Button */
+        .leaflet-popup-close-button {
+            color: var(--hauptblau) !important;
+            font-size: 20px !important;
+            font-weight: bold !important;
+        }
+        
+        .leaflet-popup-close-button:hover {
+            color: #0f3555 !important;
         }
     </style>
 </head>
@@ -300,7 +367,7 @@
                 <li><a href="tipps.html">💻 Digitaler Alltag und Tipps</a></li>
                 <li><a href="ueber.html">ℹ️ Über Uns</a></li>
                 <li><a href="kontakt.html">📞 Kontakt</a></li>
-                <li><a href="standorte.html" class="active" aria-current="page">🗺️ Standorte</a></li>
+                <li><a href="karte.html" class="active" aria-current="page">🗺️ Standorte</a></li>
             </ul>
         </div>
     </nav>
@@ -339,6 +406,11 @@
             <div id="location-list" class="location-list" role="region" aria-label="Liste aller Standorte und Termine">
                 <!-- Wird von JavaScript gefüllt -->
             </div>
+            
+            <!-- Mobile Tipp -->
+            <p class="mobile-tip">
+                💡 <strong>Tipp:</strong> Tippen Sie auf das ✕ um das Info-Fenster zu schließen und die Karte weiter zu bedienen
+            </p>
             
             <!-- Karten-Sektion -->
             <section class="map-section" aria-labelledby="map-heading">
@@ -525,9 +597,8 @@
                 ]
             },
             
-            
             // KOMMENDE VERANSTALTUNGEN
-              {
+            {
                 id: 9,
                 name: "Tabletkurs für Anfänger",
                 type: "event",
@@ -568,11 +639,11 @@
                     "Kostenlos"
                 ]
             },
-             {
+            {
                 id: 10,
                 name: "Tabletkurs für Anfänger",
                 type: "event",
-                address: "Begegnungszentrum Grambke,  Grönlandstraße 8, 28719 Bremen",
+                address: "Begegnungszentrum Grambke, Grönlandstraße 8, 28719 Bremen",
                 lat: 53.1519993,  
                 lng: 8.7132268,
                 phone: "+49 421 641716",
@@ -629,24 +700,19 @@
                     "Kostenlos"
                 ]
             }
-            
-            
-         
-           
-            
         ];
         
         // Karte initialisieren
         const map = L.map('map', {
-            center: [53.160, 8.66],  // Leicht nach Norden
+            center: [53.160, 8.66],  // Leicht nach Norden verschoben
             zoom: 13,
-            minZoom: 11,    // Kann nur bis "ganz Bremen-Nord" rauszoomen
-            maxZoom: 16,    // Kann bis Straßen-Detail reinzoomen
+            minZoom: 12,    // Nicht weiter rauszoomen
+            maxZoom: 16,    // Nicht weiter reinzoomen
             maxBounds: [
-                [53.12, 8.55],  // Südwest (Mahndorf/Arsten)
-                [53.26, 8.78]   // Nordost (Blumenthal/Farge)
+                [53.12, 8.55],  // Südwest (Grenze Bremen-Nord)
+                [53.26, 8.78]   // Nordost (Grenze Bremen-Nord)
             ],
-            maxBoundsViscosity: 1.0,  // Benutzer kann nicht rausziehen
+            maxBoundsViscosity: 1.0,  // Verhindert Herausziehen
             zoomControl: true,
             keyboard: true,
             attributionControl: true
@@ -695,10 +761,19 @@
             }
             
             if (location.details) {
+                // Auf Mobile: Nur erste 3 Details zeigen
+                const isMobile = window.innerWidth <= 768;
+                const detailsToShow = isMobile ? location.details.slice(0, 3) : location.details;
+                
                 popupContent += `<p><strong>ℹ️ Details:</strong></p><ul style="margin: 8px 0; padding-left: 20px;">`;
-                location.details.forEach(detail => {
+                detailsToShow.forEach(detail => {
                     popupContent += `<li style="margin: 4px 0;">${detail}</li>`;
                 });
+                
+                if (isMobile && location.details.length > 3) {
+                    popupContent += `<li style="margin: 4px 0; color: #666;">...und mehr</li>`;
+                }
+                
                 popupContent += `</ul>`;
             }
             
@@ -724,8 +799,11 @@
             }).addTo(map);
             
             marker.bindPopup(popupContent, {
-                maxWidth: 350,
-                className: 'accessible-popup'
+                maxWidth: 280,  // Schmaler für Mobile
+                maxHeight: 250, // Höhenbegrenzung
+                className: 'accessible-popup',
+                autoPan: true,  // Karte verschiebt sich automatisch
+                autoPanPadding: [50, 50]  // Abstand zum Rand
             });
             
             marker.on('keypress', function(e) {
@@ -772,9 +850,9 @@
             let content = '';
             
             if (location.isUpcoming) {
-                content += '<span class="event-badge upcoming">📅 Demnächst</span>';
+                content += '<span class="event-badge upcoming">🔥 Bald!</span>';
             } else if (location.type === 'event') {
-                content += '<span class="event-badge">📅 Veranstaltung - AUSGEBUCHT</span>';
+                content += '<span class="event-badge">📅 Veranstaltung</span>';
             }
             
             content += `<h3>${location.type === 'sprechstunde' ? '🏢' : '📅'} ${location.name}</h3>`;
