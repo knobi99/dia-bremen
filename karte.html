@@ -32,29 +32,10 @@
             padding: 15px 20px;
             border-radius: 8px;
             margin-bottom: 20px;
-            font-size: 14px;
-            line-height: 1.5;
         }
         
         .a11y-banner strong {
             color: var(--hauptblau);
-        }
-        
-        .mobile-tip {
-            text-align: center;
-            color: #666;
-            font-size: 14px;
-            margin-bottom: 10px;
-            padding: 10px;
-            background: #fff9e6;
-            border-radius: 6px;
-            display: none;
-        }
-        
-        @media (max-width: 768px) {
-            .mobile-tip {
-                display: block;
-            }
         }
         
         .toggle-list-btn {
@@ -242,36 +223,6 @@
             #map {
                 height: 400px;
             }
-            
-            /* Mobile Popup-Optimierung */
-            .leaflet-popup-content-wrapper {
-                max-height: 60vh !important;
-                overflow-y: auto !important;
-            }
-            
-            .leaflet-popup-content {
-                margin: 10px 12px !important;
-                font-size: 14px !important;
-            }
-            
-            /* Größerer Schließen-Button auf Mobile */
-            .leaflet-popup-close-button {
-                width: 30px !important;
-                height: 30px !important;
-                font-size: 24px !important;
-                font-weight: bold !important;
-                color: #1a4971 !important;
-                padding: 0 !important;
-            }
-            
-            .popup-content h3 {
-                font-size: 16px !important;
-            }
-            
-            .popup-content p,
-            .popup-content ul li {
-                font-size: 13px !important;
-            }
         }
         
         .popup-content h3 {
@@ -283,7 +234,6 @@
         .popup-content p {
             margin: 6px 0;
             font-size: 14px;
-            line-height: 1.4;
         }
 
         .popup-content .event-date {
@@ -294,7 +244,6 @@
             display: inline-block;
             margin: 8px 0;
             font-weight: bold;
-            font-size: 13px;
         }
         
         .popup-link {
@@ -310,17 +259,6 @@
         
         .popup-link:hover {
             background: #0f3555;
-        }
-        
-        /* Besserer Schließen-Button */
-        .leaflet-popup-close-button {
-            color: var(--hauptblau) !important;
-            font-size: 20px !important;
-            font-weight: bold !important;
-        }
-        
-        .leaflet-popup-close-button:hover {
-            color: #0f3555 !important;
         }
     </style>
 </head>
@@ -370,7 +308,7 @@
     <!-- Main Content -->
     <main id="main-content" role="main">
         <!-- Hero Section -->
-        <section class="hero" role="banner" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/header-standorte.jpg'); background-size: cover; background-position: center 30%; background-attachment: scroll;">
+        <section class="hero" role="banner" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/header-karte.png'); background-size: cover; background-position: center 30%; background-attachment: scroll;">
             <div class="hero-content">
                 <h1>🗺️ Unsere Standorte in Bremen-Nord</h1>
                 <p>Alle Sprechstunden, Kurse und Veranstaltungen auf einen Blick</p>
@@ -501,15 +439,15 @@
             // REGELMÄSSIGE SPRECHSTUNDEN
             {
                 id: 1,
-                name: "Sprechstunde Vegesack",
+                name: "Mittags-Sprechstunde",
                 type: "sprechstunde",
-                address: "Bibliothek Vegesack, Kirchheide 49, 28757 Bremen",
-                lat: 53.1667,
-                lng: 8.6358,
-                phone: "+49 178 1603960",
+                address: "Stadtbibliothek Lesum, Hindenburgstrasse 31, 28717 Bremen",
+                lat: 53.1690925,
+                lng: 8.6942379,
+                phone: "+49 421 3617142",
                 email: "hallo@dia-bremen.de",
-                schedule: "Jeden 2. Dienstag im Monat",
-                hours: "14:00-16:00 Uhr",
+                schedule: "Jeden 2. und 4. Freitag im Monat",
+                hours: "11:00-13:00 Uhr",
                 details: [
                     "Offene Sprechstunde - keine Anmeldung nötig",
                     "Kostenlos",
@@ -518,15 +456,15 @@
             },
             {
                 id: 2,
-                name: "Sprechstunde Grohn",
+                name: "Sprechstunde St.Magnus",
                 type: "sprechstunde",
-                address: "Gemeindezentrum Grohn, Grohner Bergstraße 1, 28759 Bremen",
-                lat: 53.2050,
-                lng: 8.6450,
-                phone: "+49 178 1603960",
+                address: "Begegnungszentrum St.Magnus, Unter den Linden 24, 28759 Bremen",
+                lat: 53.1743451, 
+                lng: 8.6617102,
+                phone: "+49 421 621601",
                 email: "hallo@dia-bremen.de",
-                schedule: "Jeden 3. Donnerstag im Monat",
-                hours: "14:30-16:00 Uhr",
+                schedule: "Jeden 1. und 3. Donnerstag im Monat",
+                hours: "15:00-17:00 Uhr",
                 details: [
                     "Persönliche Beratung vor Ort",
                     "Kostenlos",
@@ -535,16 +473,17 @@
             },
             {
                 id: 3,
-                name: "Sprechstunde Burg",
+                name: "Sprechstunde Marßel",
                 type: "sprechstunde",
-                address: "Bürgerhaus Burg, Burg-Gramberger Straße, 28759 Bremen",
-                lat: 53.1850,
-                lng: 8.7180,
-                phone: "+49 178 1603960",
+                address: "Sportpark Marßel, Stader Landstraße 100, 28719 Bremen",
+                lat: 53.1778883, 
+                lng: 8.7297443,
+                phone: "+49 157 73860418",
                 email: "hallo@dia-bremen.de",
-                schedule: "Jeden 4. Mittwoch im Monat",
-                hours: "15:00-17:00 Uhr",
+                schedule: "Montags",
+                hours: "10:30-13:00 Uhr",
                 details: [
+                    "Telefonische Anmeldung nötig",
                     "Individuelle Hilfe mit Ihrem Gerät",
                     "Kostenlos",
                     "Eigenes Gerät mitbringen"
@@ -552,43 +491,149 @@
             },
             {
                 id: 4,
-                name: "Sprechstunde Lesum",
+                name: "Apple für Fortgeschrittene",
                 type: "sprechstunde",
-                address: "Stadtbibliothek Lesum, Bremen",
-                lat: 53.1767,
-                lng: 8.6589,
-                phone: "+49 178 1603960",
+                address: "Heimatverein Lesum, Alter Schulhof 11, 28717 Bremen",
+                lat: 53.1687962, 
+                lng: 8.6901158,
+                phone: "+49 421 6361262",
                 email: "hallo@dia-bremen.de",
-                schedule: "Jeden letzten Freitag im Monat",
-                hours: "11:00-13:00 Uhr",
+                schedule: "Jeden 1. Montag im Monat",
+                hours: "10:30-12:00 Uhr",
                 details: [
-                    "Ohne Anmeldung",
+                    "Anmeldung erforderlich",
                     "Kostenlos",
                     "Eigenes Gerät mitbringen"
                 ]
             },
-            
-            // KOMMENDE VERANSTALTUNGEN
             {
                 id: 5,
+                name: "PC Treff Bürgerhaus",
+                type: "sprechstunde",
+                address: "Bürgerhaus Vegesack, Kirchheide 49, 28757 Bremen",
+                lat: 53.1741582,  
+                lng: 8.6174713,
+                phone: "+49 421 6361262",
+                email: "hallo@dia-bremen.de",
+                schedule: "Donnerstags - 14-tägig",
+                hours: "10:30-12:30 Uhr",
+                details: [
+                    "ACHTUNG: Bürgerhaus geschlossen",
+                    "Fragen rund ums Smartphone und PC",
+                    "Kostenlos",
+                    "Einfach vorbeikommen"
+                ]
+            },
+            
+            
+            // KOMMENDE VERANSTALTUNGEN
+              {
+                id: 9,
+                name: "Tabletkurs für Anfänger",
+                type: "event",
+                address: "Sportpark Marßel, Stader Landstraße 100, 28719 Bremen",
+                lat: 53.178008, 
+                lng: 8.729443,
+                phone: "+49 157 73860418",
+                email: "hallo@dia-bremen.de",
+                schedule: "Montags -leider AUSGEBUCHT",
+                eventDate: "30. September 2025",
+                hours: "10:30-13:00 Uhr",
+                details: [
+                    "Lernen Sie die Grundlagen im Umgang mit Tablets.",
+                    "Tablets werden für den Kurs gestellt.",
+                    "AUSGEBUCHT",
+                    "Teilnehmerzahl: 6",
+                    "Kostenlos"
+                ]
+            },
+            {
+                id: 8,
+                name: "IPad Kurs für Anfänger",
+                type: "event",
+                address: "Stadtbibliothek Lesum, Hindenburgstrasse 31, 28717 Bremen",
+                lat: 53.1694925,
+                lng: 8.6945379,
+                phone: "+49 421 3617142",
+                email: "hallo@dia-bremen.de",
+                schedule: "Dienstags -leider AUSGEBUCHT",
+                eventDate: "21. Oktober 2025",
+                hours: "11:30-13:00 Uhr",
+                isUpcoming: false,
+                details: [
+                    "Lernen Sie die Grundlagen im Umgang mit Tablets.",
+                    "Tablets werden für den Kurs gestellt.",
+                    "Anmeldung erforderlich",
+                    "Teilnehmerzahl: 6",
+                    "Kostenlos"
+                ]
+            },
+             {
+                id: 10,
+                name: "Tabletkurs für Anfänger",
+                type: "event",
+                address: "Begegnungszentrum Grambke,  Grönlandstraße 8, 28719 Bremen",
+                lat: 53.1519993,  
+                lng: 8.7132268,
+                phone: "+49 421 641716",
+                email: "hallo@dia-bremen.de",
+                schedule: "Dienstags -leider AUSGEBUCHT",
+                eventDate: "21. Oktober 2025",
+                hours: " ",
+                isUpcoming: false,
+                details: [
+                    "Lernen Sie die Grundlagen im Umgang mit Tablets.",
+                    "Tablets werden für den Kurs gestellt.",
+                    "AUSGEBUCHT",
+                    "Teilnehmerzahl: 6",
+                    "Kostenlos"
+                ]
+            },
+            {
+                id: 6,
                 name: "WhatsApp Grundlagen Workshop",
                 type: "event",
-                address: "Stadtbibliothek Vegesack, Kirchheide 49, 28757 Bremen",
-                lat: 53.1670,
-                lng: 8.6365,
+                address: "Stadtbibliothek Vegesack, Aumunder Heerweg 87, 28757 Bremen",
+                lat: 53.1742271, 
+                lng: 8.6202298,
                 phone: "+49 178 1603960",
                 email: "hallo@dia-bremen.de",
-                eventDate: "15. Oktober 2025",
-                hours: "11:00-12:30 Uhr",
+                eventDate: "23. Oktober 2025",
+                hours: "11:30-13:00 Uhr",
                 isUpcoming: true,
                 details: [
                     "Lernen Sie WhatsApp von Grund auf kennen",
                     "Nachrichten, Bilder und Videoanrufe",
                     "Anmeldung erforderlich",
-                    "Begrenzte Teilnehmerzahl",
+                    "Teilnehmerzahl: 15",
+                    "Kostenlos"
+                ]
+            },
+            {
+                id: 7,
+                name: "WhatsApp Grundlagen Workshop",
+                type: "event",
+                address: "Stadtbibliothek Lesum, Hindenburgstrasse 31, 28717 Bremen",
+                lat: 53.1692925,
+                lng: 8.6943379,
+                phone: "+49 421 3617142",
+                email: "hallo@dia-bremen.de",
+                eventDate: "Termin im Dezember",
+                hours: "11:30-13:00 Uhr",
+                isUpcoming: true,
+                details: [
+                    "Lernen Sie WhatsApp von Grund auf kennen",
+                    "Nachrichten, Bilder und Videoanrufe",
+                    "Anmeldung erforderlich",
+                    "Teilnehmerzahl: 15",
                     "Kostenlos"
                 ]
             }
+            
+            
+         
+           
+            
         ];
         
         // Karte initialisieren
@@ -650,19 +695,10 @@
             }
             
             if (location.details) {
-                // Auf Mobile: Nur erste 3 Details zeigen
-                const isMobile = window.innerWidth <= 768;
-                const detailsToShow = isMobile ? location.details.slice(0, 3) : location.details;
-                
                 popupContent += `<p><strong>ℹ️ Details:</strong></p><ul style="margin: 8px 0; padding-left: 20px;">`;
-                detailsToShow.forEach(detail => {
+                location.details.forEach(detail => {
                     popupContent += `<li style="margin: 4px 0;">${detail}</li>`;
                 });
-                
-                if (isMobile && location.details.length > 3) {
-                    popupContent += `<li style="margin: 4px 0; color: #666;">...und mehr</li>`;
-                }
-                
                 popupContent += `</ul>`;
             }
             
@@ -688,11 +724,8 @@
             }).addTo(map);
             
             marker.bindPopup(popupContent, {
-                maxWidth: 280,  // Schmaler für Mobile
-                maxHeight: 250, // Höhenbegrenzung
-                className: 'accessible-popup',
-                autoPan: true,  // Karte verschiebt sich automatisch
-                autoPanPadding: [50, 50]  // Abstand zum Rand
+                maxWidth: 350,
+                className: 'accessible-popup'
             });
             
             marker.on('keypress', function(e) {
@@ -739,9 +772,9 @@
             let content = '';
             
             if (location.isUpcoming) {
-                content += '<span class="event-badge upcoming">🔥 Bald! In 3 Tagen</span>';
+                content += '<span class="event-badge upcoming">📅 Demnächst</span>';
             } else if (location.type === 'event') {
-                content += '<span class="event-badge">📅 Veranstaltung</span>';
+                content += '<span class="event-badge">📅 Veranstaltung - AUSGEBUCHT</span>';
             }
             
             content += `<h3>${location.type === 'sprechstunde' ? '🏢' : '📅'} ${location.name}</h3>`;
