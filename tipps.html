@@ -753,14 +753,16 @@
         @media (max-width: 767px) {
             .header-content {
                 flex-direction: column;
-                gap: 15px;
+                gap: 12px;
                 padding: 0 15px;
             }
 
             .nav ul {
-                flex-direction: column;
-                gap: 10px;
+                flex-direction: row !important;  /* WICHTIG: row statt column! */
+                flex-wrap: wrap;
+                gap: 5px;
                 text-align: center;
+                justify-content: center;
             }
 
             .page-header {
@@ -1102,7 +1104,7 @@
 <nav class="nav" role="navigation" aria-label="Hauptnavigation">
     <div class="nav-content">
         <ul>
-            <li><a href="index.html" >Start</a></li>
+            <li><a href="index.html">Start</a></li>
             <li><a href="termine.html">Termine</a></li>
             <li><a href="tipps.html"class="active" aria-current="page">Digitale Tipps</a></li>
             <li><a href="ueber.html">Über Uns</a></li>
@@ -1506,3 +1508,4 @@
 </body>
 
 </html>
+
