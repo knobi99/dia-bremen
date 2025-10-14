@@ -214,7 +214,7 @@ body {
     text-align: center;
     color: white;
     margin-top: 0;          /* ← Neu: Kein negativer Margin */
-    padding-top: 90px;      /* ← NEU: Abstand nach oben */
+    padding-top: 110px;      /* ← NEU: Abstand nach oben */
     position: relative;     /* ← Neu: Damit z-index funktioniert */
     z-index: 1;             /* ← Neu: Unter der Navigation */
 }
@@ -873,3 +873,4 @@ body {
   font-size: 16px;
   color: #555555; /* kontrastreicher als vorheriges opacity: 0.8 */
 }
+
