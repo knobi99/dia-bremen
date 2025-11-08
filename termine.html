@@ -23,6 +23,11 @@
                 grid-template-columns: 1fr !important;
             }
         }
+        /* Verhindere Überlappung der Karten */
+        #termine-liste .section-card {
+            overflow: hidden;
+            position: relative;
+        }
     </style>
     <!-- Performance Optimierung -->
     <link rel="preload" href="css/main-styles.css" as="style">
