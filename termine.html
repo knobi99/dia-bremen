@@ -10,7 +10,20 @@
     <!-- CSS Links -->
     <link rel="stylesheet" href="css/main-styles.css">
     <link rel="stylesheet" href="css/footer-styles.css">
-    
+    <style>
+        /* Responsive Anpassungen für Termine-Grid */
+        @media (max-width: 1200px) {
+            #termine-liste .sections-grid {
+                grid-template-columns: repeat(2, 1fr) !important;
+            }
+        }
+        
+        @media (max-width: 800px) {
+            #termine-liste .sections-grid {
+                grid-template-columns: 1fr !important;
+            }
+        }
+    </style>
     <!-- Performance Optimierung -->
     <link rel="preload" href="css/main-styles.css" as="style">
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
@@ -95,7 +108,7 @@
                 </p>
 
                 <!-- Termine Grid -->
-                <div class="sections-grid" style="grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 30px;">
+                <div class="sections-grid" style="grid-template-columns: repeat(3, 1fr); gap: 30px;">
                     
                     <!-- Digitale Sprechstunde Lesum -->
                     <article class="section-card">
