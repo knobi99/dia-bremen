@@ -1,0 +1,1529 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1a4971">
+    <title>Digitaler Alltag - Digital im Alter Bremen-Nord</title>
+    <meta name="description" content="Praktische Hilfen für den täglichen Umgang mit Tablet, Smartphone und Computer">
+    <link rel="stylesheet" href="css/main-styles.css">
+    <link rel="stylesheet" href="css/footer-styles.css">
+    <!-- Performance Optimierungen -->
+    <link rel="preload" href="css/main-styles.css" as="style">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+
+    <style>
+        /* ===== DIGITAL IM ALTER FARBPALETTE (WCAG-optimiert) ===== */
+        :root {
+            --hauptblau: #1a365d;          /* Verbessert: Dunklerer Blauton für besseren Kontrast */
+            --warmes-orange: #c2410c;       /* Verbessert: Dunklerer Orangeton */
+            --beruehigendes-gruen: #1b4332; /* Verbessert: Dunklerer Grünton */
+            --helles-blau: #1e40af;        /* Verbessert: Dunklerer Blauton */
+            --textfarbe: #1a202c;          /* Verbessert: Dunklere Textfarbe */
+            --hintergrund: #fefcf7;        /* Leicht angepasster Hintergrund */
+            --weiss: #FFFFFF;              /* Karten, Boxen */
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--textfarbe);
+            font-size: 18px;
+            background-color: var(--hintergrund);
+        }
+
+        /* Skip Navigation Link */
+        .skip-link {
+            position: absolute;
+            left: -9999px;
+            z-index: 999;
+            padding: 8px 16px;
+            background: #000;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .skip-link:focus {
+            left: 6px;
+            top: 7px;
+        }
+
+        /* Header */
+        .header {
+            background: white;
+            padding: 15px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo-text {
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--hauptblau);
+        }
+
+        .contact-info {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            color: var(--textfarbe); /* Verbessert: Besserer Kontrast */
+            font-size: 16px;
+        }
+
+        /* Navigation */
+        .nav {
+            background: var(--hauptblau);
+            padding: 12px 0;
+        }
+
+        .nav-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .nav ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            display: inline-block;
+        }
+
+        .nav a:hover, .nav a.active {
+            background: rgba(255,255,255,0.2);
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .page-header {
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
+                        url('images/header-tipps.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: scroll;
+            background-color: #1b4332; /* Verbessert: Dunklerer Fallback */
+            padding: 60px 0;
+            text-align: center;
+            color: white;
+        }
+
+        .page-header h1 {
+            font-size: 42px;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Verstärkt für bessere Lesbarkeit */
+        }
+
+        .page-header p {
+            font-size: 20px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5); /* Verstärkt */
+        }
+
+        /* Update Info */
+        .update-info {
+            background: #f0fdf4; /* Verbessert: Leicht dunklerer Hintergrund */
+            padding: 20px;
+            border-radius: 12px;
+            margin: 40px auto;
+            max-width: 600px;
+            text-align: center;
+            border-left: 5px solid #15803d; /* Verbessert: Dunklerer Grünton */
+            border: 1px solid #e2e8f0; /* Hinzugefügt: Subtile Umrandung */
+        }
+
+        .update-info h3 {
+            color: #15803d; /* Verbessert: Dunklerer Grünton */
+            margin-bottom: 10px;
+        }
+
+        .update-info p {
+            color: var(--textfarbe); /* Verbessert: Dunklerer Kontrast */
+        }
+
+        /* Tipp der Woche */
+        .featured-tip {
+            background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%); /* Verbessert: Dunklere Farbtöne */
+            padding: 50px 0;
+            color: white;
+            text-align: center;
+        }
+
+        .featured-content {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 12px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2); /* Hinzugefügt: Subtile Umrandung */
+            /* MOBILE FIXES */
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            hyphens: auto;
+        }
+
+        .featured-badge {
+            background: rgba(255,255,255,0.2);
+            padding: 8px 20px;
+            border-radius: 25px;
+            font-size: 16px;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        .featured-title {
+            font-size: 32px;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Verstärkt */
+            /* MOBILE FIXES */
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            hyphens: auto;
+        }
+
+        .featured-description {
+            font-size: 20px;
+            margin-bottom: 30px;
+            line-height: 1.7;
+            color: #e5e7eb; /* Verbessert: Hellerer Text */
+            /* MOBILE FIXES */
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            hyphens: auto;
+        }
+
+        .featured-steps {
+            text-align: left;
+            background: rgba(255,255,255,0.1);
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 20px;
+            border: 1px solid rgba(255,255,255,0.2); /* Hinzugefügt: Subtile Umrandung */
+            /* MOBILE FIXES */
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            hyphens: auto;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+
+        .featured-steps h4 {
+            margin-bottom: 20px;
+            text-align: center;
+            /* MOBILE FIXES */
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+
+        .featured-steps ol {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #e5e7eb; /* Verbessert: Hellerer Text */
+            /* MOBILE FIXES */
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            hyphens: auto;
+        }
+
+        .featured-steps li {
+            margin-bottom: 10px;
+            /* MOBILE FIXES */
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            hyphens: auto;
+        }
+
+        /* Kategorien Navigation */
+        .category-nav {
+            background: var(--hintergrund);
+            padding: 30px 0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .category-tabs {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .category-tab {
+            background: white;
+            padding: 15px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            color: var(--textfarbe); /* Verbessert: Dunklerer Kontrast */
+            font-size: 16px;
+            font-weight: bold;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: all 0.3s;
+            border: 2px solid #e2e8f0; /* Hinzugefügt: Umrandung */
+        }
+
+        .category-tab:hover, .category-tab.active {
+            background: var(--helles-blau);
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+
+        /* Tipps Sections */
+        .tips-section {
+            padding: 60px 0;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .section-header h2 {
+            font-size: 36px;
+            color: var(--hauptblau);
+            margin-bottom: 15px;
+            border-bottom: 3px solid var(--warmes-orange);
+            padding-bottom: 10px;
+            display: inline-block;
+        }
+
+        .section-header p {
+            color: var(--textfarbe); /* Verbessert: Dunklerer Kontrast */
+            font-size: 18px;
+        }
+
+        /* Tipps Grid */
+        .tips-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-bottom: 60px;
+        }
+
+        .tip-card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: 1px solid #e2e8f0; /* Hinzugefügt: Subtile Umrandung */
+            /* MOBILE FIXES */
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            hyphens: auto;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+
+        .tip-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+
+        .tip-header {
+            padding: 25px;
+            background: linear-gradient(135deg, var(--helles-blau), var(--hauptblau));
+            color: white;
+        }
+
+        .tip-category {
+            background: rgba(255,255,255,0.2);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        .tip-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            /* MOBILE FIXES */
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            hyphens: auto;
+        }
+
+        .tip-difficulty {
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            /* MOBILE FIXES */
+            flex-wrap: wrap;
+        }
+
+        .tip-body {
+            padding: 25px;
+        }
+
+        .tip-description {
+            color: var(--textfarbe); /* Verbessert: Dunklerer Kontrast */
+            line-height: 1.6;
+            margin-bottom: 20px;
+            /* MOBILE FIXES */
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            hyphens: auto;
+        }
+
+        .tip-steps {
+            background: #f8f9fa; /* Verbessert: Leicht dunklerer Hintergrund */
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border: 1px solid #e2e8f0; /* Hinzugefügt: Subtile Umrandung */
+            /* MOBILE FIXES */
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            hyphens: auto;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+
+        .tip-steps h4 {
+            color: var(--textfarbe); /* Verbessert: Dunklerer Kontrast */
+            margin-bottom: 15px;
+            font-size: 18px;
+            /* MOBILE FIXES */
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+
+        .tip-steps ol, .tip-steps ul {
+            color: var(--textfarbe); /* Verbessert: Dunklerer Kontrast */
+            line-height: 1.6;
+            /* MOBILE FIXES */
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            hyphens: auto;
+        }
+
+        .tip-steps li {
+            margin-bottom: 8px;
+            /* MOBILE FIXES */
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            hyphens: auto;
+        }
+
+        .tip-additional {
+            background: #f0fdf4; /* Verbessert: Leicht dunklerer Hintergrund */
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #15803d; /* Verbessert: Dunklerer Grünton */
+            border: 1px solid #e2e8f0; /* Hinzugefügt: Subtile Umrandung */
+            /* MOBILE FIXES */
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            hyphens: auto;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+
+        .tip-additional h5 {
+            color: #15803d; /* Verbessert: Dunklerer Grünton */
+            margin-bottom: 8px;
+            /* MOBILE FIXES */
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+
+        .tip-additional p {
+            color: var(--textfarbe); /* Verbessert: Dunklerer Kontrast */
+            font-size: 16px;
+            /* MOBILE FIXES */
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            hyphens: auto;
+        }
+
+        /* Difficulty Badges */
+        .difficulty-badge {
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .difficulty-easy {
+            background: #dcfce7; /* Verbessert: Leicht dunklerer Hintergrund */
+            color: #15803d; /* Verbessert: Dunklerer Grünton */
+        }
+
+        .difficulty-medium {
+            background: #fed7aa; /* Verbessert: Leicht dunklerer Hintergrund */
+            color: #c2410c; /* Verbessert: Dunklerer Orangeton */
+        }
+
+        .difficulty-advanced {
+            background: #fecaca; /* Verbessert: Leicht dunklerer Hintergrund */
+            color: #b91c1c; /* Verbessert: Dunklerer Rotton */
+        }
+
+        /* Quick Help Section */
+        .quick-help {
+            background: #1a202c; /* Verbessert: Dunklerer Hintergrund */
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .quick-help h3 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .quick-help p {
+            color: #e5e7eb; /* Verbessert: Hellerer Text */
+        }
+
+        .help-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+        .btn-primary {
+            background: var(--warmes-orange);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #9a3412; /* Verbessert: Noch dunklere Orange für Hover */
+        }
+
+        .btn-secondary {
+            background: var(--beruehigendes-gruen);
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background: #0f4c3a; /* Verbessert: Noch dunkleres Grün */
+        }
+
+        .section-divider {
+            background: linear-gradient(90deg, 
+                        transparent 0%, 
+                        var(--warmes-orange) 30%, 
+                        var(--warmes-orange) 70%, 
+                        transparent 100%);
+            height: 4px;
+            width: 100%;
+        }
+
+        /* Footer */
+        .footer {
+            background: #0f172a; /* Verbessert: Noch dunklerer Hintergrund */
+            color: white;
+            padding: 60px 0 40px 0;
+            margin-top: 0;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .footer-top {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 40px;
+            padding-bottom: 40px;
+            border-bottom: 1px solid #374151; /* Verbessert: Hellerer Border */
+        }
+
+        .footer-about h3 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #fbbf24; /* Verbessert: Helleres Gelb */
+        }
+
+        .footer-about p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            color: #d1d5db; /* Verbessert: Hellere Textfarbe */
+        }
+
+        .footer-links h4 {
+            font-size: 18px;
+            margin-bottom: 15px;
+            color: white;
+        }
+
+        .footer-links ul {
+            list-style: none;
+        }
+
+        .footer-links ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer-links ul li a {
+            color: #d1d5db; /* Verbessert: Hellere Linkfarbe */
+            text-decoration: none;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+
+        .footer-links ul li a:hover {
+            color: #fbbf24; /* Verbessert: Helleres Hover-Gelb */
+        }
+
+        .footer-contact h4 {
+            font-size: 18px;
+            margin-bottom: 15px;
+            color: white;
+        }
+
+        .footer-contact p {
+            font-size: 16px;
+            margin-bottom: 10px;
+            color: #d1d5db; /* Verbessert: Hellere Textfarbe */
+        }
+
+        .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 30px;
+            border-top: 1px solid #374151; /* Verbessert: Hellerer Border */
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .footer-copyright {
+            font-size: 16px;
+            color: #d1d5db; /* Verbessert: Hellere Textfarbe */
+        }
+        
+        .footer-copyright a {
+            font-size: 16px;
+            color: #d1d5db; /* Verbessert: Hellere Linkfarbe */
+            text-decoration: none;
+        }
+        
+        .footer-copyright a:hover {
+            color: #fbbf24; /* Verbessert: Helleres Hover-Gelb */
+        }
+
+        .footer-legal {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .footer-legal a {
+            color: #d1d5db; /* Verbessert: Hellere Linkfarbe */
+            text-decoration: none;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+
+        .footer-legal a:hover {
+            color: #fbbf24; /* Verbessert: Helleres Hover-Gelb */
+        }
+
+        /* Screen Reader Only Content */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+
+        /* High Contrast Mode Support */
+        @media (prefers-contrast: high) {
+            .tip-card,
+            .featured-content,
+            .update-info,
+            .tip-steps,
+            .tip-additional,
+            .category-tab {
+                border: 2px solid;
+            }
+        }
+
+        /* Reduced Motion Support */
+        @media (prefers-reduced-motion: reduce) {
+            *,
+            *::before,
+            *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+                scroll-behavior: auto !important;
+            }
+        }
+
+        /* MOBILE RESPONSIVE FIXES */
+
+        /* Container Sicherheit */
+        .container {
+            max-width: 100% !important;
+            padding: 0 15px !important;
+            box-sizing: border-box !important;
+        }
+
+        /* Globale Textumbruch-Sicherheit */
+        * {
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+
+        /* Tablet (768px - 1023px) */
+        @media (max-width: 1023px) {
+            .tips-grid {
+                grid-template-columns: 1fr;
+                gap: 25px;
+            }
+            
+            .featured-content {
+                padding: 30px !important;
+            }
+            
+            .featured-steps {
+                padding: 25px !important;
+            }
+            
+            .tip-card {
+                margin-bottom: 20px;
+            }
+        }
+
+        /* Mobile (max 767px) */
+        @media (max-width: 767px) {
+            .header-content {
+                flex-direction: column;
+                gap: 10px;
+                padding: 0 15px;
+            }
+
+            .nav ul {
+                flex-direction: row !important;  /* WICHTIG: row statt column! */
+                flex-wrap: wrap;
+                gap: 5px;
+                text-align: center;
+                justify-content: center;
+            }
+            .nav li {
+                flex: 0 0 calc(33.333% - 14px);
+                min-width: 100px;
+            }
+            .nav a {
+                padding: 10px 12px;
+                font-size: 14px;
+                margin: 2px 0;
+                min-height: 44px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+            }
+
+            .page-header {
+                padding: 40px 0 !important;
+            }
+
+            .page-header h1 {
+                font-size: 28px !important;
+                margin-bottom: 15px !important;
+                padding: 0 15px !important;
+            }
+
+            .page-header p {
+                font-size: 18px !important;
+                padding: 0 15px !important;
+            }
+
+            /* Featured Tip Mobile */
+            .featured-tip {
+                padding: 30px 0 !important;
+            }
+
+            .featured-content {
+                margin: 0 10px !important;
+                padding: 25px 20px !important;
+                max-width: calc(100% - 20px) !important;
+            }
+
+            .featured-title {
+                font-size: 22px !important;
+                margin-bottom: 15px !important;
+                line-height: 1.3 !important;
+            }
+
+            .featured-description {
+                font-size: 16px !important;
+                margin-bottom: 20px !important;
+                line-height: 1.5 !important;
+            }
+
+            .featured-steps {
+                padding: 20px 15px !important;
+                margin-top: 15px !important;
+                max-width: 100% !important;
+            }
+
+            .featured-steps h4 {
+                font-size: 16px !important;
+                margin-bottom: 15px !important;
+            }
+
+            .featured-steps ol {
+                font-size: 15px !important;
+                line-height: 1.6 !important;
+                padding-left: 20px !important;
+            }
+
+            .featured-steps li {
+                margin-bottom: 8px !important;
+            }
+
+            /* Tips Grid Mobile */
+            .tips-grid {
+                grid-template-columns: 1fr !important;
+                gap: 20px !important;
+                margin-bottom: 40px !important;
+            }
+
+            /* Tip Cards Mobile */
+            .tip-card {
+                margin: 0 10px 20px 10px !important;
+                max-width: calc(100% - 20px) !important;
+            }
+
+            .tip-header {
+                padding: 20px !important;
+            }
+
+            .tip-title {
+                font-size: 18px !important;
+                margin-bottom: 10px !important;
+                line-height: 1.3 !important;
+            }
+
+            .tip-difficulty {
+                font-size: 14px !important;
+                gap: 8px !important;
+                flex-direction: column !important;
+                align-items: flex-start !important;
+            }
+
+            .tip-body {
+                padding: 20px !important;
+            }
+
+            .tip-description {
+                font-size: 15px !important;
+                line-height: 1.5 !important;
+                margin-bottom: 15px !important;
+            }
+
+            /* Tip Steps Mobile */
+            .tip-steps {
+                padding: 15px !important;
+                margin-bottom: 15px !important;
+                max-width: 100% !important;
+            }
+
+            .tip-steps h4 {
+                font-size: 16px !important;
+                margin-bottom: 12px !important;
+            }
+
+            .tip-steps ol, .tip-steps ul {
+                font-size: 14px !important;
+                line-height: 1.5 !important;
+                padding-left: 18px !important;
+            }
+
+            .tip-steps li {
+                margin-bottom: 6px !important;
+            }
+
+            /* Tip Additional Mobile */
+            .tip-additional {
+                padding: 12px !important;
+                max-width: 100% !important;
+            }
+
+            .tip-additional h5 {
+                font-size: 15px !important;
+                margin-bottom: 6px !important;
+            }
+
+            .tip-additional p {
+                font-size: 14px !important;
+                line-height: 1.4 !important;
+            }
+
+            /* Sections Mobile */
+            .tips-section {
+                padding: 40px 0 !important;
+            }
+
+            .section-header {
+                margin-bottom: 30px !important;
+                padding: 0 15px !important;
+            }
+
+            .section-header h2 {
+                font-size: 24px !important;
+                margin-bottom: 12px !important;
+            }
+
+            .section-header p {
+                font-size: 16px !important;
+            }
+
+            .category-tabs {
+                flex-direction: column;
+                align-items: center;
+                gap: 15px !important;
+                padding: 0 15px !important;
+            }
+
+            .category-tab {
+                padding: 12px 20px !important;
+                font-size: 15px !important;
+            }
+
+            /* Quick Help Mobile */
+            .quick-help {
+                padding: 30px 0 !important;
+            }
+
+            .quick-help h3 {
+                font-size: 22px !important;
+                margin-bottom: 15px !important;
+                padding: 0 15px !important;
+            }
+
+            .quick-help p {
+                font-size: 16px !important;
+                padding: 0 15px !important;
+                margin-bottom: 20px !important;
+            }
+
+            .help-buttons {
+                flex-direction: column;
+                align-items: center;
+                gap: 15px !important;
+                padding: 0 15px !important;
+            }
+
+            .btn {
+                width: 100% !important;
+                max-width: 300px !important;
+                padding: 15px 20px !important;
+                font-size: 16px !important;
+                text-align: center !important;
+            }
+
+            .footer-top {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            .footer-bottom {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .footer-legal {
+                justify-content: center;
+                gap: 20px;
+            }
+        }
+
+        /* Sehr kleine Mobile (iPhone SE, etc.) */
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 10px !important;
+            }
+
+            .page-header h1 {
+                font-size: 24px !important;
+            }
+
+            .page-header p {
+                font-size: 16px !important;
+            }
+
+            .featured-content {
+                padding: 20px 15px !important;
+                margin: 0 5px !important;
+            }
+
+            .featured-title {
+                font-size: 20px !important;
+            }
+
+            .featured-description {
+                font-size: 15px !important;
+            }
+
+            .featured-steps {
+                padding: 15px 12px !important;
+            }
+
+            .featured-steps h4 {
+                font-size: 15px !important;
+            }
+
+            .featured-steps ol {
+                font-size: 14px !important;
+                padding-left: 18px !important;
+            }
+
+            .tip-card {
+                margin: 0 5px 15px 5px !important;
+            }
+
+            .tip-header {
+                padding: 15px !important;
+            }
+
+            .tip-title {
+                font-size: 16px !important;
+            }
+
+            .tip-body {
+                padding: 15px !important;
+            }
+
+            .tip-steps {
+                padding: 12px !important;
+            }
+
+            .tip-steps h4 {
+                font-size: 15px !important;
+            }
+
+            .tip-steps ol, .tip-steps ul {
+                font-size: 13px !important;
+                padding-left: 16px !important;
+            }
+
+            .tip-additional {
+                padding: 10px !important;
+            }
+
+            .tip-additional h5 {
+                font-size: 14px !important;
+            }
+
+            .tip-additional p {
+                font-size: 13px !important;
+            }
+
+            .section-header h2 {
+                font-size: 20px !important;
+            }
+
+            .btn {
+                font-size: 15px !important;
+                padding: 12px 18px !important;
+            }
+        }
+
+        /* Accessibility */
+        .nav a:focus, 
+        .btn:focus, 
+        .category-tab:focus, 
+        .footer-links a:focus, 
+        .footer-legal a:focus,
+        .skip-link:focus {
+            outline: 3px solid #fde047; /* Verbessert: Helleres Gelb für besseren Kontrast */
+            outline-offset: 2px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Skip Navigation Link -->
+    <a href="#main-content" class="skip-link">Zum Hauptinhalt springen</a>
+
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="header-content">
+            <div class="logo">
+                <img src="images/dia-logo-komplett.png" 
+     alt="Digital im Alter Logo" 
+     loading="eager">
+            </div>
+            
+        </div>
+    </header>
+
+<!-- Navigation -->
+<nav class="nav" role="navigation" aria-label="Hauptnavigation">
+    <div class="nav-content">
+        <ul>
+            <li><a href="index.html">Start</a></li>
+            <li><a href="termine.html">Termine</a></li>
+            <li><a href="tipps.html"class="active" aria-current="page">Digitale Tipps</a></li>
+            <li><a href="ueber.html">Über Uns</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="karte.html">Standorte</a></li>
+        </ul>
+    </div>
+</nav>
+
+    <!-- Main Content -->
+    <main role="main">
+        <!-- Page Header -->
+        <section class="page-header" aria-labelledby="page-title">
+            <div class="container">
+                <h1 id="page-title"><span aria-hidden="true">💻</span> Digitaler Alltag & Tipps</h1>
+                <p>Praktische Hilfen für den täglichen Umgang mit Tablet, Smartphone und Computer</p>
+            </div>
+        </section>
+
+        <!-- Update Info -->
+        <div class="container">
+            <div class="update-info">
+                <h3><span aria-hidden="true">📊</span> Letzte Aktualisierung</h3>
+                <p>
+                    <strong id="aktuelles-datum" aria-live="polite"></strong><br>
+                    Diese Seite wird regelmäßig aktualisiert. Bei Fragen zu Terminen rufen Sie uns gerne an!
+                </p>
+            </div>
+        </div>
+
+        <!-- Featured Tip of the Week -->
+        <section class="featured-tip" id="main-content" aria-labelledby="featured-tip-title">
+            <div class="container">
+                <article class="featured-content">
+                    <div class="featured-badge"><span aria-hidden="true">⭐</span> Unser Top-Tipp</div>
+                    <h2 class="featured-title" id="featured-tip-title">Hörgeräte mit dem Smartphone verbinden – Schritt für Schritt</h2>
+                    <p class="featured-description">
+                        Manchmal will das Hörgerät einfach nicht mit dem Handy „sprechen“. Keine Sorge – mit dieser einfachen Anleitung klappt die Verbindung meist im Handumdrehen. 😊
+                    </p>
+
+                    <div class="featured-steps">
+                        <h4><span aria-hidden="true">📲</span> Vorbereitung <span aria-hidden="true">🦻</span></h4>
+                        <ol>
+                            <li>
+                                <strong><span aria-hidden="true">📶</span> Bluetooth aktivieren</strong>
+                                <ul>
+                                    <li>Öffne die Einstellungen auf deinem Smartphone.</li>
+                                    <li>Schalte Bluetooth <strong>ein</strong>.</li>
+                                </ul>
+                                <img src="images/koppeln2.png" alt="Bluetooth aktivieren" style="max-width:100%; margin-top:0.5rem;">
+                            </li>
+                            <li>
+                                <strong><span aria-hidden="true">🔄</span> Smartphone neu starten (optional)</strong>
+                                <ul>
+                                    <li>Wenn die Verbindung nicht sofort klappt, hilft oft ein Neustart.</li>
+                                </ul>
+                            </li>
+                        </ol>
+
+                        <h4><span aria-hidden="true">🦻</span> Hörgerät in den Kopplungsmodus bringen</h4>
+                        <ol>
+                            <li>
+                                <strong><span aria-hidden="true">⚡</span> Hörgerät ausschalten und wieder einschalten</strong>
+                                <ul>
+                                    <li>Die meisten Hörgeräte gehen direkt nach dem Einschalten automatisch in den Kopplungsmodus.</li>
+                                    <li>Tipp: Das funktioniert nur für kurze Zeit (ca. 2 Minuten).</li>
+                                </ul>
+                                <img src="images/blue1.jpg" alt="Hörgerät in den Kopplungsmodus versetzen" style="max-width:100%; margin-top:0.5rem;">
+                            </li>
+                        </ol>
+
+                        <h4><span aria-hidden="true">📱</span> Koppeln mit dem Smartphone</h4>
+                        <ol>
+                            <li>
+                                <strong><span aria-hidden="true">🔍</span> Bluetooth-Gerät suchen</strong>
+                                <ul>
+                                    <li>Gehe auf dem Handy in die Bluetooth-Einstellungen.</li>
+                                    <li>Das Hörgerät sollte in der Liste erscheinen – auf den Namen tippen.</li>
+                                    <li>Falls ein Code abgefragt wird: einfach bestätigen.</li>
+                                </ul>
+                                <img src="images/blue2.jpg" alt="Bluetooth-Gerät auswählen" style="max-width:100%; margin-top:0.5rem;">
+                            </li>
+                            <li>
+                                <strong><span aria-hidden="true">📲</span> Ggf. App verwenden</strong>
+                                <ul>
+                                    <li>Viele Hörgeräte koppeln sich nicht direkt über Bluetooth, sondern über eine <strong>Hersteller-App</strong>.</li>
+                                    <li>Die App findest du im App Store oder Play Store.</li>
+                                </ul>
+                                <img src="images/
+                                .jpg" alt="Hersteller-App öffnen" style="max-width:100%; margin-top:0.5rem;">
+                            </li>
+                        </ol>
+
+                        <h4><span aria-hidden="true">✅</span> Verbindung prüfen</h4>
+                        <ol>
+                            <li>
+                                <strong><span aria-hidden="true">🧭</span> Hörtest machen</strong>
+                                <ul>
+                                    <li>Spiele ein Lied oder Video ab, um zu hören, ob der Ton auf dem Hörgerät ankommt.</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong><span aria-hidden="true">🔁</span> Wenn es nicht klappt:</strong>
+                                <ul>
+                                    <li>Bluetooth aus- und wieder einschalten.</li>
+                                    <li>Hörgerät zurücksetzen oder Batterie kurz entfernen.</li>
+                                    <li>Eventuell mit einem anderen Handy testen.</li>
+                                </ul>
+                            </li>
+                        </ol>
+
+                        <p style="margin-top: 1rem;">
+                            <strong><span aria-hidden="true">💡</span> Tipp:</strong> Halte das Hörgerät beim Koppeln möglichst nah ans Handy (max. 1 Meter).  
+                            Und wenn es gar nicht geht – keine Sorge: Komm in unsere Sprechstunde wir hlefen weiter!
+                        </p>
+                    </div>
+                </article>
+
+                
+            </div>
+        </section>
+
+        <!-- Einfache Tipps -->
+        <section class="tips-section" aria-labelledby="tips-section-title">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="tips-section-title"><span aria-hidden="true">💡</span> Weitere hilfreiche Tipps</h2>
+                    <p>Einfache Anleitungen für den digitalen Alltag</p>
+                </div>
+
+                <div class="tips-grid">
+                    <!-- Tipp 3 -->
+                    <article class="tip-card">
+                        <header class="tip-header">
+                            <div class="tip-category">Smartphone</div>
+                            <h3 class="tip-title">Telefonnummern austauschen -Android </h3>
+                            <div class="tip-difficulty">
+                                <span aria-hidden="true">🤝</span>
+                                <span class="difficulty-badge difficulty-easy">Sehr praktisch</span>
+                            </div>
+                        </header>
+                        <div class="tip-body">
+                            <p class="tip-description">
+                                <span aria-hidden="true">📍</span> Du triffst draußen jemanden, ihr versteht euch gut 😊 und wollt Telefonnummern austauschen. Mit einem QR-Code geht das blitzschnell - ganz ohne Tippfehler!
+                            </p>
+                            <div class="tip-steps">
+                                <h4><span aria-hidden="true">🧭</span> Methode 1: QR-Code aus dem Kontakt anzeigen</h4>
+                                <p>Fast jedes Android-Handy kann deinen Kontakt als QR-Code anzeigen. So kann die andere Person einfach scannen, anstatt die Nummer abzutippen. 👌</p>
+                                <ol>
+                                    <li>📱 Öffne die Telefon- oder Kontakte-App</li>
+                                    <li>👤 Tippe auf „Mein Profil" oder deinen eigenen Kontakt</li>
+                                    <li>📷 Tippe auf „QR-Code anzeigen" (manchmal steht dort „Teilen per QR-Code")</li>
+                                    <li>📸 Die andere Person öffnet ihre Kamera oder Kontakte-App und scannt den QR-Code</li>
+                                    <li>📨 Der Kontakt erscheint automatisch → „Speichern" tippen</li>
+                                </ol>
+                            </div>
+                            <div class="tip-additional">
+                                <h5><span aria-hidden="true">⚡</span> Vorteil:</h5>
+                                <p>Das dauert weniger als 10 Sekunden ⏱️ und es gibt keine Tippfehler. Perfekt für Begegnungen auf der Straße oder in der Stadt! 🤝📲</p>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Tipp 1 -->
+                    <article class="tip-card">
+                        <header class="tip-header">
+                            <div class="tip-category">Tablet</div>
+                            <h3 class="tip-title">Bildschirm heller oder dunkler machen</h3>
+                            <div class="tip-difficulty">
+                                <span aria-hidden="true">🌟</span>
+                                <span class="difficulty-badge difficulty-easy">Sehr einfach</span>
+                            </div>
+                        </header>
+                        <div class="tip-body">
+                            <p class="tip-description">
+                                Sie können die Bildschirmhelligkeit ganz einfach anpassen. 
+                                Das schont die Augen und spart Akku.
+                            </p>
+                            <div class="tip-steps">
+                                <h4><span aria-hidden="true">📋</span> So geht's:</h4>
+                                <ol>
+                                    <li>Wischen Sie vom oberen Bildschirmrand nach unten</li>
+                                    <li>Suchen Sie das Helligkeits-Symbol (kleine Sonne)</li>
+                                    <li>Schieben Sie den Regler nach links (dunkler) oder rechts (heller)</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Tipp 2 -->
+                    <article class="tip-card">
+                        <header class="tip-header">
+                            <div class="tip-category">Smartphone</div>
+                            <h3 class="tip-title">Taschenlampe einschalten</h3>
+                            <div class="tip-difficulty">
+                                <span aria-hidden="true">🌟</span>
+                                <span class="difficulty-badge difficulty-easy">Super praktisch</span>
+                            </div>
+                        </header>
+                        <div class="tip-body">
+                            <p class="tip-description">
+                                Ihr Smartphone hat eine sehr helle Taschenlampe - perfekt für dunkle Situationen.
+                            </p>
+                            <div class="tip-steps">
+                                <h4><span aria-hidden="true">📋</span> So geht's:</h4>
+                                <ol>
+                                    <li>Wischen Sie vom unteren Bildschirmrand nach oben</li>
+                                    <li>Tippen Sie auf das Taschenlampen-Symbol <span aria-hidden="true">🔦</span></li>
+                                    <li>Nochmal antippen - Licht aus!</li>
+                                </ol>
+                            </div>
+                            <div class="tip-additional">
+                                <h5><span aria-hidden="true">⚠️</span> Wichtig:</h5>
+                                <p>Vergessen Sie nicht, das Licht wieder auszuschalten - es verbraucht viel Akku.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="tip-card">
+                        <header class="tip-header">
+                            <div class="tip-category">Smartphone</div>
+                            <h3 class="tip-title">Telefonnummern austauschen per AirDrop - Apple</h3>
+                            <div class="tip-difficulty">
+                                <span aria-hidden="true">⭐</span>
+                                <span class="difficulty-badge difficulty-easy">Sehr praktisch</span>
+                            </div>
+                        </header>
+                        <div class="tip-body">
+                            <p class="tip-description">
+                                <span aria-hidden="true">📍</span>Telefonnummern austauschen geht mit dem Iphone super einfach.Mit AirDrop geht das superschnell und ohne Tippfehler!
+                            </p>
+                            <div class="tip-steps">
+                                <h4><span aria-hidden="true">📲</span> Methode 1: Per AirDrop (super schnell) <span aria-hidden="true">⚡</span></h4>
+                                <ol>
+                                    <li>
+                                        <strong><span aria-hidden="true">📡</span> Beide aktivieren AirDrop</strong>
+                                        <ul>
+                                            <li>Wische auf deinem iPhone von oben rechts nach unten (Kontrollzentrum).</li>
+                                            <li>Drücke lange auf das Feld mit WLAN/Bluetooth → tippe auf AirDrop → wähle „Jeder für 10 Minuten" (oder „Nur Kontakte", wenn ihr euch schon kennt).</li>
+                                            <li>Die andere Person macht das Gleiche.</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <strong><span aria-hidden="true">👤</span> Deinen Kontakt öffnen</strong>
+                                        <ul>
+                                            <li>Gehe auf „Telefon" → „Kontakte" → tippe oben auf deinen eigenen Namen.</li>
+                                            <li>Scrolle nach unten → tippe „Kontakt teilen".</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <strong><span aria-hidden="true">✈️</span> AirDrop auswählen</strong>
+                                        <ul>
+                                            <li>In der Liste der Freigabemöglichkeiten AirDrop tippen.</li>
+                                            <li>Der Name des anderen iPhones sollte erscheinen → antippen.</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <strong><span aria-hidden="true">📩</span> Bestätigen</strong>
+                                        <ul>
+                                            <li>Die andere Person bekommt ein Pop-up → „Annehmen" tippen → dann „Neuen Kontakt erstellen".</li>
+                                            <li>Fertig <span aria-hidden="true">✅</span> — deine Nummer ist direkt bei ihr im Adressbuch!</li>
+                                        </ul>
+                                    </li>
+                                </ol>
+                            </div>
+                            <div class="tip-additional">
+                                <h5><span aria-hidden="true">👉</span> Vorteil:</h5>
+                                <p>Kein Zahlendreher, keine Tippfehler, superschnell. ⏱️ Perfekt für Begegnungen auf der Straße oder in der Stadt! 🤝📲</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Tipp 3 -->
+                    <article class="tip-card">
+                        <header class="tip-header">
+                            <div class="tip-category">Sicherheit</div>
+                            <h3 class="tip-title">Notfall-Kontakte einrichten</h3>
+                            <div class="tip-difficulty">
+                                <span aria-hidden="true">🌟</span>
+                                <span class="difficulty-badge difficulty-easy">Sehr wichtig</span>
+                            </div>
+                        </header>
+                        <div class="tip-body">
+                            <p class="tip-description">
+                                Richten Sie Notfall-Kontakte ein, die auch bei gesperrtem Handy erreichbar sind.
+                            </p>
+                            <div class="tip-steps">
+                                <h4><span aria-hidden="true">📋</span> iPhone:</h4>
+                                <ol>
+                                    <li>"Einstellungen" → "Notruf SOS" öffnen</li>
+                                    <li>"Notfallkontakte bearbeiten" antippen</li>
+                                    <li>"Person aus Kontakten auswählen</li>
+                                </ol>
+                            </div>
+                            <div class="tip-additional">
+                                <h5><span aria-hidden="true">🚨</span> Im Notfall:</h5>
+                                <p>5x schnell die Seitentaste drücken oder "Notfall" auf dem Sperrbildschirm.</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Help -->
+        <section class="quick-help" aria-labelledby="help-title">
+            <div class="container">
+                <h2 id="help-title"><span aria-hidden="true">🆘</span> Brauchen Sie direkte Hilfe?</h2>
+                <p style="margin-bottom: 30px; font-size: 18px;">
+                    Unsere Digitaltrainer helfen Ihnen gerne persönlich weiter
+                </p>
+                <div class="help-buttons">
+                    <a href="tel:+49 178 1603960" class="btn btn-primary">
+                        <span aria-hidden="true">📞</span> Anrufen: +49 178 1603960
+                    </a>
+                    <a href="termine.html" class="btn btn-secondary">
+                        <span aria-hidden="true">📅</span> Sprechstunden besuchen
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="section-divider"></div>
+    
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="footer-content">
+            <div class="footer-top">
+                <div class="footer-about">
+                    <h3>Digital im Alter Bremen-Nord</h3>
+                    <p>Ein Projekt der Seniorenvertretung Bremen in Kooperation mit der Abteilung "Denksport & Digitales" der SG Marßel.</p>
+                    <p>Unser Ziel ist es, älteren Menschen den Zugang zur digitalen Welt zu erleichtern und digitale Teilhabe für alle Generationen zu ermöglichen.</p>
+                    <h3>Niemand soll digital abgehängt werden!</h3>
+                </div>
+
+                <nav class="footer-links" aria-labelledby="footer-nav-title">
+                    <h4 id="footer-nav-title">Schnellzugriff</h4>
+                    <ul>
+                        <li><a href="index.html"><span aria-hidden="true">🏠</span> Startseite</a></li>
+                        <li><a href="termine.html"><span aria-hidden="true">📅</span> Aktuelle Termine</a></li>
+                        <li><a href="tipps.html" class="active" aria-current="page"><span aria-hidden="true">💻</span> Digitale Tipps</a></li>
+                        <li><a href="ueber.html"><span aria-hidden="true">ℹ️</span> Über das Projekt</a></li>
+                        <li><a href="kontakt.html"><span aria-hidden="true">📞</span> Kontakt</a></li>
+                    </ul>
+                </nav>
+
+                <div class="footer-contact">
+                    <h4>Kontakt</h4>
+                    <address style="font-style: normal;">
+                        <p><span aria-hidden="true">📞</span> <a href="tel:+49 178 1603960" style="color: #d1d5db; text-decoration: none;">0178-1603960</a></p>
+                        <p><span aria-hidden="true">✉</span> <a href="mailto:hallo@dia-bremen.de" style="color: #d1d5db; text-decoration: none;">hallo@dia-bremen.de</a></p>
+                        <p><strong>Sprechzeiten:</strong><br>
+                        Mittwoch<br>
+                        10:00 - 11:00 Uhr</p>
+                    </address>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; 2025 Digital im Alter Bremen-Nord - ♿ Barrierefrei gemäß <abbr title="Web Content Accessibility Guidelines 2.1">WCAG&nbsp;2.1 AA konform</abbr> – 
+                    <a href="barrierefrei.html#ausfuehrlich">Erklärung lesen</a></p>
+                </div>
+                <nav class="footer-legal" aria-label="Rechtliche Links">
+                    <a href="impressum.html"><span aria-hidden="true">📄</span> Impressum</a>
+                    <a href="datenschutz.html"><span aria-hidden="true">🔒</span> Datenschutz</a>
+                    <a href="bilderrechte.html"><span aria-hidden="true">🖼️</span> Bilderrechte</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    <!-- GoatCounter Analytics -->
+    <script data-goatcounter="https://dia.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+          const datumEl = document.getElementById("aktuelles-datum");
+
+          // Fester Startpunkt für Updates (z. B. erster September 2025, 15:30 Uhr)
+          const startDatum = new Date("2025-08-31T10:00:00");
+
+          function updateDatum() {
+            const jetzt = new Date();
+            const diff = jetzt - startDatum; // Zeitdifferenz in ms
+            const interval = 48 * 60 * 60 * 1000; // 48 Stunden in ms
+            const updatesPassed = Math.floor(diff / interval); // Anzahl vergangener Intervalle
+            const naechstesUpdate = new Date(startDatum.getTime() + updatesPassed * interval);
+
+            const tag = String(naechstesUpdate.getDate()).padStart(2, '0');
+            const monat = String(naechstesUpdate.getMonth() + 1).padStart(2, '0');
+            const jahr = naechstesUpdate.getFullYear();
+            const stunden = String(naechstesUpdate.getHours()).padStart(2, '0');
+            const minuten = String(naechstesUpdate.getMinutes()).padStart(2, '0');
+
+            datumEl.innerText = `${tag}. ${monat} ${jahr}, ${stunden}:${minuten} Uhr`;
+          }
+
+          updateDatum(); // sofort beim Laden
+
+          // Automatisch alle 48 Stunden aktualisieren
+          setInterval(updateDatum, 48 * 60 * 60 * 1000);
+        });
+    </script>
+</body>
+
+</html>
+
+
+
