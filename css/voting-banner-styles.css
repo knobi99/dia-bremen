@@ -1,0 +1,211 @@
+/* ===== VOTING BANNER STYLES ===== */
+
+/* Voting Banner Container */
+.voting-banner {
+    background: linear-gradient(135deg, #c2410c 0%, #ea580c 100%); /* Warmes Orange */
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    animation: slideDown 0.5s ease-out;
+}
+
+/* Alternative Farben - zum Ausprobieren kommentieren Sie die obige Zeile aus und eine der folgenden ein:
+.voting-banner {
+    background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%);  Beruhigendes Grün
+    background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);  Helles Blau
+    background: linear-gradient(135deg, #dc2626 0%, #ef4444 100%);  Dringendes Rot
+} */
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.voting-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.voting-text {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex: 1;
+    min-width: 250px;
+}
+
+.voting-icon {
+    font-size: 2.5rem;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+.voting-message {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.voting-message strong {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: block;
+}
+
+.voting-description {
+    font-size: 1rem;
+    opacity: 0.95;
+}
+
+.voting-btn {
+    background-color: white;
+    color: #c2410c;
+    padding: 15px 35px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    white-space: nowrap;
+}
+
+.voting-btn:hover,
+.voting-btn:focus {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: #f8f9fa;
+}
+
+.voting-btn:active {
+    transform: translateY(0);
+}
+
+/* Optional: Schließen-Button */
+.voting-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s ease;
+}
+
+.voting-close:hover,
+.voting-close:focus {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .voting-content {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 20px;
+    }
+
+    .voting-text {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .voting-message strong {
+        font-size: 1.3rem;
+    }
+
+    .voting-description {
+        font-size: 0.9rem;
+    }
+
+    .voting-btn {
+        width: 100%;
+        max-width: 300px;
+        padding: 12px 25px;
+    }
+
+    .voting-icon {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .voting-banner {
+        padding: 15px 0;
+    }
+
+    .voting-message strong {
+        font-size: 1.1rem;
+    }
+
+    .voting-description {
+        font-size: 0.85rem;
+    }
+
+    .voting-btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}
+
+/* Accessibility */
+.voting-btn:focus-visible {
+    outline: 3px solid white;
+    outline-offset: 2px;
+}
+
+/* High Contrast Mode Support */
+@media (prefers-contrast: high) {
+    .voting-banner {
+        border: 2px solid white;
+    }
+
+    .voting-btn {
+        border: 2px solid #c2410c;
+    }
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+    .voting-banner {
+        animation: none;
+    }
+
+    .voting-icon {
+        animation: none;
+    }
+
+    .voting-btn {
+        transition: none;
+    }
+}
