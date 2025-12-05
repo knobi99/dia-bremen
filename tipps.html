@@ -1477,7 +1477,7 @@
                 });
                 featuredInhalt += '</ol>';
                 if (aktuellerTipp.bild) {
-                    featuredInhalt += `<img src="${aktuellerTipp.bild}" alt="${aktuellerTipp.bildAlt}" style="max-width: 500px; border-radius: 8px; margin-top: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">`;
+                    featuredInhalt += `<img src="${aktuellerTipp.bild}" alt="${aktuellerTipp.bildAlt}" style="max-width: 100%; width: 500px; height: auto; border-radius: 8px; margin-top: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">`;
                 }
                 if (aktuellerTipp.extra) {
                     featuredInhalt += `<p style="margin-top: 15px;"><strong>${aktuellerTipp.extra.titel}</strong> ${aktuellerTipp.extra.text}</p>`;
