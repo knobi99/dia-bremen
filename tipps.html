@@ -1026,6 +1026,31 @@
         const alleTipps = [
             // SCHNELLE TIPPS
             {
+                id: 'whatsapp-speicher',
+                kategorie: 'schnell',
+                tag: 'Smartphone',
+                icon: '🧹',
+                titel: 'WhatsApp aufräumen - Speicher frei machen',
+                ueberschriften: [
+                    '🧹 WhatsApp aufräumen - Speicher zurückgewinnen!',
+                    '💾 Speicherplatz schaffen in WhatsApp',
+                    '🗂️ WhatsApp-Chaos beseitigen - so geht\'s!'
+                ],
+                beschreibung: 'WhatsApp voll mit alten Bildern und Videos? So räumen Sie auf und gewinnen wertvollen Speicherplatz zurück - ganz ohne wichtige Chats zu löschen!',
+                schritte: [
+                    'Öffnen Sie WhatsApp → Tippen Sie auf die drei Punkte oben rechts',
+                    'Wählen Sie "Einstellungen" → "Speicher und Daten"',
+                    'Tippen Sie auf "Speicher verwalten"',
+                    'Wählen Sie große Chats aus und tippen Sie auf "Leeren" (nur Medien werden gelöscht, Textnachrichten bleiben!)'
+                ],
+                bild: 'images/cacheleeren.png',
+                bildAlt: 'WhatsApp Speicher verwalten Ansicht',
+                extra: {
+                    titel: '💡 Tipp:',
+                    text: 'Schauen Sie regelmäßig nach Gruppenchats - die sammeln am meisten Fotos und Videos! Sie können auch einzelne Dateitypen löschen (z.B. nur Videos behalten, Bilder löschen).'
+                }
+            },
+            {
                 id: 'bildschirm',
                 kategorie: 'schnell',
                 tag: 'Tablet',
@@ -1432,14 +1457,9 @@
 
             // 2. Top-Tipp Rotation
             function getAktuellerTipp() {
-                const startDatum = new Date("2025-01-01T00:00:00");
-                const jetzt = new Date();
-                const diff = jetzt - startDatum;
-                const zweiTageInMs = 2 * 24 * 60 * 60 * 1000;
-                const perioden = Math.floor(diff / zweiTageInMs);
-                const tippIndex = perioden % alleTipps.length;
-                const tipp = alleTipps[tippIndex];
-                const ueberschriftIndex = perioden % tipp.ueberschriften.length;
+                // Immer den ersten Tipp anzeigen (WhatsApp-Speicher)
+                const tipp = alleTipps[0];
+                const ueberschriftIndex = 0;
                 tipp.aktuelleUeberschrift = tipp.ueberschriften[ueberschriftIndex];
                 return tipp;
             }
@@ -1456,6 +1476,9 @@
                     featuredInhalt += `<li>${schritt}</li>`;
                 });
                 featuredInhalt += '</ol>';
+                if (aktuellerTipp.bild) {
+                    featuredInhalt += `<img src="${aktuellerTipp.bild}" alt="${aktuellerTipp.bildAlt}" style="max-width: 500px; border-radius: 8px; margin-top: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">`;
+                }
                 if (aktuellerTipp.extra) {
                     featuredInhalt += `<p style="margin-top: 15px;"><strong>${aktuellerTipp.extra.titel}</strong> ${aktuellerTipp.extra.text}</p>`;
                 }
