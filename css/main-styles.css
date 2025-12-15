@@ -873,5 +873,78 @@ body {
   font-size: 16px;
   color: #555555; /* kontrastreicher als vorheriges opacity: 0.8 */
 }
+/* ========================================
+   Aktuelles-Banner für wichtige Meldungen
+   Erstellt: Dezember 2024
+   ======================================== */
+/* Aktuelles-Banner Styling */
+.aktuelles-banner {
+    background: linear-gradient(135deg, #1a5f3f 0%, #2d8f5f 100%);
+    color: white;
+    padding: 25px 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.aktuelles-banner.weihnachten {
+    background: linear-gradient(135deg, #c41e3a 0%, #165b33 100%);
+}
+
+.banner-inhalt {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.banner-text {
+    flex: 2;
+}
+
+.banner-text h2 {
+    margin-top: 0;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.banner-text p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.banner-kontakt {
+    font-size: 1em;
+    opacity: 0.9;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.banner-bild {
+    flex: 1;
+    max-width: 300px;
+}
+
+.banner-bild img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Für Tablets und kleinere Bildschirme */
+@media (max-width: 768px) {
+    .banner-inhalt {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .banner-bild {
+        max-width: 250px;
+    }
+}
 
 
