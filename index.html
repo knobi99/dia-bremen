@@ -61,13 +61,14 @@
             <li><a href="ueber.html">Über Uns</a></li>
             <li><a href="kontakt.html">Kontakt</a></li>
             <li><a href="karte.html">Standorte</a></li>
+            <li><a href="impulse.html">Digitale Impulse</a></li>
         </ul>
     </div>
 </nav>
 <!-- ========================================
      AKTUELLES-BANNER: WEIHNACHTEN 2024/2025
      Einfügen direkt nach </nav> und vor <main>
-     ======================================== -->
+     ======================================== 
 
 <div class="aktuelles-banner weihnachten">
     <div class="banner-inhalt">
@@ -90,7 +91,7 @@
             <img src="images/tanne25.jpg" alt="Weihnachtstanne mit Dekoration">
         </div>
     </div>
-</div>
+</div>-->
 
 <!-- Ende Aktuelles-Banner -->
 
@@ -110,26 +111,58 @@
     <!-- Main Content -->
     <main id="main-content" role="main">
         <!-- Main Sections -->
-        <section class="main-sections" aria-labelledby="angebote-heading">
-            <div class="container">
-                <h2 id="angebote-heading" class="visually-hidden">Unsere Hauptangebote</h2>
-                <div class="sections-grid">
-                    <article class="section-card" id="termine">
-                        <div class="section-icon" aria-hidden="true">📅</div>
-                        <h3>Aktuelles &amp; Termine</h3>
-                        <p>Hier finden Sie aktuelle Termine und Veranstaltungen in Bremen-Nord: von Tablet-Kursen über Sprechstunden bis zu Informationsveranstaltungen..</p>
-                        <a href="termine.html" class="btn btn-primary">Mehr erfahren</a>
-                    </article>
+        <!-- ==========================================
+     STARTSEITE ERWEITERUNG
+     Diesen Code in index.html einfügen
+     
+     Position: Nach dem Hero-Bereich, ersetze die bisherige
+     "Unsere Hauptangebote" Section
+     ========================================== -->
 
-                    <article class="section-card" id="tipps">
-                        <div class="section-icon" aria-hidden="true">💻</div>
-                        <h3>Digitaler Alltag</h3>
-                        <p>Entdecken Sie, wie digitale Technologien Ihren Alltag bereichern können. Unsere Tipps und Anleitungen zeigen Ihnen, wie Sie Bedienungsgänge sowohl persönlich als auch digital meistern können.</p>
-                        <a href="tipps.html" class="btn btn-primary">Mehr erfahren</a>
-                    </article>
-                </div>
+<!-- Zwei Boxen nebeneinander: Termine & Digitaler Alltag -->
+<section class="hauptangebote-zweispaltig">
+    <div class="angebot-box">
+        <div class="icon">📅</div>
+        <h3>Aktuelles & Termine</h3>
+        <p>Hier finden Sie aktuelle Termine und Veranstaltungen in Bremen-Nord: von Tablet-Kursen über Sprechstunden bis zu Informationsveranstaltungen.</p>
+        <a href="termine.html" class="button">Mehr erfahren</a>
+    </div>
+
+    <div class="angebot-box">
+        <div class="icon">💻</div>
+        <h3>Digitaler Alltag</h3>
+        <p>Entdecken Sie, wie digitale Technologien Ihren Alltag bereichern können. Unsere Tipps und Anleitungen zeigen Ihnen, wie Sie Bedienungsgänge sowohl persönlich als auch digital meistern können.</p>
+        <a href="tipps.html" class="button">Mehr erfahren</a>
+    </div>
+</section>
+
+<!-- Aktueller Artikel-Teaser -->
+<section class="artikel-teaser">
+    <div class="teaser-container">
+        <div class="teaser-label">💡 Aktuelles Thema</div>
+        <div class="teaser-inhalt">
+            <div class="teaser-bild">
+                <img src="images/linux-tux.jpg" alt="Linux Pinguin Maskottchen Tux">
             </div>
-        </section>
+            <div class="teaser-text">
+                <h2>Linux ist kostenlos – Warum noch für Windows bezahlen?</h2>
+                <p class="teaser-datum">📅 15. Dezember 2024</p>
+                <p>
+                    Im Oktober 2025 endet der Support für Windows 10. Microsoft drängt Millionen 
+                    Nutzer zum Kauf neuer Computer oder zum Upgrade auf Windows 11. Doch es gibt 
+                    eine sichere, kostenlose Alternative: Linux. Besonders Linux Mint ist für 
+                    Senioren eine echte Option.
+                </p>
+                <a href="impulse/linux-kostenlos.html" class="weiterlesen-link">
+                    Weiterlesen: Wie Linux Sie unabhängig macht →
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Danach folgt wie bisher: Über uns, Erfolge, Kontakt -->
+
 
         <!-- About Section -->
         <section class="about-section" id="ueber" aria-labelledby="ueber-heading">
@@ -253,6 +286,8 @@
                 <address>
                     <p><span aria-hidden="true">📞</span> <a href="tel:+491781603960" aria-label="Telefonnummer anrufen">0178-1603960</a></p>
                     <p><span aria-hidden="true">✉</span> <a href="mailto:hallo@dia-bremen.de" aria-label="E-Mail senden">hallo@dia-bremen.de</a></p>
+                    <!-- NEU: WhatsApp im Footer -->
+                        <p><span aria-hidden="true">💬</span> <a href="https://whatsapp.com/channel/0029Vb6dx9mBVJl9rWTHLi0x" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp-Kanal folgen">WhatsApp-Kanal</a></p>
                     <p><strong>Sprechzeiten:</strong><br>
                     <span aria-label="Mittwoch von 10 bis 11 Uhr">Mittwoch 10:00 - 11:00 Uhr</span></p>
                 </address>

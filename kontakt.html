@@ -258,6 +258,196 @@
             overflow-wrap: break-word !important;
             hyphens: auto !important;
         }
+
+        /* NEU: WhatsApp-Sektion Styles */
+        .whatsapp-section {
+            background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+            padding: 60px 0;
+            margin: 60px 0;
+        }
+        
+        .whatsapp-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .whatsapp-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .whatsapp-header h2 {
+            color: #15803d;
+            font-size: 2.2em;
+            margin-bottom: 15px;
+        }
+        
+        .whatsapp-header p {
+            font-size: 1.2em;
+            color: #166534;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .whatsapp-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-top: 40px;
+        }
+        
+        .whatsapp-info {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .whatsapp-info h3 {
+            color: #15803d;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .whatsapp-benefits {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        
+        .whatsapp-benefits li {
+            padding: 12px 0;
+            border-bottom: 1px solid #e5e7eb;
+            font-size: 1.1em;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .whatsapp-benefits li:last-child {
+            border-bottom: none;
+        }
+        
+        .whatsapp-qr {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        .whatsapp-qr h3 {
+            color: #15803d;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        
+        .qr-code-container {
+            background: white;
+            padding: 20px;
+            border: 3px solid #22c55e;
+            border-radius: 12px;
+            display: inline-block;
+            margin: 20px 0;
+        }
+        
+        .qr-code-container img {
+            display: block;
+            width: 200px;
+            height: 200px;
+        }
+        
+        .scan-anleitung {
+            background: #fef3c7;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #f59e0b;
+            margin-top: 25px;
+            text-align: left;
+        }
+        
+        .scan-anleitung h4 {
+            color: #92400e;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+        
+        .scan-schritte {
+            list-style: none;
+            padding: 0;
+            counter-reset: step-counter;
+        }
+        
+        .scan-schritte li {
+            counter-increment: step-counter;
+            padding: 10px 0 10px 35px;
+            position: relative;
+            font-size: 1em;
+            line-height: 1.6;
+        }
+        
+        .scan-schritte li:before {
+            content: counter(step-counter);
+            position: absolute;
+            left: 0;
+            top: 8px;
+            background: #f59e0b;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+        
+        .whatsapp-link-btn {
+            display: inline-block;
+            background: #25D366;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            margin: 20px 0;
+            transition: all 0.3s;
+            box-shadow: 0 4px 6px rgba(37, 211, 102, 0.3);
+        }
+        
+        .whatsapp-link-btn:hover {
+            background: #128C7E;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(37, 211, 102, 0.4);
+        }
+        
+        /* Mobile Anpassungen für WhatsApp-Sektion */
+        @media (max-width: 768px) {
+            .whatsapp-content {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+            
+            .whatsapp-header h2 {
+                font-size: 1.6em;
+            }
+            
+            .whatsapp-info,
+            .whatsapp-qr {
+                padding: 20px;
+            }
+            
+            .qr-code-container img {
+                width: 180px;
+                height: 180px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -286,6 +476,7 @@
             <li><a href="ueber.html">Über Uns</a></li>
             <li><a href="kontakt.html"class="active" aria-current="page">Kontakt</a></li>
             <li><a href="karte.html">Standorte</a></li>
+            <li><a href="impulse.html">Digitale Impulse</a></li>
         </ul>
     </div>
 </nav>
@@ -304,9 +495,9 @@
         <section class="main-sections" aria-labelledby="contact-methods-title">
             <div class="container">
                 <h2 id="contact-methods-title">🤝 Nehmen Sie Kontakt mit uns auf</h2>
-                <p style="text-align: center; font-size: 20px; margin-bottom: 40px; color: var(--textfarbe); padding: 0 20px;">Drei einfache Wege, um uns zu erreichen</p>
+                <p style="text-align: center; font-size: 20px; margin-bottom: 40px; color: var(--textfarbe); padding: 0 20px;">Vier einfache Wege, um uns zu erreichen</p>
 
-                <div class="sections-grid">
+                <div class="sections-grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
                     <!-- Telefonisch -->
                     <article class="section-card">
                         <div class="section-icon" aria-hidden="true">📞</div>
@@ -319,7 +510,7 @@
                         <a href="tel:+491781603960" class="btn btn-primary">Jetzt anrufen</a>
                         <div style="background: #f0fff4; padding: 15px; border-radius: 8px; border-left: 4px solid var(--beruehigendes-gruen); margin-top: 20px;">
                             <h4 style="color: var(--beruehigendes-gruen); margin-bottom: 8px;">💡 Am besten erreichen Sie uns:</h4>
-                            <p style="color: var(--textfarbe); font-size: 16px; margin: 0;">Wir beraten Sie gerne zu allen Fragen rund um unsere Kurse, Termine und digitale Hilfen. Bei der Anmeldung können wir auch individuelle Fragen besprechen.</p>
+                            <p style="color: var(--textfarbe); font-size: 16px; margin: 0;">Wir beraten Sie gerne zu allen Fragen rund um unsere Kurse, Termine und digitale Hilfen.</p>
                         </div>
                     </article>
 
@@ -335,7 +526,23 @@
                         <a href="mailto:hallo@dia-bremen.de" class="btn btn-primary">E-Mail schreiben</a>
                         <div style="background: #f0fff4; padding: 15px; border-radius: 8px; border-left: 4px solid var(--beruehigendes-gruen); margin-top: 20px;">
                             <h4 style="color: var(--beruehigendes-gruen); margin-bottom: 8px;">📧 Schreiben Sie uns gerne:</h4>
-                            <p style="color: var(--textfarbe); font-size: 16px; margin: 0;">Per E-Mail können Sie uns ausführlich Ihre Fragen schildern. Wir antworten garantiert innerhalb eines Werktages mit allen nötigen Informationen.</p>
+                            <p style="color: var(--textfarbe); font-size: 16px; margin: 0;">Per E-Mail können Sie uns ausführlich Ihre Fragen schildern.</p>
+                        </div>
+                    </article>
+
+                    <!-- NEU: WhatsApp -->
+                    <article class="section-card">
+                        <div class="section-icon" aria-hidden="true">💬</div>
+                        <h3>WhatsApp-Kanal</h3>
+                        <div style="margin-bottom: 20px;">
+                            <p><strong>💬 Folgen Sie uns</strong></p>
+                            <p><strong>Kostenlos & Anonym</strong><br>
+                            Aktuelle Termine & News</p>
+                        </div>
+                        <a href="#whatsapp-details" class="btn btn-primary">Mehr erfahren</a>
+                        <div style="background: #f0fff4; padding: 15px; border-radius: 8px; border-left: 4px solid var(--beruehigendes-gruen); margin-top: 20px;">
+                            <h4 style="color: var(--beruehigendes-gruen); margin-bottom: 8px;">📱 Immer informiert:</h4>
+                            <p style="color: var(--textfarbe); font-size: 16px; margin: 0;">Erhalten Sie alle Neuigkeiten direkt auf Ihr Smartphone.</p>
                         </div>
                     </article>
 
@@ -345,15 +552,139 @@
                         <h3>Persönlich</h3>
                         <div style="margin-bottom: 20px;">
                             <p><strong>📍 3 Standorte in Bremen-Nord</strong></p>
-                            <p><strong>💥 Persönliche Beratung</strong><br>
+                            <p><strong>👥 Persönliche Beratung</strong><br>
                             <strong>🔧 Direkte Hilfe vor Ort</strong></p>
                         </div>
                         <a href="#sprechstunden" class="btn btn-primary">Zu den Sprechstunden</a>
                         <div style="background: #f0fff4; padding: 15px; border-radius: 8px; border-left: 4px solid var(--beruehigendes-gruen); margin-top: 20px;">
                             <h4 style="color: var(--beruehigendes-gruen); margin-bottom: 8px;">🤗 Kommen Sie einfach vorbei:</h4>
-                            <p style="color: var(--textfarbe); font-size: 16px; margin: 0;">In unseren Sprechstunden helfen wir Ihnen direkt mit Ihrem eigenen Gerät. Kein Stress, keine Anmeldung - einfach vorbeikommen!</p>
+                            <p style="color: var(--textfarbe); font-size: 16px; margin: 0;">In unseren Sprechstunden helfen wir Ihnen direkt mit Ihrem eigenen Gerät.</p>
                         </div>
                     </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- NEU: WhatsApp Detailsektion -->
+        <section class="whatsapp-section" id="whatsapp-details">
+            <div class="whatsapp-container">
+                <div class="whatsapp-header">
+                    <h2>💬 Folgen Sie unserem WhatsApp-Kanal</h2>
+                    <p>Bleiben Sie kostenlos, anonym und ohne Werbung über alle Neuigkeiten informiert!</p>
+                </div>
+
+                <div class="whatsapp-content">
+                    <!-- Linke Spalte: Informationen -->
+                    <div class="whatsapp-info">
+                        <h3>📱 Was ist der WhatsApp-Kanal?</h3>
+                        <p>Unser WhatsApp-Kanal ist ein kostenloser Service, über den wir Sie direkt auf Ihrem Smartphone informieren. Sie können dem Kanal folgen, ohne dass andere Ihre Telefonnummer sehen können.</p>
+
+                        <h4 style="margin-top: 25px; margin-bottom: 15px; color: #15803d;">✅ Ihre Vorteile:</h4>
+                        <ul class="whatsapp-benefits">
+                            <li>
+                                <span style="font-size: 1.3em;">🆓</span>
+                                <strong>Kostenlos:</strong> Keine Kosten, keine Abos
+                            </li>
+                            <li>
+                                <span style="font-size: 1.3em;">🕶️</span>
+                                <strong>Anonym:</strong> Ihre Nummer bleibt privat
+                            </li>
+                            <li>
+                                <span style="font-size: 1.3em;">📅</span>
+                                <strong>Aktuelle Termine:</strong> Verpassen Sie keine Kurse mehr
+                            </li>
+                            <li>
+                                <span style="font-size: 1.3em;">📰</span>
+                                <strong>Wichtige Neuigkeiten:</strong> Änderungen & Infos
+                            </li>
+                            <li>
+                                <span style="font-size: 1.3em;">🔕</span>
+                                <strong>Keine Werbung:</strong> Nur relevante Informationen
+                            </li>
+                            <li>
+                                <span style="font-size: 1.3em;">❌</span>
+                                <strong>Jederzeit kündbar:</strong> Mit einem Klick austragen
+                            </li>
+                        </ul>
+
+                        <div style="text-align: center; margin-top: 30px;">
+                            <a href="https://whatsapp.com/channel/0029Vb6dx9mBVJl9rWTHLi0x" 
+                               target="_blank" 
+                               rel="noopener noreferrer" 
+                               class="whatsapp-link-btn">
+                                💬 Jetzt WhatsApp-Kanal folgen
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Rechte Spalte: QR-Code -->
+                    <div class="whatsapp-qr">
+                        <h3>📸 QR-Code scannen</h3>
+                        <p style="font-size: 1.1em; margin-bottom: 20px;">Öffnen Sie die Kamera-App Ihres Smartphones und halten Sie sie über diesen Code:</p>
+
+                        <div class="qr-code-container">
+                            <!-- Hier muss euer QR-Code hin! -->
+                            <img src="images/qr_whatsappkanal.jpg" 
+                                 alt="QR-Code zum WhatsApp-Kanal von Digital im Alter"
+                                 width="200"
+                                 height="200">
+                        </div>
+
+                        <p style="font-size: 0.9em; color: #666; margin-top: 10px;">
+                            <strong>Alternativ:</strong> Klicken Sie auf den grünen Button links
+                        </p>
+
+                        <!-- Scan-Anleitung -->
+                        <div class="scan-anleitung">
+                            <h4>📱 So scannen Sie den QR-Code:</h4>
+                            <ol class="scan-schritte">
+                                <li>Öffnen Sie die <strong>Kamera-App</strong> auf Ihrem Smartphone</li>
+                                <li>Halten Sie die Kamera über den QR-Code (oben)</li>
+                                <li>Warten Sie kurz – es erscheint automatisch eine <strong>Benachrichtigung</strong></li>
+                                <li>Tippen Sie auf die Benachrichtigung</li>
+                                <li>WhatsApp öffnet sich automatisch</li>
+                                <li>Tippen Sie auf <strong>"Folgen"</strong> – fertig! ✅</li>
+                            </ol>
+                            
+                            <div style="background: white; padding: 12px; border-radius: 6px; margin-top: 15px;">
+                                <p style="margin: 0; font-size: 0.95em;">
+                                    <strong>💡 Tipp:</strong> Sie brauchen keine spezielle QR-Code-App! Die normale Kamera Ihres Smartphones erkennt QR-Codes automatisch.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Zusätzliche Info-Box -->
+                <div style="background: white; padding: 25px; border-radius: 12px; margin-top: 40px; border-left: 5px solid #22c55e;">
+                    <h4 style="color: #15803d; margin-bottom: 15px; font-size: 1.2em;">❓ Häufige Fragen</h4>
+                    
+                    <details style="margin-bottom: 15px;">
+                        <summary style="cursor: pointer; font-weight: bold; padding: 10px; background: #f9fafb; border-radius: 6px;">
+                            Kann jeder meine Telefonnummer sehen?
+                        </summary>
+                        <p style="padding: 15px; margin: 0;">
+                            <strong>Nein!</strong> WhatsApp-Kanäle sind vollständig anonym. Niemand – auch wir nicht – kann Ihre Telefonnummer sehen. Andere Follower können Sie nicht kontaktieren.
+                        </p>
+                    </details>
+
+                    <details style="margin-bottom: 15px;">
+                        <summary style="cursor: pointer; font-weight: bold; padding: 10px; background: #f9fafb; border-radius: 6px;">
+                            Wie oft bekomme ich Nachrichten?
+                        </summary>
+                        <p style="padding: 15px; margin: 0;">
+                            Wir versenden nur wichtige Informationen – etwa 1-2 Mal pro Woche. Bei neuen Terminen, Programmänderungen oder besonderen Veranstaltungen. Keine täglichen Nachrichten!
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary style="cursor: pointer; font-weight: bold; padding: 10px; background: #f9fafb; border-radius: 6px;">
+                            Wie kann ich den Kanal wieder verlassen?
+                        </summary>
+                        <p style="padding: 15px; margin: 0;">
+                            Ganz einfach: Öffnen Sie den Kanal in WhatsApp, tippen Sie oben auf den Kanalnamen und dann auf "Kanal verlassen". Mit einem Klick sind Sie wieder raus – ohne Nachwirkungen.
+                        </p>
+                    </details>
                 </div>
             </div>
         </section>
@@ -506,6 +837,8 @@
                     <address>
                         <p><span aria-hidden="true">📞</span> <a href="tel:+491781603960" aria-label="Telefonnummer anrufen">0178-1603960</a></p>
                         <p><span aria-hidden="true">✉</span> <a href="mailto:hallo@dia-bremen.de" aria-label="E-Mail senden">hallo@dia-bremen.de</a></p>
+                        <!-- NEU: WhatsApp im Footer -->
+                        <p><span aria-hidden="true">💬</span> <a href="https://whatsapp.com/channel/0029Vb6dx9mBVJl9rWTHLi0x" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp-Kanal folgen">WhatsApp-Kanal</a></p>
                         <p><strong>Sprechzeiten:</strong><br>
                         <span aria-label="Mittwoch von 10 bis 11 Uhr">Mittwoch 10:00 - 11:00 Uhr</span></p>
                     </address>
@@ -627,4 +960,3 @@
 </body>
 
 </html>
-
