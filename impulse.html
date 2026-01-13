@@ -60,6 +60,15 @@
             border-color: #2563eb;
             font-weight: 600;
         }
+        /* Hover-Effekte für Artikel-Karten */
+        .artikel-karte {
+            transition: all 0.3s ease;
+        }
+        
+        .artikel-karte:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+        }
     </style>
 </head>
 <body>
@@ -134,8 +143,29 @@
             <div class="archiv-container">
                 <h3 class="archiv-ueberschrift">Alle Artikel</h3>
 
+                 <article class="artikel-karte" id="artikel-4" data-kategorie="seniorenpolitik">
+                    <div class="karte-bild">
+                        <img src="images/ntg-projekt.jpg" alt="digital generationsübergreifend">
+                        
+                        <span class="karte-kategorie">💬 Seniorenpolitik</span>
+                    </div>
+                    <div class="karte-inhalt">
+                        <h4> New Technology Guides am Nebelthau-Gymnasium Bremen</h4>
+                        <div class="karte-meta">
+                            <span>📅 14. Januar 2026</span>
+                        </div>
+                        <p>
+                            Am Nebelthau-Gymnasium Bremen hat sich eine besondere Initiative etabliert, die Generationen verbindet: 
+                            die New Technology Guides. 
+                            
+                        </p>
+                        <a href="impulse/ntg.html" class="karte-link">Weiterlesen... →</a>
+                        
+                    </div>
+                </article>
+
                 <!-- Artikel 1: Linux -->
-                <article class="artikel-karte" id="artikel-1" data-kategorie="alternativen verbraucherschutz">
+                <article class="artikel-karte" id="artikel-1" data-kategorie="alternativen">
                     <div class="karte-bild">
                         <img src="images/linux-tux.jpg" alt="Linux Pinguin Maskottchen Tux">
                         <span class="karte-kategorie">🆓 Alternativen</span>
@@ -155,7 +185,7 @@
                 </article>
 
                 <!-- Artikel 2: Windows 10 -->
-                <article class="artikel-karte" id="artikel-2" data-kategorie="verbraucherschutz seniorenpolitik">
+                <article class="artikel-karte" id="artikel-2" data-kategorie="verbraucherschutz">
                     <div class="karte-bild">
                         <img src="images/windows10-ende.jpg" alt="Windows 10 Support-Ende">
                         <span class="karte-kategorie">⚠️ Verbraucherschutz</span>
@@ -175,7 +205,7 @@
                 </article>
 
                 <!-- Artikel 3: Blog -->
-                <article class="artikel-karte" id="artikel-3" data-kategorie="seniorenpolitik">
+                <article class="artikel-karte" id="artikel-3" data-kategorie="alternativen">
                     <div class="karte-bild">
                         <img src="images/blog_why.jpg" alt="Schreibheft mit ein Füller zum Schreiben">
                         <span class="karte-kategorie">🆓 Alternativen</span>
@@ -324,14 +354,21 @@
         </div>
     </footer>
 
-    <!-- JavaScript für Kategorie-Filter -->
+     <!-- JavaScript für Kategorie-Filter -->
     <script>
-        // Kategorie-Filter Funktionalität
-        const filterButtons = document.querySelectorAll('.filter-btn');
-        // NUR Artikel-Elemente filtern, NICHT die Buttons selbst!
-        const artikelElemente = document.querySelectorAll('.aktueller-artikel-voll, .artikel-karte');
+        // Warte bis DOM vollständig geladen ist
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('DOM geladen - starte Filter-Initialisierung');
+            
+            // Kategorie-Filter Funktionalität
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            // NUR Artikel-Elemente filtern, NICHT die Buttons selbst!
+            const artikelElemente = document.querySelectorAll('.aktueller-artikel-voll, .artikel-karte');
 
-        filterButtons.forEach(button => {
+            console.log('Filter Buttons gefunden:', filterButtons.length);
+            console.log('Artikel Elemente gefunden:', artikelElemente.length);
+
+            filterButtons.forEach(button => {
             button.addEventListener('click', function() {
                 // Aktiven Button markieren
                 filterButtons.forEach(btn => btn.classList.remove('active'));
@@ -416,6 +453,8 @@
                 }
             }
         });
+        
+        }); // Ende DOMContentLoaded
     </script>
 </body>
 </html>
