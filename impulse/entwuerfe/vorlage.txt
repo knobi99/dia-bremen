@@ -1,0 +1,9 @@
+Thema: [Titel des Artikels]
+Kategorie: [Alternativen | Datenschutz | Seniorenpolitik | Verbraucherschutz]
+Bild: [Dateiname, falls vorhanden, z.B. passwort.jpg]
+
+--- Deine Notizen / Gedanken ---
+
+- Stichpunkte, Fließtext, alles erlaubt
+- Schreib einfach drauf los
+- Claude macht daraus einen fertigen HTML-Artikel
