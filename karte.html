@@ -611,8 +611,8 @@
                 name: "Sprechstunde Farge",
                 type: "sprechstunde",
                 address: "Begegnungszentrum Farge, Farger Straße 136, 28777 Bremen",
-                lat: 53.2052,
-                lng: 8.5648,
+                lat: 53.20638,
+                lng: 8.51372,
                 phone: "+49 152 34284457",
                 email: "hallo@dia-bremen.de",
                 schedule: "Jeden 1. und 3. Donnerstag im Monat",
@@ -711,12 +711,12 @@
         
         // Karte initialisieren
         const map = L.map('map', {
-            center: [53.160, 8.66],  // Leicht nach Norden verschoben
-            zoom: 13,
-            minZoom: 12,    // Nicht weiter rauszoomen
+            center: [53.182, 8.622],  // Zentriert zwischen Farge und Marßel
+            zoom: 12,
+            minZoom: 11,    // Nicht weiter rauszoomen
             maxZoom: 16,    // Nicht weiter reinzoomen
             maxBounds: [
-                [53.12, 8.55],  // Südwest (Grenze Bremen-Nord)
+                [53.12, 8.45],  // Südwest (erweitert für Farge)
                 [53.26, 8.78]   // Nordost (Grenze Bremen-Nord)
             ],
             maxBoundsViscosity: 1.0,  // Verhindert Herausziehen
