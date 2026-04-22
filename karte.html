@@ -348,6 +348,9 @@
 <!-- Navigation -->
 <nav class="nav" role="navigation" aria-label="Hauptnavigation">
     <div class="nav-content">
+            <button class="burger-menu" aria-label="Menü öffnen" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
         <ul>
             <li><a href="index.html">Start</a></li>
             <li><a href="termine.html">Termine</a></li>
@@ -568,6 +571,23 @@
                 ]
             },
             {
+                id:11,
+                name: "New Technology Guides",
+                type: "sprechstunde",
+                address: "Nebelthau-Gymnasium, Charlotte-Woll-Allee 12, 28717 Bremen",
+                lat: 53.17372, 
+                lng: 8.67948,
+                phone: "",
+                email: "hallo@dia-bremen.de",
+                schedule: "Jeden 2. Freitag im Monat",
+                hours: "16:00-20:00 Uhr",
+                details: [
+                    "Einfach vorbeikommen",
+                    "Kostenlos",
+                    "Eigenes Gerät mitbringen"
+                ]
+            },
+            {
                 id: 5,
                 name: "PC Treff Bürgerhaus",
                 type: "sprechstunde",
@@ -576,16 +596,34 @@
                 lng: 8.6174713,
                 phone: "+49 421 6361262",
                 email: "hallo@dia-bremen.de",
-                schedule: "Donnerstags - 14-tägig",
+                schedule: "Jeden 2.und 4. Donnerstag-im Monat",
                 hours: "10:30-12:30 Uhr",
                 details: [
-                    "ACHTUNG: Bürgerhaus geschlossen",
+                    "Themen werden gemeinsam besprochen",
                     "Fragen rund ums Smartphone und PC",
                     "Kostenlos",
                     "Einfach vorbeikommen"
                 ]
             },
             
+            {
+                id: 12,
+                name: "Sprechstunde Farge",
+                type: "sprechstunde",
+                address: "Begegnungszentrum Farge, Farger Straße 136, 28777 Bremen",
+                lat: 53.20638,
+                lng: 8.51372,
+                phone: "+49 152 34284457",
+                email: "hallo@dia-bremen.de",
+                schedule: "Jeden 1. und 3. Donnerstag im Monat",
+                hours: "10:00-12:00 Uhr",
+                details: [
+                    "Offene Sprechstunde - keine Anmeldung nötig",
+                    "Kostenlos",
+                    "Eigenes Gerät mitbringen"
+                ]
+            },
+
             // KOMMENDE VERANSTALTUNGEN
             {
                 id: 9,
@@ -629,47 +667,6 @@
                 ]
             },
             {
-                id: 10,
-                name: "Tabletkurs für Anfänger",
-                type: "event",
-                address: "Begegnungszentrum Grambke, Grönlandstraße 8, 28719 Bremen",
-                lat: 53.1519993,  
-                lng: 8.7132268,
-                phone: "+49 151 50552924",
-                email: "hallo@dia-bremen.de",
-                schedule: "Dienstags  - AUSGEBUCHT",
-                eventDate: "21. Oktober 2025",
-                hours: "10:00-11:30 Uhr ",
-                isUpcoming: false,
-                details: [
-                    "Lernen Sie die Grundlagen im Umgang mit Tablets.",
-                    "Tablets werden für den Kurs gestellt.",
-                    "AUSGEBUCHT",
-                    "Teilnehmerzahl: 6",
-                    "Kostenlos"
-                ]
-            },
-            {
-                id: 6,
-                name: "WhatsApp Grundlagen Workshop",
-                type: "event",
-                address: "Stadtbibliothek Vegesack, Aumunder Heerweg 87, 28757 Bremen",
-                lat: 53.1742271, 
-                lng: 8.6202298,
-                phone: "+49 178 1603960",
-                email: "hallo@dia-bremen.de",
-                eventDate: "23. Oktober 2025",
-                hours: "11:30-13:00 Uhr",
-                isUpcoming: true,
-                details: [
-                    "Lernen Sie WhatsApp von Grund auf kennen",
-                    "Nachrichten, Bilder und Videoanrufe",
-                    "Anmeldung erforderlich",
-                    "Teilnehmerzahl: 15",
-                    "Kostenlos"
-                ]
-            },
-            {
                 id: 7,
                 name: "WhatsApp Grundlagen Workshop",
                 type: "event",
@@ -693,12 +690,12 @@
         
         // Karte initialisieren
         const map = L.map('map', {
-            center: [53.160, 8.66],  // Leicht nach Norden verschoben
-            zoom: 13,
-            minZoom: 12,    // Nicht weiter rauszoomen
+            center: [53.182, 8.622],  // Zentriert zwischen Farge und Marßel
+            zoom: 12,
+            minZoom: 11,    // Nicht weiter rauszoomen
             maxZoom: 16,    // Nicht weiter reinzoomen
             maxBounds: [
-                [53.12, 8.55],  // Südwest (Grenze Bremen-Nord)
+                [53.12, 8.45],  // Südwest (erweitert für Farge)
                 [53.26, 8.78]   // Nordost (Grenze Bremen-Nord)
             ],
             maxBoundsViscosity: 1.0,  // Verhindert Herausziehen
@@ -898,6 +895,7 @@
         // Liste beim Laden generieren
         generateLocationList();
     </script>
+<script src="js/nav.js"></script>
 </body>
 
 </html>

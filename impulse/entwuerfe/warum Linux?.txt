@@ -1,0 +1,46 @@
+Thema: warum Linux?
+Kategorie Alternativen, Datenschutz
+Relativ spontan hatte das Team von Digital im Alter das Thema Migration von Windows 10 zu Linux Wind aufgegriffen und ein zweiteiligen Workshop veranstaltet, Teil eins als Infoveranstaltung und Teil zwei als Angebot Innocent auf dem eigenen PC komplett installiert zu bekommen. Vielleicht vorab noch ein Gedanke zum Besuch dieser Veranstaltung. Wir waren sehr erfreut und gleichzeitig auch positiv überrascht, dass es so eine große Resonanz war. Zur Infoveranstaltung waren 35-40 Personen erschienen, und nachdem die regionale Presse davon berichtet hatte, kamen auch 40-50 Personen zur zweiten Veranstaltung und Termin, obwohl dieser Termin eigentlich ausdrücklich ausgeschrieben war als Termin für die Installation. Wir sehen, dass der Bedarf riesengroß ist und wir werden uns natürlich bemühen eine Struktur zu schaffen um das weiter zu etablieren, nun aber zu den wesentlichen Gründen, die die Teilnehmer erfahren haben. Also fünf Gründe, warum sich der Umstieg lohnt die Sicherheit. Jede neue Sicherheitslücke in Windows bleibt dauerhaft offen, weil es kein Support mehr gibt. Linux macht kostenlose Sicherheitsupdate Viren, Schutzabos sind nicht nötig. Zwei ist kostenlos. Linux kostet kein Cent man kann vorrechnen, dass es wirklich keine Lizenzgebühren sind, so wie bei Microsoft. 365 oder anderen und man braucht keinen neuen PC. Dritter Aspekt war Nutzbarkeit. Iris läuft auch auf Computern, die noch zehn Jahre und älter sind natürlich wo eine Mindestanforderungen ist. Vielleicht kann man noch drauf hinweisen, dass ich die Folien gerne noch mal ins hier ins Internet stellen zum downloaden. Der vierte Punkt ist die Vertrautheit. Linuxment sieht sehr ähnlich wie Windows aus und gibt eine gewisse Sicherheit im weiteren Umgang. Fünf ist digitale Souveränität, also Unabhängigkeit bei Linux bestimmt man selbst was und wie mit dem Pähl passiert, schreiben Sie uns gerne eine E-Mail oder geben Sie uns Rückmeldung zu dem neuen Thema, was digitale Malte aufgegriffen hat, nämlich digitale Souveränität mit Linux weiter zu etablieren. So fasse du daraus einen Text zusammen, da natürlich nicht länger als 5 Minuten zu lesen ist, und erstelle auch entsprechende Überschriften
+Vielleicht sollte man auch noch mal erwähnen, dass alle sehr, sehr konzentriert waren, sehr großes Interesse hatten interessante Nachfragen gestellt haben und als eine Freude mal zu sehen, wie neugierig dieses Thema gemacht hat
+ach bei den 5 gründen sind emojis auch sehr cool
+Foto: /images/linuxmint5.jpg
+
+schon ei bisschen geschreben:
+**Warum Linux? – Einfach, sicher und kostenlos für dich!**
+
+---
+
+### **Ein Thema, das begeistert!**
+Spontan hat das Team von *Digital im Alter* das Thema **„Umstieg von Windows 10 auf Linux“** aufgegriffen – und war selbst überrascht, wie groß das Interesse war! Zur ersten Infoveranstaltung kamen **35–40 neugierige Senioren**, und nach einem Bericht in der regionalen Presse waren es beim zweiten Termin, der eigentlich nur für die Installation gedacht war, sogar **40–50 Teilnehmer**. Das zeigt: Der Bedarf ist riesig! Besonders schön war zu sehen, wie konzentriert und interessiert alle waren – mit vielen klugen Fragen und einer großen Portion Neugier.
+
+---
+
+### **Fünf gute Gründe für Linux**
+
+#### **1. Sicherheit: Keine Sorgen mehr um Viren & Co.**
+Mit Windows 10 gibt es seit 2025 **keine Sicherheitsupdates mehr**. Jede neue Sicherheitslücke bleibt offen – ein Risiko! Linux hingegen bietet **kostenlose, regelmäßige Updates** und ist von Haus aus sicherer. Teure Viren-Schutzprogramme? Nicht nötig!
+
+#### **2. Kostenlos – wirklich!**
+Linux kostet **keinen Cent**. Keine Lizenzgebühren wie bei Microsoft 365, keine versteckten Kosten. Einfach herunterladen, installieren und loslegen – ohne neue Hardware kaufen zu müssen.
+
+#### **3. Läuft auch auf alten Rechnern**
+Dein PC ist schon etwas älter? Kein Problem! Linux läuft selbst auf **10 Jahre alten Computern** – vorausgesetzt, sie erfüllen die Mindestanforderungen. So kannst du dein Gerät länger nutzen und sparst Geld.
+
+#### **4. Vertraut und einfach zu bedienen**
+Linux Mint sieht **sehr ähnlich aus wie Windows**. Du findest dich schnell zurecht und kannst wie gewohnt arbeiten – ohne große Umgewöhnung.
+
+#### **5. Digitale Souveränität: Du bestimmst, was passiert!**
+Bei Linux hast **du die Kontrolle**. Keine ungewollten Datenweitergaben, keine Zwangs-Updates – du entscheidest selbst, was auf deinem Rechner passiert.
+
+---
+
+### **Was kommt als Nächstes?**
+Wir freuen uns über das große Interesse und werden uns bemühen, **regelmäßige Angebote** rund um Linux zu schaffen. Du möchtest mehr wissen oder hast Fragen? Schreib uns gerne eine E-Mail oder gib uns Rückmeldung – wir sind gespannt auf deine Meinung!
+
+**Falls du die Folien der Veranstaltung nochmal anschauen möchtest, findest du sie bald hier zum Download.**
+
+---
+*Foto: Linux Mint – einfach, sicher, kostenlos!*
+
+---
+**Was denkst du? Würdest du Linux mal ausprobieren?** 😊
