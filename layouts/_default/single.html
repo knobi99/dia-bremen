@@ -5,6 +5,12 @@
 
         <h1>{{ .Title }}</h1>
 
+        {{ with .Params.featured_image }}
+        <div class="article-image">
+            <img src="{{ . }}" alt="{{ $.Title }}">
+        </div>
+        {{ end }}
+
         {{ .Content }}
 
     </div>

@@ -2040,3 +2040,13 @@ body {
 .latest-articles h2 {
     margin-bottom: 25px;
 }
+.article-image {
+    margin: 30px 0;
+}
+
+.article-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
