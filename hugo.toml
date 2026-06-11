@@ -1,0 +1,32 @@
+baseURL = "https://dia-bremen.de/"
+title = "DiA Bremen"
+theme = "ananke"
+defaultContentLanguage = "de"
+
+[params]
+  site_logo = "images/dia-logo-komplett.png"
+
+[[menu.main]]
+name = "Start"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Digitale Impulse"
+url = "/impulse/"
+weight = 2
+
+[[menu.main]]
+name = "Termine"
+url = "/termine/"
+weight = 3
+
+[[menu.main]]
+name = "Über uns"
+url = "/ueber/"
+weight = 4
+
+[[menu.main]]
+name = "Kontakt"
+url = "/kontakt/"
+weight = 5
