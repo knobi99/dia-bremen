@@ -7,7 +7,11 @@ featured_image: "/images/linux_install.jpg"
 
 Linux Mint ist eine kostenlose, sichere und benutzerfreundliche Alternative zu Windows. Diese Anleitung zeigt, wie Sie es Schritt für Schritt installieren – ganz ohne Vorkenntnisse.
 
+<!--more-->
+
 ## Vorbereitung
+
+
 
 Bevor es losgeht, brauchen Sie Folgendes:
 

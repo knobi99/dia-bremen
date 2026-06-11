@@ -1,19 +1,22 @@
 ---
-title: "DiA Bremen"
-description: "Digital im Alter"
-
-featured_image: "/images/tanne25.jpg"
+title: "Digital im Alter Bremen-Nord"
 ---
 
-## Digital im Alter
+## Willkommen bei Digital im Alter Bremen-Nord
 
-Wir unterstützen ältere Menschen beim Umgang mit Smartphone, Tablet und Computer.
+Wir unterstützen ältere Menschen dabei, digitale Technologien sicher und selbstbewusst zu nutzen.
 
-### Unsere Angebote
+### Aktuelles & Termine
 
-- Digitale Impulse
-- Smartphone- und Tablet-Hilfe
-- Linux-Workshops
-- Unterstützung im Alltag
+Hier finden Sie aktuelle Termine und Veranstaltungen in Bremen-Nord: von Tablet-Kursen über Sprechstunden bis zu Informationsveranstaltungen.
 
-Informieren Sie sich über unsere Termine, Standorte und aktuellen Angebote.
+[Zu den Terminen](/termine/)
+
+### Digitaler Alltag
+
+Entdecken Sie, wie digitale Technologien Ihren Alltag bereichern können.
+
+[Zu den digitalen Tipps](/tipps/)
+
+
+

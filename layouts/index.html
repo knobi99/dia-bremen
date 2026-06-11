@@ -1,0 +1,47 @@
+{{ define "main" }}
+
+<div class="homepage">
+
+    {{ .Content }}
+
+    <section class="latest-articles">
+
+        <h2>Aktueller Digitaler Impuls</h2>
+
+        {{ with first 1 (where .Site.RegularPages "Section" "impulse") }}
+        {{ range . }}
+
+        <article class="page-item">
+
+            <h3>
+                <a href="{{ .RelPermalink }}">
+                    {{ .Title }}
+                </a>
+            </h3>
+
+            {{ if .Summary }}
+            <div class="summary">
+                {{ .Summary }}
+            </div>
+            {{ end }}
+
+            <p>
+                <a href="{{ .RelPermalink }}">
+                    Weiterlesen →
+                </a>
+            </p>
+
+        </article>
+
+        {{ end }}
+        {{ end }}
+
+        <p>
+            <a href="/impulse/">Alle Digitalen Impulse ansehen</a>
+        </p>
+
+     </section>  
+
+</div>
+
+{{ end }}
