@@ -38,7 +38,7 @@ Sprechstunden und Kurse in kleinen Gruppen. Hier findet auch die Kursanmeldung s
     nummer="3"
     name="Begegnungszentrum St. Magnus"
     typ="Sprechstunde"
-    adresse="Zum Alten Speicher 16, 28759 Bremen"
+    adresse="Unter den Linden 24, 28759 Bremen"
     zeiten="Jeden 1. und 3. Donnerstag · 15:00–17:00 Uhr"
 >}}
 Offene Sprechstunde im Begegnungszentrum – ohne Anmeldung, eigenes Gerät mitbringen.
@@ -99,7 +99,7 @@ Junge Digital Natives helfen geduldig. Kein Termin in den Schulferien!
 
   var standorte = [
     {
-      lat: 53.1853, lon: 8.7264,
+      lat: 53.1691, lon: 8.6942,
       name: "Stadtbibliothek Lesum",
       adresse: "Hindenburgstraße 31, 28717 Bremen",
       zeiten: "Jeden 2. + 4. Freitag · 11–13 Uhr"
@@ -111,9 +111,9 @@ Junge Digital Natives helfen geduldig. Kein Termin in den Schulferien!
       zeiten: "Jeden 2. + 4. Montag · 10–12 Uhr"
     },
     {
-      lat: 53.1748, lon: 8.7382,
+      lat: 53.1748, lon: 8.6619,
       name: "Begegnungszentrum St. Magnus",
-      adresse: "Zum Alten Speicher 16, 28759 Bremen",
+      adresse: "Unter den Linden 24, 28759 Bremen",
       zeiten: "Jeden 1. + 3. Donnerstag · 15–17 Uhr"
     },
     {
