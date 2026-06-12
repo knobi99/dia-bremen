@@ -14,8 +14,9 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     var pageHero = document.querySelector('.page-hero');
     if (pageHero) {
+        var seitenBild = pageHero.dataset.image || motiv;
         pageHero.style.backgroundImage =
-            'linear-gradient(rgba(0,0,0,0.38), rgba(0,0,0,0.38)), url(' + motiv + ')';
+            'linear-gradient(rgba(0,0,0,0.38), rgba(0,0,0,0.38)), url(' + seitenBild + ')';
     }
 
     // Burger Menu

@@ -163,15 +163,15 @@ img { max-width: 100%; height: auto; }
 
 /* ===== SEITEN-HERO (schlank, Unterseiten) ===== */
 .page-hero {
-    height: 160px;
+    height: 200px;
     background: linear-gradient(rgba(0,0,0,0.38), rgba(0,0,0,0.38));
     background-color: var(--hauptblau);
     background-size: cover;
-    background-position: center 40%;
+    background-position: center center;
 }
 
 @media (max-width: 600px) {
-    .page-hero { height: 110px; }
+    .page-hero { height: 130px; }
 }
 
 /* ===== HERO ===== */

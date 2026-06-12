@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<div class="page-hero" role="presentation" aria-hidden="true"></div>
+<div class="page-hero" role="presentation" aria-hidden="true"{{ with .Params.hero_image }} data-image="{{ . }}"{{ end }}></div>
 
 <section class="content-page">
     <div class="section-banner section-banner--gelb">
