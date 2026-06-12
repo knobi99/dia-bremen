@@ -59,7 +59,7 @@ Sprechstunde im Norden Bremens – bei Fragen vorab Klaus Martin anrufen.
     nummer="5"
     name="New Technology Guides – Nebelthau"
     typ="Workshop"
-    adresse="Nebelthauschule, Bremen"
+    adresse="Lesumer Heerstraße 38, 28717 Bremen"
     zeiten="Jeden 2. Freitag im Monat · 16:00–20:00 Uhr"
 >}}
 Junge Digital Natives helfen geduldig. Kein Termin in den Schulferien!
@@ -144,9 +144,9 @@ Apple iPad &amp; iPhone für Fortgeschrittene – eigenes Gerät mitbringen, Anm
       zeiten: "Jeden 1. + 3. Donnerstag · 10–12 Uhr"
     },
     {
-      lat: 53.0895, lon: 8.8298,
+      lat: 53.1737, lon: 8.6795,
       name: "New Technology Guides · Nebelthau",
-      adresse: "Nebelthauschule, Bremen",
+      adresse: "Lesumer Heerstraße 38, 28717 Bremen",
       zeiten: "Jeden 2. Freitag · 16–20 Uhr (keine Ferien)"
     },
     {

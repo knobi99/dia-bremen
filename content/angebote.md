@@ -67,7 +67,7 @@ Haben Sie Fragen zu Smartphone, Tablet oder Computer? Kommen Sie einfach vorbei 
     name="New Technology Guides – Nebelthau"
     datum="Den 2. Freitag im Monat"
     uhrzeit="Freitags 16:00–20:00 Uhr"
-    ort="Nebelthau-Gymnasium, Bremen"
+    ort="Nebelthau-Gymnasium, Lesumer Heerstraße 38, 28717 Bremen"
     anmeldung="Ohne Anmeldung"
     hinweis="In den Schulferien finden keine Termine statt!"
 >}}
