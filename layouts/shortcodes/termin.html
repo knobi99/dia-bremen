@@ -1,0 +1,35 @@
+{{ $typ := .Get "typ" | default "Sprechstunde" }}
+{{ $status := .Get "status" | default "offen" }}
+
+<div class="termin-karte">
+
+    <div class="termin-karte-kopf">
+        <span class="termin-typ termin-typ--{{ $typ | lower | replaceRE " " "-" }}">{{ $typ }}</span>
+        {{ if eq $status "ausgebucht" }}
+        <span class="termin-status termin-status--ausgebucht">✅ Ausgebucht</span>
+        {{ else if eq $status "neu" }}
+        <span class="termin-status termin-status--neu">🟢 Neu</span>
+        {{ else }}
+        <span class="termin-status termin-status--offen">🔄 Laufend</span>
+        {{ end }}
+    </div>
+
+    <h3 class="termin-name">{{ .Get "name" }}</h3>
+
+    <div class="termin-infos">
+        <div class="termin-info"><span>📅</span> <span>{{ .Get "datum" }}</span></div>
+        <div class="termin-info"><span>🕐</span> <span>{{ .Get "uhrzeit" }}</span></div>
+        <div class="termin-info"><span>📍</span> <span>{{ .Get "ort" }}</span></div>
+        <div class="termin-info"><span>👥</span> <span>{{ .Get "anmeldung" | default "Ohne Anmeldung" }}</span></div>
+        <div class="termin-info"><span>💰</span> <span>Kostenlos</span></div>
+    </div>
+
+    {{ with .Inner }}
+    <p class="termin-beschreibung">{{ . }}</p>
+    {{ end }}
+
+    {{ with .Get "hinweis" }}
+    <div class="termin-hinweis">💡 {{ . }}</div>
+    {{ end }}
+
+</div>

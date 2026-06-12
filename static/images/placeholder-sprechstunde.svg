@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+  <rect width="600" height="300" fill="#dcfce7" rx="12"/>
+  <!-- Zwei Personen nebeneinander -->
+  <circle cx="200" cy="95" r="48" fill="#16a34a" opacity="0.22"/>
+  <path d="M128 240 Q200 168 272 240 L280 300 L120 300 Z" fill="#16a34a" opacity="0.18"/>
+  <circle cx="360" cy="105" r="42" fill="#16a34a" opacity="0.18"/>
+  <path d="M298 250 Q360 182 422 250 L435 300 L285 300 Z" fill="#16a34a" opacity="0.14"/>
+  <!-- Sprechblase / Hilfesymbol -->
+  <rect x="218" y="170" width="64" height="46" rx="10" fill="#16a34a" opacity="0.2"/>
+  <polygon points="240,216 260,216 250,234" fill="#16a34a" opacity="0.2"/>
+  <text x="250" y="198" text-anchor="middle" font-size="20" fill="#166534" opacity="0.7" font-family="sans-serif">?</text>
+  <!-- Label -->
+  <rect x="155" y="255" width="290" height="32" rx="16" fill="#16a34a" opacity="0.15"/>
+  <text x="300" y="276" text-anchor="middle" font-size="13" fill="#166534" font-family="sans-serif">Foto: Offene Sprechstunde · Platzhalter</text>
+</svg>

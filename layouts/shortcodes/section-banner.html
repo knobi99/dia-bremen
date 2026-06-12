@@ -1,0 +1,9 @@
+<div class="section-banner section-banner--{{ .Get "farbe" | default "blau" }}">
+    <div class="section-banner-text">
+        <h2>{{ .Get "titel" }}</h2>
+        <p>{{ .Get "beschreibung" }}</p>
+    </div>
+    <div class="section-banner-bild">
+        <img src="{{ .Get "bild" }}" alt="{{ .Get "titel" }}" loading="lazy">
+    </div>
+</div>

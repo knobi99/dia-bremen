@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+  <rect width="600" height="300" fill="#dbeafe" rx="12"/>
+  <!-- Gruppe: 4 Personen im Halbkreis -->
+  <circle cx="130" cy="105" r="38" fill="#1a3a5c" opacity="0.18"/>
+  <path d="M76 240 Q130 182 184 240 L192 300 L68 300 Z" fill="#1a3a5c" opacity="0.15"/>
+  <circle cx="235" cy="88" r="44" fill="#1a3a5c" opacity="0.2"/>
+  <path d="M175 240 Q235 168 295 240 L305 300 L165 300 Z" fill="#1a3a5c" opacity="0.17"/>
+  <circle cx="360" cy="100" r="40" fill="#1a3a5c" opacity="0.17"/>
+  <path d="M302 245 Q360 178 418 245 L428 300 L292 300 Z" fill="#1a3a5c" opacity="0.14"/>
+  <!-- Trainerin vorne -->
+  <circle cx="468" cy="82" r="46" fill="#1a3a5c" opacity="0.22"/>
+  <path d="M406 245 Q468 172 530 245 L542 300 L394 300 Z" fill="#1a3a5c" opacity="0.18"/>
+  <!-- Whiteboard / Tablet-Symbol -->
+  <rect x="190" y="154" width="100" height="68" rx="6" fill="#1a3a5c" opacity="0.15"/>
+  <rect x="198" y="162" width="84" height="52" rx="4" fill="#1a3a5c" opacity="0.1"/>
+  <!-- Label -->
+  <rect x="150" y="258" width="300" height="32" rx="16" fill="#1a3a5c" opacity="0.12"/>
+  <text x="300" y="279" text-anchor="middle" font-size="13" fill="#1a3a5c" font-family="sans-serif">Foto: Kurs in kleiner Gruppe · Platzhalter</text>
+</svg>

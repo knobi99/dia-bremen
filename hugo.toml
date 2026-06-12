@@ -16,8 +16,8 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Termine"
-url = "/termine/"
+name = "Angebote"
+url = "/angebote/"
 weight = 2
 
 [[menu.main]]

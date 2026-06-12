@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d5a8e"/>
+      <stop offset="100%" style="stop-color:#4a7cb5"/>
+    </linearGradient>
+    <pattern id="dots" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="15" cy="15" r="1.5" fill="rgba(255,255,255,0.08)"/>
+    </pattern>
+  </defs>
+  <rect width="1400" height="500" fill="url(#bg)"/>
+  <rect width="1400" height="500" fill="url(#dots)"/>
+  <!-- Person 1 – Trainerin -->
+  <circle cx="750" cy="160" r="52" fill="rgba(255,255,255,0.18)"/>
+  <path d="M670 370 Q750 260 830 370 L850 500 L650 500 Z" fill="rgba(255,255,255,0.14)"/>
+  <!-- Person 2 – Teilnehmer -->
+  <circle cx="580" cy="180" r="44" fill="rgba(255,255,255,0.14)"/>
+  <path d="M510 370 Q580 280 650 370 L665 500 L495 500 Z" fill="rgba(255,255,255,0.11)"/>
+  <!-- Tablet in den Händen -->
+  <rect x="640" y="300" width="140" height="100" rx="10" fill="rgba(255,200,80,0.18)"/>
+  <rect x="650" y="308" width="120" height="76" rx="6" fill="rgba(255,200,80,0.12)"/>
+  <!-- Foto-Label -->
+  <rect x="540" y="430" width="320" height="40" rx="20" fill="rgba(0,0,0,0.25)"/>
+  <text x="700" y="456" text-anchor="middle" font-size="15" fill="rgba(255,255,255,0.75)" font-family="sans-serif" letter-spacing="1">Foto: Senioren beim Tablet-Kurs · Platzhalter</text>
+</svg>

@@ -14,7 +14,7 @@ Wir sind an mehreren Orten in Bremen-Nord für Sie da – kostenlos und ohne Anm
 
 ## Kurse vor Ort
 
-Unsere Kurse finden in kleinen Gruppen (max. 6 Personen) statt. Aktuelle Termine finden Sie auf der [Terminseite](/termine/).
+Unsere Kurse finden in kleinen Gruppen (max. 6 Personen) statt. Aktuelle Termine finden Sie auf der [Terminseite](/angebote/).
 
 ## Online-Kurse
 

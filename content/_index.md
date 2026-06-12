@@ -10,7 +10,7 @@ Wir unterstützen ältere Menschen dabei, digitale Technologien sicher und selbs
 
 Hier finden Sie aktuelle Termine und Veranstaltungen in Bremen-Nord: von Tablet-Kursen über Sprechstunden bis zu Informationsveranstaltungen.
 
-[Zu den Terminen](/termine/)
+[Zu den Terminen](/angebote/)
 
 ### Digitaler Alltag
 
