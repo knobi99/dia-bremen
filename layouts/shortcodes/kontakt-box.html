@@ -1,0 +1,10 @@
+<div class="kontakt-box kontakt-box--{{ .Get "farbe" | default "blau" }}">
+    <div class="kontakt-box-icon" aria-hidden="true">{{ .Get "icon" }}</div>
+    <h2 class="kontakt-box-titel">{{ .Get "titel" }}</h2>
+    {{ with .Get "hauptlink" }}
+    <a href="{{ . }}" class="kontakt-box-hauptinfo">{{ $.Get "hauptinfo" }}</a>
+    {{ else }}
+    <p class="kontakt-box-hauptinfo">{{ $.Get "hauptinfo" }}</p>
+    {{ end }}
+    <div class="kontakt-box-text">{{ .Inner | markdownify }}</div>
+</div>
