@@ -6,7 +6,7 @@ leaflet: true
 
 {{< section-banner
     titel="Unsere Standorte"
-    beschreibung="Wir sind an fünf Orten in Bremen-Nord für Sie da – kostenlos, ohne Anmeldung."
+    beschreibung="Wir sind an sieben Orten in Bremen-Nord für Sie da – kostenlos, ohne Anmeldung."
     bild="/images/placeholder-standorte.svg"
     farbe="tuerkis"
 >}}
@@ -65,6 +65,26 @@ Sprechstunde im Norden Bremens – bei Fragen vorab Klaus Martin anrufen.
 Junge Digital Natives helfen geduldig. Kein Termin in den Schulferien!
 {{< /standort >}}
 
+{{< standort
+    nummer="6"
+    name="Bürgerhaus Vegesack"
+    typ="Sprechstunde"
+    adresse="Kirchheide 49, 28757 Bremen"
+    zeiten="Bitte erfragen"
+>}}
+Das Gustav-Heinemann-Bürgerhaus im Herzen von Vegesack – aktuelle Zeiten auf Anfrage.
+{{< /standort >}}
+
+{{< standort
+    nummer="7"
+    name="Heimatverein Lesum"
+    typ="Sprechstunde"
+    adresse="Alter Schulhof 11, 28717 Bremen"
+    zeiten="Bitte erfragen"
+>}}
+Der Heimat- und Verschönerungsverein Bremen-Lesum – aktuelle Zeiten auf Anfrage.
+{{< /standort >}}
+
 </div>
 
 ---
@@ -82,7 +102,7 @@ Junge Digital Natives helfen geduldig. Kein Termin in den Schulferien!
 <script src="/js/leaflet.js"></script>
 <script>
 (function() {
-  var map = L.map('standorte-map').setView([53.178, 8.678], 12);
+  var map = L.map('standorte-map');
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>-Mitwirkende',
@@ -127,11 +147,23 @@ Junge Digital Natives helfen geduldig. Kein Termin in den Schulferien!
       name: "New Technology Guides · Nebelthau",
       adresse: "Nebelthauschule, Bremen",
       zeiten: "Jeden 2. Freitag · 16–20 Uhr (keine Ferien)"
+    },
+    {
+      lat: 53.1746, lon: 8.6181,
+      name: "Bürgerhaus Vegesack",
+      adresse: "Kirchheide 49, 28757 Bremen",
+      zeiten: "Bitte erfragen"
+    },
+    {
+      lat: 53.1688, lon: 8.6900,
+      name: "Heimatverein Lesum",
+      adresse: "Alter Schulhof 11, 28717 Bremen",
+      zeiten: "Bitte erfragen"
     }
   ];
 
-  standorte.forEach(function(s) {
-    L.marker([s.lat, s.lon], {icon: icon})
+  var markers = standorte.map(function(s) {
+    return L.marker([s.lat, s.lon], {icon: icon})
       .addTo(map)
       .bindPopup(
         '<strong style="font-size:16px;">' + s.name + '</strong>' +
@@ -139,6 +171,9 @@ Junge Digital Natives helfen geduldig. Kein Termin in den Schulferien!
         '<br>📅 ' + s.zeiten
       );
   });
+
+  var bounds = L.latLngBounds(standorte.map(function(s) { return [s.lat, s.lon]; }));
+  map.fitBounds(bounds, { padding: [40, 40] });
 })();
 </script>
 
