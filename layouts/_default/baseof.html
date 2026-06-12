@@ -3,8 +3,33 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ if .Title }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
-  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ else }}Digital im Alter Bremen-Nord – Digitale Kompetenzen für Senioren in Bremen-Nord.{{ end }}{{ end }}">
+
+  {{- $title := cond (not (eq .Title "")) (printf "%s | %s" .Title .Site.Title) .Site.Title }}
+  {{- $desc := or .Description .Site.Params.description "Digital im Alter Bremen-Nord – Digitale Kompetenzen für Senioren in Bremen-Nord." }}
+  {{- $ogImage := or .Params.featured_image .Params.image "/images/dia-logo-komplett.png" }}
+  {{- $canonical := .Permalink }}
+
+  <title>{{ $title }}</title>
+  <meta name="description" content="{{ $desc }}">
+  <link rel="canonical" href="{{ $canonical }}">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
+  <meta property="og:site_name" content="{{ .Site.Title }}">
+  <meta property="og:title" content="{{ $title }}">
+  <meta property="og:description" content="{{ $desc }}">
+  <meta property="og:url" content="{{ $canonical }}">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:image" content="{{ .Site.BaseURL | strings.TrimRight "/" }}{{ $ogImage }}">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ $title }}">
+  <meta name="twitter:description" content="{{ $desc }}">
+  <meta name="twitter:image" content="{{ .Site.BaseURL | strings.TrimRight "/" }}{{ $ogImage }}">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/images/favicon.png">
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="/css/footer-styles.css">

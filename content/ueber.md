@@ -1,5 +1,6 @@
 ---
 title: "Über uns"
+description: "Digital im Alter Bremen-Nord – ehrenamtliche Digital-Trainer helfen Senioren seit 2023 dabei, Smartphone, Tablet und Internet sicher zu nutzen."
 ---
 
 ## Was wir machen

@@ -1,5 +1,6 @@
 ---
 title: "Digital im Alter Bremen-Nord"
+description: "Kostenlose Tablet- und Smartphone-Kurse sowie Sprechstunden für Senioren in Bremen-Nord. Ehrenamtlich, ohne Vorkenntnisse, mit viel Geduld."
 ---
 
 ## Willkommen bei Digital im Alter Bremen-Nord
