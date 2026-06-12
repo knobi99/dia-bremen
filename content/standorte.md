@@ -79,9 +79,9 @@ Junge Digital Natives helfen geduldig. Kein Termin in den Schulferien!
   Tipp: Klicken Sie auf einen Marker für Adresse und Öffnungszeiten.
 </p>
 
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV/XN/WPeE=" crossorigin=""></script>
+<script src="/js/leaflet.js"></script>
 <script>
-document.addEventListener('DOMContentLoaded', function() {
+(function() {
   var map = L.map('standorte-map').setView([53.178, 8.678], 12);
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -139,7 +139,7 @@ document.addEventListener('DOMContentLoaded', function() {
         '<br>📅 ' + s.zeiten
       );
   });
-});
+})();
 </script>
 
 ---
