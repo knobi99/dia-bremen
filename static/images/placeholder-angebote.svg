@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+  <rect width="600" height="300" fill="#f5f3ff" rx="12"/>
+  <!-- Kalender -->
+  <rect x="60" y="55" width="180" height="175" rx="12" fill="#7c3aed" opacity="0.12"/>
+  <rect x="60" y="55" width="180" height="40" rx="12" fill="#7c3aed" opacity="0.2"/>
+  <rect x="60" y="80" width="180" height="15" fill="#7c3aed" opacity="0.2"/>
+  <!-- Kalenderringe -->
+  <rect x="100" y="44" width="12" height="24" rx="6" fill="#7c3aed" opacity="0.3"/>
+  <rect x="188" y="44" width="12" height="24" rx="6" fill="#7c3aed" opacity="0.3"/>
+  <!-- Kalender-Kästchen mit Haken -->
+  <rect x="76" y="106" width="30" height="28" rx="5" fill="#7c3aed" opacity="0.18"/>
+  <text x="91" y="125" text-anchor="middle" font-size="16" fill="#7c3aed" opacity="0.7" font-family="sans-serif">✓</text>
+  <rect x="115" y="106" width="30" height="28" rx="5" fill="#7c3aed" opacity="0.12"/>
+  <rect x="154" y="106" width="30" height="28" rx="5" fill="#7c3aed" opacity="0.18"/>
+  <text x="169" y="125" text-anchor="middle" font-size="16" fill="#7c3aed" opacity="0.7" font-family="sans-serif">✓</text>
+  <rect x="76" y="143" width="30" height="28" rx="5" fill="#7c3aed" opacity="0.12"/>
+  <rect x="115" y="143" width="30" height="28" rx="5" fill="#7c3aed" opacity="0.18"/>
+  <text x="130" y="162" text-anchor="middle" font-size="16" fill="#7c3aed" opacity="0.7" font-family="sans-serif">✓</text>
+  <rect x="154" y="143" width="30" height="28" rx="5" fill="#7c3aed" opacity="0.12"/>
+  <rect x="76" y="180" width="30" height="28" rx="5" fill="#7c3aed" opacity="0.18"/>
+  <text x="91" y="199" text-anchor="middle" font-size="16" fill="#7c3aed" opacity="0.7" font-family="sans-serif">✓</text>
+  <rect x="115" y="180" width="30" height="28" rx="5" fill="#7c3aed" opacity="0.12"/>
+  <!-- Person rechts -->
+  <circle cx="390" cy="100" r="52" fill="#7c3aed" opacity="0.13"/>
+  <path d="M318 260 Q390 178 462 260 L475 300 L305 300 Z" fill="#7c3aed" opacity="0.1"/>
+  <!-- zweite Person -->
+  <circle cx="500" cy="120" r="42" fill="#7c3aed" opacity="0.1"/>
+  <path d="M440 265 Q500 192 560 265 L570 300 L430 300 Z" fill="#7c3aed" opacity="0.08"/>
+  <!-- Label -->
+  <rect x="185" y="256" width="230" height="30" rx="15" fill="#7c3aed" opacity="0.1"/>
+  <text x="300" y="276" text-anchor="middle" font-size="13" fill="#5b21b6" font-family="sans-serif">Foto: Kurs-Atmosphäre · Platzhalter</text>
+</svg>

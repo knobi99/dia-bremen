@@ -720,6 +720,8 @@ img { max-width: 100%; height: auto; }
 .section-banner--blau    { background: #dbeafe; color: #1a3a5c; }
 .section-banner--orange  { background: #ffedd5; color: #c2410c; }
 .section-banner--tuerkis { background: #e0f2fe; color: #0369a1; }
+.section-banner--lila    { background: #f5f3ff; color: #7c3aed; }
+.section-banner--gelb    { background: #fefce8; color: #ca8a04; }
 
 .section-banner-text { flex: 1; }
 

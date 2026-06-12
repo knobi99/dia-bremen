@@ -1,9 +1,14 @@
 {{ define "main" }}
 
 <section class="content-page">
-    <div class="tipps-header">
-        <h1>{{ .Title }}</h1>
-        {{ with .Content }}<p class="tipps-intro">{{ . }}</p>{{ end }}
+    <div class="section-banner section-banner--gelb">
+        <div class="section-banner-text">
+            <h1>{{ .Title }}</h1>
+            {{ with .Content }}<p>{{ . }}</p>{{ end }}
+        </div>
+        <div class="section-banner-bild">
+            <img src="/images/placeholder-impulse.svg" alt="" loading="lazy">
+        </div>
     </div>
 
     <div class="tipps-grid">

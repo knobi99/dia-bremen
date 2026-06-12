@@ -3,7 +3,12 @@ title: "Angebote"
 description: "Sprechstunden, Kurse und Veranstaltungen von Digital im Alter Bremen-Nord – kostenlos in Bremen-Nord."
 ---
 
-Alle unsere Angebote sind **kostenlos** – einfach vorbeikommen, eigenes Gerät mitbringen.
+{{< section-banner
+    titel="Unsere Angebote"
+    beschreibung="Kostenlos, ohne Vorkenntnisse – einfach vorbeikommen oder anmelden."
+    bild="/images/placeholder-angebote.svg"
+    farbe="lila"
+>}}
 
 ---
 
