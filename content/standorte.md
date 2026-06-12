@@ -27,7 +27,7 @@ Offene Sprechstunde in der Bibliothek – einfach vorbeikommen, eigenes Gerät m
     nummer="2"
     name="SG Marßel"
     typ="Sprechstunde + Kurse"
-    adresse="Stader Landstraße 100, 28759 Bremen"
+    adresse="Stader Landstraße 100, 28719 Bremen"
     zeiten="Jeden 2. und 4. Montag · 10:00–12:00 Uhr"
     kontakt="Birgit Wencelides · 0157 73860418"
 >}}
@@ -126,9 +126,9 @@ Apple iPad &amp; iPhone für Fortgeschrittene – eigenes Gerät mitbringen, Anm
       zeiten: "Jeden 2. + 4. Freitag · 11–13 Uhr"
     },
     {
-      lat: 53.1672, lon: 8.7032,
+      lat: 53.1778, lon: 8.7294,
       name: "SG Marßel",
-      adresse: "Stader Landstraße 100, 28759 Bremen",
+      adresse: "Stader Landstraße 100, 28719 Bremen",
       zeiten: "Jeden 2. + 4. Montag · 10–12 Uhr"
     },
     {
