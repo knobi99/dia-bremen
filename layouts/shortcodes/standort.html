@@ -1,0 +1,25 @@
+<div class="standort-karte">
+    <div class="standort-karte-kopf">
+        <span class="standort-nummer">{{ .Get "nummer" }}</span>
+        <span class="standort-typ standort-typ--{{ .Get "typ" | default "sprechstunde" | lower | replaceRE " " "-" }}">{{ .Get "typ" | default "Sprechstunde" }}</span>
+    </div>
+    <h3 class="standort-name">{{ .Get "name" }}</h3>
+    <div class="standort-infos">
+        <div class="standort-info">
+            <span>📍</span>
+            <span>{{ .Get "adresse" }}</span>
+        </div>
+        <div class="standort-info">
+            <span>📅</span>
+            <span>{{ .Get "zeiten" }}</span>
+        </div>
+        {{ with .Get "kontakt" }}
+        <div class="standort-info">
+            <span>📞</span>
+            <span>{{ . }}</span>
+        </div>
+        {{ end }}
+    </div>
+    {{ with .Inner }}<p class="standort-beschreibung">{{ . }}</p>{{ end }}
+    <a href="/angebote/" class="standort-link">Zum Angebot →</a>
+</div>
