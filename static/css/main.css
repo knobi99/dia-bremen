@@ -161,6 +161,19 @@ img { max-width: 100%; height: auto; }
 .nav.open .burger-menu span:nth-child(2) { opacity: 0; }
 .nav.open .burger-menu span:nth-child(3) { transform: rotate(-45deg) translate(5px, -6px); }
 
+/* ===== SEITEN-HERO (schlank, Unterseiten) ===== */
+.page-hero {
+    height: 160px;
+    background: linear-gradient(rgba(0,0,0,0.38), rgba(0,0,0,0.38));
+    background-color: var(--hauptblau);
+    background-size: cover;
+    background-position: center 40%;
+}
+
+@media (max-width: 600px) {
+    .page-hero { height: 110px; }
+}
+
 /* ===== HERO ===== */
 .hero {
     background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45));
