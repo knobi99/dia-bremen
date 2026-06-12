@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ if .Title }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ else }}Digital im Alter Bremen-Nord – Digitale Kompetenzen für Senioren in Bremen-Nord.{{ end }}{{ end }}">
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="/css/footer-styles.css">
@@ -11,13 +12,16 @@
 </head>
 <body>
 
+  <a href="#main-content" class="skip-link">Zum Hauptinhalt springen</a>
+
   {{ partial "header.html" . }}
 
-  <main>
+  <main id="main-content">
     {{ block "main" . }}{{ end }}
   </main>
 
   {{ partial "footer.html" . }}
 
+  <script src="/js/site.js"></script>
 </body>
 </html>

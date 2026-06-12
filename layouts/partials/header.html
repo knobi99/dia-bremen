@@ -17,13 +17,17 @@
 <nav class="nav" role="navigation" aria-label="Hauptnavigation">
     <div class="nav-content">
 
+      <button class="burger-menu" aria-label="Menü öffnen" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
       <ul>
         {{ range .Site.Menus.main }}
           <li>
-            <a href="{{ .URL }}">{{ .Name }}</a>
+            <a href="{{ .URL }}"{{ if eq $.RelPermalink .URL }} aria-current="page"{{ end }}>{{ .Name }}</a>
           </li>
         {{ end }}
-</ul>
-     
+      </ul>
+
     </div>
 </nav>

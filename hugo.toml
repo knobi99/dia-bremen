@@ -5,6 +5,10 @@ defaultContentLanguage = "de"
 
 [params]
   site_logo = "images/dia-logo-komplett.png"
+  description = "Digital im Alter Bremen-Nord – Digitale Kompetenzen für Senioren in Bremen-Nord. Tablet- und Smartphone-Kurse in kleinen Gruppen mit viel Geduld."
+
+[markup.goldmark.renderer]
+  unsafe = true
 
 [[menu.main]]
 name = "Start"
@@ -12,18 +16,18 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Digitale Impulse"
-url = "/impulse/"
+name = "Termine"
+url = "/termine/"
 weight = 2
 
 [[menu.main]]
-name = "Termine"
-url = "/termine/"
+name = "Standorte"
+url = "/standorte/"
 weight = 3
 
 [[menu.main]]
-name = "Über uns"
-url = "/ueber/"
+name = "Digitale Impulse"
+url = "/impulse/"
 weight = 4
 
 [[menu.main]]

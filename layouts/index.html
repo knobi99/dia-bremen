@@ -1,47 +1,81 @@
 {{ define "main" }}
 
-<div class="homepage">
+<!-- Hero Section -->
+<section class="hero" id="start" role="banner">
+    <div class="hero-content">
+        <h1>Digital im Alter Bremen-Nord</h1>
+        <p>Bei uns lernen Sie den Umgang mit Smartphone, Tablet und Internet – ohne Fachchinesisch, mit viel Geduld und in kleinen Gruppen.</p>
+        <div class="hero-buttons">
+            <a href="/termine/" class="btn btn-primary">Jetzt Termin finden</a>
+        </div>
+    </div>
+</section>
 
-    {{ .Content }}
+<!-- Mission -->
+<div class="mission-strip">
+    <p>Niemand soll digital abgehängt werden.</p>
+</div>
 
-    <section class="latest-articles">
+<!-- Feature Boxes -->
+<section class="hauptangebote-zweispaltig" aria-labelledby="angebote-heading">
+    <h2 id="angebote-heading" class="visually-hidden">Unsere Hauptangebote</h2>
 
-        <h2>Aktueller Digitaler Impuls</h2>
+    <div class="angebot-box">
+        <div class="icon" aria-hidden="true">📅</div>
+        <h3>Kurse &amp; Termine</h3>
+        <p>Aktuelle Kurse, Sprechstunden und Veranstaltungen in Bremen-Nord – vor Ort, in kleinen Gruppen und kostenlos.</p>
+        <a href="/termine/" class="button">Alle Termine ansehen</a>
+    </div>
 
-        {{ with first 1 (where .Site.RegularPages "Section" "impulse") }}
-        {{ range . }}
+    <div class="angebot-box">
+        <div class="icon" aria-hidden="true">💡</div>
+        <h3>Digitale Impulse</h3>
+        <p>Themen aus der digitalen Welt – ehrlich erklärt von unseren Trainerinnen und Trainern. Was ist wichtig? Was können Sie ignorieren?</p>
+        <a href="/impulse/" class="button">Zu den Impulsen</a>
+    </div>
+</section>
 
-        <article class="page-item">
+<!-- Prominente Telefonnummer -->
+<section class="anruf-banner" aria-labelledby="anruf-heading">
+    <div class="anruf-inhalt">
+        <div class="anruf-icon" aria-hidden="true">📞</div>
+        <div class="anruf-text">
+            <h2 id="anruf-heading">Haben Sie Fragen? Rufen Sie uns an!</h2>
+            <a href="tel:+491781603960" class="anruf-nummer">0178 – 1603960</a>
+            <p>Mittwoch 10:00 – 11:00 Uhr &nbsp;·&nbsp; Wir beraten Sie gerne</p>
+        </div>
+    </div>
+</section>
 
-            <h3>
-                <a href="{{ .RelPermalink }}">
-                    {{ .Title }}
-                </a>
-            </h3>
-
-            {{ if .Summary }}
-            <div class="summary">
-                {{ .Summary }}
+<!-- Aktueller Artikel Teaser -->
+{{ with (first 1 (where .Site.RegularPages "Section" "impulse")) }}
+{{ range . }}
+<section class="artikel-teaser" aria-labelledby="teaser-heading">
+    <div class="teaser-container">
+        <div class="teaser-label" aria-hidden="true">💡 Aktueller Tipp</div>
+        <div class="teaser-inhalt">
+            {{ with .Params.featured_image }}
+            <div class="teaser-bild">
+                <img src="{{ . }}" alt="" loading="lazy">
             </div>
             {{ end }}
-
-            <p>
-                <a href="{{ .RelPermalink }}">
+            <div class="teaser-text">
+                <h2 id="teaser-heading">{{ .Title }}</h2>
+                <p class="teaser-datum">📅 {{ .Date.Format "02. January 2006" }}</p>
+                {{ with .Summary }}<p>{{ . }}</p>{{ end }}
+                <a href="{{ .RelPermalink }}" class="weiterlesen-link">
                     Weiterlesen →
                 </a>
-            </p>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
 
-        </article>
-
-        {{ end }}
-        {{ end }}
-
-        <p>
-            <a href="/impulse/">Alle Digitalen Impulse ansehen</a>
-        </p>
-
-     </section>  
-
+<!-- Link zu allen Tipps -->
+<div style="text-align:center; padding: 30px 20px 50px;">
+    <a href="/impulse/" class="btn btn-primary">Alle Tipps &amp; Anleitungen ansehen</a>
 </div>
 
 {{ end }}
