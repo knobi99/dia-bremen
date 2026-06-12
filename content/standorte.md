@@ -68,21 +68,22 @@ Junge Digital Natives helfen geduldig. Kein Termin in den Schulferien!
 {{< standort
     nummer="6"
     name="Bürgerhaus Vegesack"
-    typ="Sprechstunde"
+    typ="PC-Treff"
     adresse="Kirchheide 49, 28757 Bremen"
-    zeiten="Bitte erfragen"
+    zeiten="Jeden 2. und 4. Donnerstag · 10:30–12:30 Uhr"
 >}}
-Das Gustav-Heinemann-Bürgerhaus im Herzen von Vegesack – aktuelle Zeiten auf Anfrage.
+Offener PC-Treff – Fragen zu PC, Tablet und Smartphone, ohne Anmeldung.
 {{< /standort >}}
 
 {{< standort
     nummer="7"
     name="Heimatverein Lesum"
-    typ="Sprechstunde"
+    typ="Kurs"
     adresse="Alter Schulhof 11, 28717 Bremen"
-    zeiten="Bitte erfragen"
+    zeiten="Jeden 1. Montag im Monat · 10:30–12:00 Uhr"
+    kontakt="Anmeldung: 0421 6361262"
 >}}
-Der Heimat- und Verschönerungsverein Bremen-Lesum – aktuelle Zeiten auf Anfrage.
+Apple iPad &amp; iPhone für Fortgeschrittene – eigenes Gerät mitbringen, Anmeldung erforderlich.
 {{< /standort >}}
 
 </div>
@@ -152,13 +153,13 @@ Der Heimat- und Verschönerungsverein Bremen-Lesum – aktuelle Zeiten auf Anfra
       lat: 53.1746, lon: 8.6181,
       name: "Bürgerhaus Vegesack",
       adresse: "Kirchheide 49, 28757 Bremen",
-      zeiten: "Bitte erfragen"
+      zeiten: "Jeden 2. + 4. Donnerstag · 10:30–12:30 Uhr"
     },
     {
       lat: 53.1688, lon: 8.6900,
       name: "Heimatverein Lesum",
       adresse: "Alter Schulhof 11, 28717 Bremen",
-      zeiten: "Bitte erfragen"
+      zeiten: "Jeden 1. Montag · 10:30–12:00 Uhr (Apple-Kurs)"
     }
   ];
 

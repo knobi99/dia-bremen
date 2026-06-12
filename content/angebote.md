@@ -74,6 +74,17 @@ Haben Sie Fragen zu Smartphone, Tablet oder Computer? Kommen Sie einfach vorbei 
 Junge Digital Natives erklären geduldig Smartphone, Tablet und Computer – von Apps über E-Mail bis zur sicheren Internetnutzung.
 {{< /termin >}}
 
+{{< termin
+    typ="Sprechstunde"
+    name="PC-Treff Bürgerhaus Vegesack"
+    datum="Jeden 2. und 4. Donnerstag im Monat"
+    uhrzeit="Donnerstags 10:30–12:30 Uhr"
+    ort="Bürgerhaus Vegesack, Kirchheide 49"
+    anmeldung="Ohne Anmeldung"
+>}}
+Offener Austausch rund um PC, Tablet und Smartphone – Fragen willkommen, keine Vorkenntnisse nötig.
+{{< /termin >}}
+
 ---
 
 {{< section-banner
@@ -84,6 +95,18 @@ Junge Digital Natives erklären geduldig Smartphone, Tablet und Computer – von
 >}}
 
 Anmeldung bei Birgit Wencelides: 📞 [0157 73860418](tel:+4915773860418) · ✉ [hallo@dia-bremen.de](mailto:hallo@dia-bremen.de)
+
+{{< termin
+    typ="Kurs"
+    name="Apple iPad & iPhone für Fortgeschrittene"
+    datum="Jeden 1. Montag im Monat"
+    uhrzeit="Montags 10:30–12:00 Uhr"
+    ort="Heimatverein Lesum, Alter Schulhof 11"
+    anmeldung="Anmeldung erforderlich · max. 10 Personen"
+    hinweis="Anmeldung: 📞 0421 6361262 · Eigenes iPhone oder iPad mitbringen"
+>}}
+Für Apple-Nutzer, die ihre Kenntnisse vertiefen möchten – von Apps bis zu Sicherheitseinstellungen.
+{{< /termin >}}
 
 {{< termin
     typ="Kurs"
