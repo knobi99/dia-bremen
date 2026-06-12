@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 500">
+  <defs>
+    <linearGradient id="sky2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#6ba3c8"/>
+      <stop offset="100%" style="stop-color:#b8d4e8"/>
+    </linearGradient>
+    <linearGradient id="water2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3a7a9e"/>
+      <stop offset="100%" style="stop-color:#1a4a6a"/>
+    </linearGradient>
+    <linearGradient id="ufer" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a7a3a"/>
+      <stop offset="100%" style="stop-color:#2a4a22"/>
+    </linearGradient>
+  </defs>
+  <!-- Himmel -->
+  <rect width="1400" height="500" fill="url(#sky2)"/>
+  <!-- Wolken -->
+  <ellipse cx="300" cy="90" rx="160" ry="52" fill="rgba(255,255,255,0.22)"/>
+  <ellipse cx="420" cy="72" rx="100" ry="36" fill="rgba(255,255,255,0.18)"/>
+  <ellipse cx="800" cy="110" rx="120" ry="40" fill="rgba(255,255,255,0.2)"/>
+  <ellipse cx="1100" cy="80" rx="180" ry="55" fill="rgba(255,255,255,0.18)"/>
+  <ellipse cx="1250" cy="65" rx="110" ry="38" fill="rgba(255,255,255,0.15)"/>
+  <!-- Fernes Ufer / Horizont Baumreihe -->
+  <path d="M0 230 Q200 210 400 225 Q600 215 800 228 Q1000 218 1200 224 Q1300 220 1400 226 L1400 260 L0 260 Z" fill="#2a4a22" opacity="0.55"/>
+  <!-- Einzelne Bäume fern -->
+  <rect x="150" y="192" width="8" height="38" fill="#1a3a18" opacity="0.5"/>
+  <ellipse cx="154" cy="188" rx="22" ry="28" fill="#3a6a2a" opacity="0.45"/>
+  <rect x="340" y="185" width="8" height="44" fill="#1a3a18" opacity="0.5"/>
+  <ellipse cx="344" cy="180" rx="26" ry="32" fill="#3a6a2a" opacity="0.45"/>
+  <rect x="780" y="190" width="8" height="40" fill="#1a3a18" opacity="0.5"/>
+  <ellipse cx="784" cy="185" rx="24" ry="30" fill="#3a6a2a" opacity="0.45"/>
+  <rect x="1060" y="188" width="8" height="42" fill="#1a3a18" opacity="0.5"/>
+  <ellipse cx="1064" cy="183" rx="25" ry="30" fill="#3a6a2a" opacity="0.45"/>
+  <rect x="1280" y="194" width="7" height="35" fill="#1a3a18" opacity="0.5"/>
+  <ellipse cx="1283" cy="190" rx="20" ry="26" fill="#3a6a2a" opacity="0.45"/>
+  <!-- Weser Wasser -->
+  <rect x="0" y="255" width="1400" height="245" fill="url(#water2)"/>
+  <!-- Wellenmuster -->
+  <path d="M0 280 Q175 268 350 280 Q525 292 700 280 Q875 268 1050 280 Q1225 292 1400 280" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="3"/>
+  <path d="M0 310 Q200 298 400 310 Q600 322 800 310 Q1000 298 1200 310 Q1300 316 1400 310" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="2"/>
+  <path d="M0 345 Q175 333 350 345 Q525 357 700 345 Q875 333 1050 345 Q1225 357 1400 345" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+  <!-- Vorderes Ufer links – Gras + Schilf -->
+  <path d="M0 440 Q100 420 300 435 Q500 445 700 432 Q900 420 1100 435 Q1250 445 1400 430 L1400 500 L0 500 Z" fill="url(#ufer)"/>
+  <!-- Schilfpflanzen -->
+  <line x1="80" y1="435" x2="78" y2="388" stroke="#2a4a22" stroke-width="3" opacity="0.6"/>
+  <ellipse cx="78" cy="384" rx="5" ry="14" fill="#3a5a22" opacity="0.5"/>
+  <line x1="105" y1="440" x2="103" y2="392" stroke="#2a4a22" stroke-width="3" opacity="0.6"/>
+  <ellipse cx="103" cy="388" rx="5" ry="14" fill="#3a5a22" opacity="0.5"/>
+  <line x1="1300" y1="432" x2="1298" y2="386" stroke="#2a4a22" stroke-width="3" opacity="0.6"/>
+  <ellipse cx="1298" cy="382" rx="5" ry="14" fill="#3a5a22" opacity="0.5"/>
+  <!-- Segelboot -->
+  <polygon points="700,310 700,190 760,310" fill="rgba(255,255,255,0.3)"/>
+  <polygon points="700,310 700,230 655,310" fill="rgba(255,255,255,0.2)"/>
+  <line x1="700" y1="185" x2="700" y2="320" stroke="rgba(200,160,100,0.5)" stroke-width="3"/>
+  <ellipse cx="700" cy="316" rx="44" ry="8" fill="#1a3a5a" opacity="0.5"/>
+</svg>

@@ -163,9 +163,10 @@ img { max-width: 100%; height: auto; }
 
 /* ===== HERO ===== */
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-                url('/images/placeholder-hero.svg') center 30% / cover no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45));
     background-color: var(--hauptblau);
+    background-size: cover;
+    background-position: center 30%;
     min-height: 420px;
     display: flex;
     align-items: center;

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 500">
+  <defs>
+    <linearGradient id="sky3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a3a6a"/>
+      <stop offset="50%" style="stop-color:#4a78a8"/>
+      <stop offset="100%" style="stop-color:#8ab0c8"/>
+    </linearGradient>
+    <linearGradient id="boden" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a6a3a"/>
+      <stop offset="100%" style="stop-color:#2a3a1a"/>
+    </linearGradient>
+  </defs>
+  <!-- Himmel Morgenrot -->
+  <rect width="1400" height="500" fill="url(#sky3)"/>
+  <!-- Morgenwolken -->
+  <ellipse cx="200" cy="120" rx="180" ry="50" fill="rgba(255,200,120,0.15)"/>
+  <ellipse cx="350" cy="95" rx="120" ry="40" fill="rgba(255,220,150,0.12)"/>
+  <ellipse cx="1000" cy="110" rx="200" ry="55" fill="rgba(255,200,120,0.13)"/>
+  <ellipse cx="1200" cy="85" rx="140" ry="44" fill="rgba(255,220,150,0.1)"/>
+  <!-- Sterne (Morgendämmerung) -->
+  <circle cx="600" cy="50" r="2" fill="rgba(255,255,255,0.4)"/>
+  <circle cx="800" cy="35" r="2" fill="rgba(255,255,255,0.35)"/>
+  <circle cx="1100" cy="55" r="1.5" fill="rgba(255,255,255,0.3)"/>
+  <circle cx="400" cy="40" r="1.5" fill="rgba(255,255,255,0.3)"/>
+  <!-- Baumreihe links -->
+  <rect x="30" y="240" width="12" height="160" fill="#1a2a12" opacity="0.7"/>
+  <ellipse cx="36" cy="232" rx="38" ry="55" fill="#2a4a1a" opacity="0.6"/>
+  <rect x="100" y="255" width="10" height="145" fill="#1a2a12" opacity="0.65"/>
+  <ellipse cx="105" cy="248" rx="32" ry="46" fill="#2a4a1a" opacity="0.55"/>
+  <rect x="160" y="248" width="11" height="152" fill="#1a2a12" opacity="0.65"/>
+  <ellipse cx="165" cy="240" rx="35" ry="50" fill="#2a4a1a" opacity="0.58"/>
+  <!-- Baumreihe rechts -->
+  <rect x="1170" y="245" width="11" height="155" fill="#1a2a12" opacity="0.65"/>
+  <ellipse cx="1175" cy="237" rx="34" ry="50" fill="#2a4a1a" opacity="0.58"/>
+  <rect x="1245" y="252" width="10" height="148" fill="#1a2a12" opacity="0.62"/>
+  <ellipse cx="1250" cy="244" rx="30" ry="44" fill="#2a4a1a" opacity="0.55"/>
+  <rect x="1310" y="242" width="12" height="158" fill="#1a2a12" opacity="0.67"/>
+  <ellipse cx="1316" cy="234" rx="36" ry="52" fill="#2a4a1a" opacity="0.6"/>
+  <!-- Kirchenschiff -->
+  <rect x="560" y="280" width="280" height="150" fill="#1a2a3a" opacity="0.8"/>
+  <!-- Kirchenturm -->
+  <rect x="640" y="155" width="120" height="180" fill="#1a2a3a" opacity="0.85"/>
+  <!-- Turm-Spitze -->
+  <polygon points="700,60 640,155 760,155" fill="#1a2a3a" opacity="0.88"/>
+  <!-- Kreuz auf dem Turm -->
+  <line x1="700" y1="62" x2="700" y2="92" stroke="rgba(255,210,100,0.5)" stroke-width="4"/>
+  <line x1="686" y1="74" x2="714" y2="74" stroke="rgba(255,210,100,0.5)" stroke-width="4"/>
+  <!-- Kirchenfenster -->
+  <ellipse cx="700" cy="200" rx="16" ry="22" fill="rgba(255,200,80,0.3)"/>
+  <rect x="690" y="198" width="20" height="22" fill="rgba(255,200,80,0.25)"/>
+  <!-- Rundfenster Schiff -->
+  <ellipse cx="620" cy="310" rx="22" ry="22" fill="rgba(255,200,80,0.2)"/>
+  <ellipse cx="780" cy="310" rx="22" ry="22" fill="rgba(255,200,80,0.2)"/>
+  <!-- Portal -->
+  <ellipse cx="700" cy="430" rx="30" ry="35" fill="rgba(255,200,80,0.15)"/>
+  <rect x="672" y="400" width="56" height="30" fill="rgba(255,200,80,0.15)"/>
+  <!-- Morgenlicht Halo hinter Turm -->
+  <ellipse cx="700" cy="200" rx="120" ry="120" fill="rgba(255,180,60,0.06)"/>
+  <!-- Boden / Wiese -->
+  <rect x="0" y="420" width="1400" height="80" fill="url(#boden)"/>
+  <!-- Weg zur Kirche -->
+  <polygon points="660,500 740,500 720,422 680,422" fill="rgba(200,180,140,0.3)"/>
+  <!-- Häuser im Hintergrund links -->
+  <rect x="300" y="330" width="80" height="90" fill="#1a2a2a" opacity="0.5"/>
+  <polygon points="300,330 380,330 340,290" fill="#1a2a2a" opacity="0.5"/>
+  <rect x="390" y="345" width="70" height="75" fill="#1a2a2a" opacity="0.45"/>
+  <polygon points="390,345 460,345 425,312" fill="#1a2a2a" opacity="0.45"/>
+  <!-- Häuser rechts -->
+  <rect x="950" y="335" width="75" height="85" fill="#1a2a2a" opacity="0.48"/>
+  <polygon points="950,335 1025,335 987,298" fill="#1a2a2a" opacity="0.48"/>
+  <rect x="1035" y="348" width="80" height="72" fill="#1a2a2a" opacity="0.44"/>
+  <polygon points="1035,348 1115,348 1075,315" fill="#1a2a2a" opacity="0.44"/>
+</svg>

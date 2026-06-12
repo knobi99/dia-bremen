@@ -1,4 +1,18 @@
 document.addEventListener('DOMContentLoaded', function () {
+    // Zufälliges Hero-Motiv aus Bremen-Nord
+    var hero = document.querySelector('.hero');
+    if (hero) {
+        var motive = [
+            '/images/hero-hafen.svg',
+            '/images/hero-weser.svg',
+            '/images/hero-kirche.svg',
+            '/images/hero-natur.svg'
+        ];
+        var motiv = motive[Math.floor(Math.random() * motive.length)];
+        hero.style.backgroundImage =
+            'linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url(' + motiv + ')';
+    }
+
     // Burger Menu
     var burger = document.querySelector('.burger-menu');
     var nav = document.querySelector('.nav');
