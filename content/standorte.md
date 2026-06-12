@@ -1,6 +1,7 @@
 ---
 title: "Standorte in Bremen-Nord"
 description: "Alle Standorte von Digital im Alter Bremen-Nord – Sprechstunden und Kurse in Ihrer Nähe in Bremen-Nord."
+leaflet: true
 ---
 
 {{< section-banner
@@ -70,8 +71,6 @@ Junge Digital Natives helfen geduldig. Kein Termin in den Schulferien!
 
 ## Karte
 
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
-
 <div class="leaflet-container-wrapper">
   <div id="standorte-map" role="region" aria-label="Karte der Standorte in Bremen-Nord"></div>
 </div>
@@ -82,7 +81,7 @@ Junge Digital Natives helfen geduldig. Kein Termin in den Schulferien!
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV/XN/WPeE=" crossorigin=""></script>
 <script>
-(function() {
+document.addEventListener('DOMContentLoaded', function() {
   var map = L.map('standorte-map').setView([53.178, 8.678], 12);
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -140,7 +139,7 @@ Junge Digital Natives helfen geduldig. Kein Termin in den Schulferien!
         '<br>📅 ' + s.zeiten
       );
   });
-})();
+});
 </script>
 
 ---
