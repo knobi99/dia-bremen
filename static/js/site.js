@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Zufälliges Hero-Motiv aus Bremen-Nord
     var motive = [
-        '/images/hero-hafen.svg',
-        '/images/hero-weser.svg',
-        '/images/hero-kirche.svg',
-        '/images/hero-natur.svg'
+        '/images/hero-hafen.jpg',
+        '/images/hero-weser.jpg',
+        '/images/hero-kirche.jpg',
+        '/images/hero-natur.jpg'
     ];
     var motiv = motive[Math.floor(Math.random() * motive.length)];
     var hero = document.querySelector('.hero');
