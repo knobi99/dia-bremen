@@ -1,0 +1,8 @@
+{{ with .Site.Params.ankuendigung }}
+  {{ if .aktiv }}
+  <div class="ankuendigung" role="alert">
+    <span class="ankuendigung-icon" aria-hidden="true">📢</span>
+    <p>{{ .text }}</p>
+  </div>
+  {{ end }}
+{{ end }}

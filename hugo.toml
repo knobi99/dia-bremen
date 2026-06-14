@@ -7,6 +7,10 @@ defaultContentLanguage = "de"
   site_logo = "images/dia-logo-komplett.png"
   description = "Digital im Alter Bremen-Nord – Digitale Kompetenzen für Senioren in Bremen-Nord. Tablet- und Smartphone-Kurse in kleinen Gruppen mit viel Geduld."
 
+[params.ankuendigung]
+  aktiv = true
+  text = "Wir machen Sommerpause vom 15. Juli bis 31. August 2026. Ab September sind wir wieder für Sie da!"
+
 [markup.goldmark.renderer]
   unsafe = true
 

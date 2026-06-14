@@ -242,6 +242,24 @@ img { max-width: 100%; height: auto; }
     transform: translateY(-2px);
 }
 
+/* ===== ANKÜNDIGUNG ===== */
+.ankuendigung {
+    background: var(--warmes-orange, #e87722);
+    color: white;
+    text-align: center;
+    padding: 14px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 12px 20px;
+    border-radius: 8px;
+}
+.ankuendigung p { margin: 0; }
+.ankuendigung-icon { font-size: 22px; flex-shrink: 0; }
+
 /* Hero-Button: Outline-Stil auf Fotohintergrund */
 .hero .btn-primary {
     background: transparent;
