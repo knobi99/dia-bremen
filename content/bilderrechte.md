@@ -12,6 +12,7 @@ Alle auf dieser Website verwendeten Bilder sind entweder eigenes Material des Pr
 | Linux Mint Installation | Eigenes Screenshot-Material |
 | Windows 10 Ende | Eigenes Material |
 | ePA-Illustration | Eigenes Material |
+| WhastApp | lizenzfreie Datei |
 
 ---
 
