@@ -16,7 +16,7 @@ leaflet: true
 {{< standort
     nummer="1"
     name="Stadtbibliothek Lesum"
-    typ="Sprechstunde"
+    typ="Sprechstunde + Kurs"
     adresse="Hindenburgstraße 31, 28717 Bremen"
     zeiten="Jeden 2. und 4. Freitag · 11:00–13:00 Uhr"
 >}}
