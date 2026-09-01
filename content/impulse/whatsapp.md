@@ -2,6 +2,7 @@
 title: "WhatsApp – Der Messenger für alle Generationen"
 date: 2026-03-03
 description: "Was WhatsApp ist, wie es funktioniert und wie Sie sicher damit umgehen."
+featured_image: "/images/whatsapp-logo.jpg"
 ---
 
 WhatsApp ist heute aus unserem Alltag kaum noch wegzudenken. Ob Nachrichten an die Familie, Fotos von den Enkeln oder die Organisation in der Sportgruppe – über 2 Milliarden Menschen weltweit nutzen den Messenger täglich. Aber was macht WhatsApp so besonders? Und wie können auch Sie sicher damit umgehen?

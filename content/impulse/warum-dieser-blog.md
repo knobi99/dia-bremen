@@ -2,6 +2,7 @@
 title: "Warum dieser Blog?"
 date: 2025-12-28
 description: "Warum wir über digitale Themen schreiben – und für wen."
+featured_image: "/images/blog.jpg"
 ---
 
 Es ist Donnerstagnachmittag, kurz nach drei. In der Sprechstunde sitzt uns Hertha gegenüber, 72 Jahre alt, und fragt zum dritten Mal, wie sie ein Foto an ihre Enkelin schicken kann. Nicht weil sie es vergessen hätte – sondern weil sie sich nicht traut, es alleine zu versuchen. „Ich will nichts kaputt machen", sagt sie leise. Und genau in diesem Moment wird uns wieder klar: Es geht nicht nur um Technik. Es geht um Mut, um Teilhabe, um das Gefühl, dazuzugehören in einer Welt, die immer digitaler wird.

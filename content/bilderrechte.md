@@ -12,7 +12,11 @@ Alle auf dieser Website verwendeten Bilder sind entweder eigenes Material des Pr
 | Linux Mint Installation | Eigenes Screenshot-Material |
 | Windows 10 Ende | Eigenes Material |
 | ePA-Illustration | Eigenes Material |
-| WhastApp | lizenzfreie Datei |
+| WhatsApp | lizenzfreie Datei |
+| Linux-Tux | lizenzfreie Datei |
+| New Technology Guides | Eigenes Material |
+| Blog-Titelbild | lizenzfreie Datei |
+| Patientenakte | lizenzfreie Datei |
 
 ---
 

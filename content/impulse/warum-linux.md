@@ -2,7 +2,7 @@
 title: "Warum Linux?"
 date: 2026-03-03
 description: "Warum immer mehr Menschen von Windows auf Linux umsteigen."
-image: "/images/linuxmint-5.jpg"
+image: "/images/linux-tux.jpg"
 ---
 
 ## Ein Thema, das begeistert!

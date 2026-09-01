@@ -2,6 +2,7 @@
 title: "New Technology Guides am Nebelthau-Gymnasium Bremen"
 date: 2026-01-14
 description: "Schülerinnen und Schüler helfen Senioren bei Smartphone, Tablet und Computer – kostenlos und geduldig."
+featured_image: "/images/newtech.jpg"
 ---
 
 Am Nebelthau-Gymnasium Bremen hat sich eine besondere Initiative etabliert, die Generationen verbindet: die New Technology Guides. Bei diesem Projekt engagieren sich Schülerinnen und Schüler ehrenamtlich, um Seniorinnen und Senioren bei technischen Herausforderungen kostenlos zur Seite zu stehen.

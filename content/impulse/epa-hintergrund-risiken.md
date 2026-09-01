@@ -3,6 +3,7 @@ title: "Die elektronische Patientenakte – Nutzen, Risiken und offene Fragen"
 date: 2026-04-21
 description: "Die ePA im kritischen Blick: echte Vorteile, bekannte Sicherheitslücken und offene Fragen zur digitalen Souveränität."
 tags: ["Datenschutz"]
+featured_image: "/images/patientenakte.jpg"
 ---
 
 Die elektronische Patientenakte (ePA) ist seit 2025 für alle da – automatisch, ohne Anfrage. Was steckt dahinter? Welche echten Vorteile bringt sie? Und warum warnen Experten gleichzeitig vor ernsthaften Risiken? Ein nüchterner Blick auf beide Seiten.
