@@ -35,7 +35,7 @@ Individuelle Hilfe bei Problemen mit Smartphone, Tablet oder Computer. Einfach v
     typ="Sprechstunde"
     name="Digitale Sprechstunde Marßel"
     datum="Jeden 2. und 4. Montag im Monat"
-    uhrzeit="Montags 10:00–12:00 Uhr"
+    uhrzeit="Montags 10:00–11:30 Uhr"
     ort="SG Marßel, Stader Landstraße 100"
     anmeldung="Ohne Anmeldung"
     hinweis="Bringen Sie Ihr eigenes Gerät mit."
@@ -99,8 +99,6 @@ Offener Austausch rund um PC, Tablet und Smartphone – Fragen willkommen, keine
     farbe="blau"
 >}}
 
-Anmeldung bei Birgit Wencelides: 📞 [0157 73860418](tel:+4915773860418) · ✉ [hallo@dia-bremen.de](mailto:hallo@dia-bremen.de)
-
 {{< termin
     typ="Kurs"
     name="Apple iPad & iPhone für Fortgeschrittene"
@@ -116,7 +114,7 @@ Für Apple-Nutzer, die ihre Kenntnisse vertiefen möchten – von Apps bis zu Si
 {{< termin
     typ="Kurs"
     name="Tablet-Kurs für Anfänger"
-    datum="Ab 20. Januar 2026 · 10 Termine"
+    datum="Ab 29. September 2026 · 10 Termine"
     uhrzeit="Dienstags 15:30–17:30 Uhr"
     ort="SG Marßel, Stader Landstraße 100"
     anmeldung="Anmeldung erforderlich · max. 6 Personen"
@@ -124,6 +122,19 @@ Für Apple-Nutzer, die ihre Kenntnisse vertiefen möchten – von Apps bis zu Si
     hinweis="Anmeldung bei Birgit Wencelides: 📞 0157 73860418"
 >}}
 Grundlagen im Umgang mit Tablets, Internet-Sicherheit, sichere Passwörter und Schutz vor Betrug.
+{{< /termin >}}
+
+{{< termin
+    typ="Kurs"
+    name="Tablet-Kurs für Einsteiger"
+    datum="Ab 23. Oktober 2026 · 10 Termine"
+    uhrzeit="Mittwochs 10:00–11:30 Uhr"
+    ort="Stadtbibliothek Lesum, Hindenburgstraße 31, 28717 Bremen"
+    anmeldung="Anmeldung erforderlich · max. 6 Personen"
+    status="neu"
+    hinweis="Anmeldung: 📞 0421 361-7142 (Stadtbibliothek Lesum) – bitte Kontaktdaten hinterlassen, wir rufen zurück"
+>}}
+In 10 Terminen lernen Sie Schritt für Schritt den Umgang mit dem Apple iPad. Das Beste: Für die Dauer der Schulung stellen wir Ihnen das Gerät kostenlos zur Verfügung.
 {{< /termin >}}
 
 ---
@@ -134,19 +145,6 @@ Grundlagen im Umgang mit Tablets, Internet-Sicherheit, sichere Passwörter und S
     bild="/images/placeholder-veranstaltung.svg"
     farbe="orange"
 >}}
-
-{{< termin
-    typ="Workshop"
-    name="WhatsApp sicher nutzen"
-    datum="Donnerstag, 4. Juni 2026"
-    uhrzeit="15:00 Uhr (ca. 90 Minuten)"
-    ort="SG Marßel, Stader Landstraße 100"
-    anmeldung="Anmeldung empfohlen"
-    status="neu"
-    hinweis="Anmeldung bei Birgit Wencelides: 📞 0157 73860418"
->}}
-Nachrichten schreiben, Fotos teilen, Sprachnachrichten und Gruppen – speziell für Einsteiger.
-{{< /termin >}}
 
 ---
 
