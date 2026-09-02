@@ -128,7 +128,7 @@ Grundlagen im Umgang mit Tablets, Internet-Sicherheit, sichere Passwörter und S
     typ="Kurs"
     name="Tablet-Kurs für Einsteiger"
     datum="Ab 23. Oktober 2026 · 10 Termine"
-    uhrzeit="Mittwochs 10:00–11:30 Uhr"
+    uhrzeit="Mittwochs 10:30–12:00 Uhr"
     ort="Stadtbibliothek Lesum, Hindenburgstraße 31, 28717 Bremen"
     anmeldung="Anmeldung erforderlich · max. 6 Personen"
     status="neu"
