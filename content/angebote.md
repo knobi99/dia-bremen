@@ -118,7 +118,7 @@ Für Apple-Nutzer, die ihre Kenntnisse vertiefen möchten – von Apps bis zu Si
     uhrzeit="Dienstags 15:30–17:30 Uhr"
     ort="SG Marßel, Stader Landstraße 100"
     anmeldung="Anmeldung erforderlich · max. 6 Personen"
-    status="ausgebucht"
+    status="neu"
     hinweis="Anmeldung bei Birgit Wencelides: 📞 0157 73860418"
 >}}
 Grundlagen im Umgang mit Tablets, Internet-Sicherheit, sichere Passwörter und Schutz vor Betrug.
