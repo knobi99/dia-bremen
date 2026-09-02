@@ -19,6 +19,8 @@ Beim Besuch dieser Website werden vom Hosting-Anbieter automatisch Informationen
 
 Diese Website setzt **keine Tracking-Cookies** ein und verwendet **keine Analyse-Tools** wie Google Analytics.
 
+Zur anonymen Besucherstatistik nutzen wir **GoatCounter**, ein datenschutzfreundliches Open-Source-Tool. Es wird ausschließlich auf eigener Infrastruktur betrieben (kein US-Anbieter, keine Weitergabe an Dritte), setzt keine Cookies und speichert keine personenbezogenen Daten wie vollständige IP-Adressen. Es werden lediglich aggregierte Informationen wie aufgerufene Seiten, ungefähre Herkunft und verwendeter Browsertyp erfasst.
+
 ---
 
 ## 3. Kontaktaufnahme
