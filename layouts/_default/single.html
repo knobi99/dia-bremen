@@ -5,7 +5,7 @@
 <article class="content-page">
     <div class="content-wrapper">
 
-        <h1>{{ .Title }}</h1>
+        <h1>{{ .Params.h1 | default .Title }}</h1>
 
         {{ $img := or .Params.featured_image .Params.image }}
         {{ with $img }}

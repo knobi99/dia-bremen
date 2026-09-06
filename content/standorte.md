@@ -19,6 +19,8 @@ leaflet: true
     typ="Sprechstunde + Kurs"
     adresse="Hindenburgstraße 31, 28717 Bremen"
     zeiten="Jeden 2. und 4. Freitag · 11:00–13:00 Uhr"
+    link="/standorte/lesum/"
+    linktext="Mehr über Lesum →"
 >}}
 Offene Sprechstunde in der Bibliothek – einfach vorbeikommen, eigenes Gerät mitbringen.
 {{< /standort >}}
@@ -28,8 +30,10 @@ Offene Sprechstunde in der Bibliothek – einfach vorbeikommen, eigenes Gerät m
     name="SG Marßel"
     typ="Sprechstunde + Kurse"
     adresse="Stader Landstraße 100, 28719 Bremen"
-    zeiten="Jeden 2. und 4. Montag · 10:00–12:00 Uhr"
+    zeiten="Jeden 2. und 4. Montag · 10:00–11:30 Uhr"
     kontakt="Birgit Wencelides · 0157 73860418"
+    link="/standorte/marssel/"
+    linktext="Mehr über Marßel →"
 >}}
 Sprechstunden und Kurse in kleinen Gruppen. Hier findet auch die Kursanmeldung statt.
 {{< /standort >}}
@@ -40,6 +44,8 @@ Sprechstunden und Kurse in kleinen Gruppen. Hier findet auch die Kursanmeldung s
     typ="Sprechstunde"
     adresse="Unter den Linden 24, 28759 Bremen"
     zeiten="Jeden 1. und 3. Donnerstag · 15:00–17:00 Uhr"
+    link="/standorte/st-magnus/"
+    linktext="Mehr über St. Magnus →"
 >}}
 Offene Sprechstunde im Begegnungszentrum – ohne Anmeldung, eigenes Gerät mitbringen.
 {{< /standort >}}
@@ -51,6 +57,8 @@ Offene Sprechstunde im Begegnungszentrum – ohne Anmeldung, eigenes Gerät mitb
     adresse="Rönnebecker Straße, 28779 Bremen-Farge"
     zeiten="Jeden 1. und 3. Donnerstag · 10:00–12:00 Uhr"
     kontakt="Klaus Martin · 0152 34284457"
+    link="/standorte/farge/"
+    linktext="Mehr über Farge →"
 >}}
 Sprechstunde im Norden Bremens – bei Fragen vorab Klaus Martin anrufen.
 {{< /standort >}}
@@ -61,6 +69,8 @@ Sprechstunde im Norden Bremens – bei Fragen vorab Klaus Martin anrufen.
     typ="Workshop"
     adresse="Lesumer Heerstraße 38, 28717 Bremen"
     zeiten="Jeden 2. Freitag im Monat · 16:00–20:00 Uhr"
+    link="/standorte/lesum/"
+    linktext="Mehr über Lesum →"
 >}}
 Junge Digital Natives helfen geduldig. Kein Termin in den Schulferien!
 {{< /standort >}}
@@ -71,6 +81,8 @@ Junge Digital Natives helfen geduldig. Kein Termin in den Schulferien!
     typ="PC-Treff"
     adresse="Kirchheide 49, 28757 Bremen"
     zeiten="Jeden 2. und 4. Donnerstag · 10:30–12:30 Uhr"
+    link="/standorte/vegesack/"
+    linktext="Mehr über Vegesack →"
 >}}
 Offener PC-Treff – Fragen zu PC, Tablet und Smartphone, ohne Anmeldung.
 {{< /standort >}}
@@ -82,6 +94,8 @@ Offener PC-Treff – Fragen zu PC, Tablet und Smartphone, ohne Anmeldung.
     adresse="Alter Schulhof 11, 28717 Bremen"
     zeiten="Jeden 1. Montag im Monat · 10:30–12:00 Uhr"
     kontakt="Anmeldung: 0421 6361262"
+    link="/standorte/lesum/"
+    linktext="Mehr über Lesum →"
 >}}
 Apple iPad &amp; iPhone für Fortgeschrittene – eigenes Gerät mitbringen, Anmeldung erforderlich.
 {{< /standort >}}
@@ -129,7 +143,7 @@ Apple iPad &amp; iPhone für Fortgeschrittene – eigenes Gerät mitbringen, Anm
       lat: 53.1778, lon: 8.7294,
       name: "SG Marßel",
       adresse: "Stader Landstraße 100, 28719 Bremen",
-      zeiten: "Jeden 2. + 4. Montag · 10–12 Uhr"
+      zeiten: "Jeden 2. + 4. Montag · 10–11:30 Uhr"
     },
     {
       lat: 53.1748, lon: 8.6619,
