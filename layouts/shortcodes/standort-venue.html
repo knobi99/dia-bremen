@@ -1,0 +1,7 @@
+<div class="standort-venue">
+    <span class="standort-typ standort-typ--{{ .Get "typ" | default "sprechstunde" | lower | replaceRE " " "-" }}">{{ .Get "typ" | default "Sprechstunde" }}</span>
+    <p class="standort-venue-ort">{{ .Get "ort" }}</p>
+    <p class="standort-venue-zeiten"><span>📅</span> {{ .Get "zeiten" }}</p>
+    {{ with .Get "kontakt" }}<p class="standort-venue-kontakt"><span>📞</span> {{ . }}</p>{{ end }}
+    {{ with .Inner }}<p class="standort-venue-hinweis">{{ . }}</p>{{ end }}
+</div>

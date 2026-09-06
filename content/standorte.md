@@ -6,99 +6,100 @@ leaflet: true
 
 {{< section-banner
     titel="Unsere Standorte"
-    beschreibung="Wir sind an sieben Orten in Bremen-Nord für Sie da – kostenlos, ohne Anmeldung."
+    beschreibung="Wir sind in fünf Stadtteilen in Bremen-Nord für Sie da – kostenlos, ohne Anmeldung."
     bild="/images/placeholder-standorte.svg"
     farbe="tuerkis"
 >}}
 
 <div class="standorte-grid">
 
-{{< standort
+{{< stadtteil-karte
     nummer="1"
-    name="Stadtbibliothek Lesum"
-    typ="Sprechstunde + Kurs"
-    adresse="Hindenburgstraße 31, 28717 Bremen"
-    zeiten="Jeden 2. und 4. Freitag · 11:00–13:00 Uhr"
+    stadtteil="Lesum"
     link="/standorte/lesum/"
     linktext="Mehr über Lesum →"
 >}}
-Offene Sprechstunde in der Bibliothek – einfach vorbeikommen, eigenes Gerät mitbringen.
-{{< /standort >}}
+{{< standort-venue
+    typ="Sprechstunde"
+    ort="Stadtbibliothek Lesum, Hindenburgstraße 31"
+    zeiten="Jeden 2. und 4. Freitag · 11:00–13:00 Uhr"
+/>}}
+{{< standort-venue
+    typ="Kurs"
+    ort="Tablet-Kurs, Stadtbibliothek Lesum"
+    zeiten="Ab 23. September 2026 · Mittwochs 10:30–12:00 Uhr"
+/>}}
+{{< standort-venue
+    typ="Kurs"
+    ort="Apple-Kurs, Heimatverein Lesum"
+    zeiten="Jeden 1. Montag im Monat · 10:30–12:00 Uhr"
+    kontakt="Anmeldung: 0421 6361262"
+/>}}
+{{< standort-venue
+    typ="Workshop"
+    ort="New Technology Guides, Nebelthau"
+    zeiten="Jeden 2. Freitag im Monat · 16:00–20:00 Uhr"
+/>}}
+{{< /stadtteil-karte >}}
 
-{{< standort
+{{< stadtteil-karte
     nummer="2"
-    name="SG Marßel"
-    typ="Sprechstunde + Kurse"
-    adresse="Stader Landstraße 100, 28719 Bremen"
-    zeiten="Jeden 2. und 4. Montag · 10:00–11:30 Uhr"
-    kontakt="Birgit Wencelides · 0157 73860418"
+    stadtteil="Marßel"
     link="/standorte/marssel/"
     linktext="Mehr über Marßel →"
 >}}
-Sprechstunden und Kurse in kleinen Gruppen. Hier findet auch die Kursanmeldung statt.
-{{< /standort >}}
-
-{{< standort
-    nummer="3"
-    name="Begegnungszentrum St. Magnus"
+{{< standort-venue
     typ="Sprechstunde"
-    adresse="Unter den Linden 24, 28759 Bremen"
-    zeiten="Jeden 1. und 3. Donnerstag · 15:00–17:00 Uhr"
+    ort="SG Marßel, Stader Landstraße 100"
+    zeiten="Jeden 2. und 4. Montag · 10:00–11:30 Uhr"
+/>}}
+{{< standort-venue
+    typ="Kurs"
+    ort="Tablet-Kurs, SG Marßel"
+    zeiten="Ab 29. September 2026 · Dienstags 15:30–17:30 Uhr"
+    kontakt="Birgit Wencelides · 0157 73860418"
+/>}}
+{{< /stadtteil-karte >}}
+
+{{< stadtteil-karte
+    nummer="3"
+    stadtteil="St. Magnus"
     link="/standorte/st-magnus/"
     linktext="Mehr über St. Magnus →"
 >}}
-Offene Sprechstunde im Begegnungszentrum – ohne Anmeldung, eigenes Gerät mitbringen.
-{{< /standort >}}
-
-{{< standort
-    nummer="4"
-    name="Begegnungszentrum Farge"
+{{< standort-venue
     typ="Sprechstunde"
-    adresse="Rönnebecker Straße, 28779 Bremen-Farge"
-    zeiten="Jeden 1. und 3. Donnerstag · 10:00–12:00 Uhr"
-    kontakt="Klaus Martin · 0152 34284457"
+    ort="Begegnungszentrum St. Magnus, Unter den Linden 24"
+    zeiten="Jeden 1. und 3. Donnerstag · 15:00–17:00 Uhr"
+/>}}
+{{< /stadtteil-karte >}}
+
+{{< stadtteil-karte
+    nummer="4"
+    stadtteil="Farge"
     link="/standorte/farge/"
     linktext="Mehr über Farge →"
 >}}
-Sprechstunde im Norden Bremens – bei Fragen vorab Klaus Martin anrufen.
-{{< /standort >}}
+{{< standort-venue
+    typ="Sprechstunde"
+    ort="Begegnungszentrum Farge, Rönnebecker Straße"
+    zeiten="Jeden 1. und 3. Donnerstag · 10:00–12:00 Uhr"
+    kontakt="Klaus Martin · 0152 34284457"
+/>}}
+{{< /stadtteil-karte >}}
 
-{{< standort
+{{< stadtteil-karte
     nummer="5"
-    name="New Technology Guides – Nebelthau"
-    typ="Workshop"
-    adresse="Lesumer Heerstraße 38, 28717 Bremen"
-    zeiten="Jeden 2. Freitag im Monat · 16:00–20:00 Uhr"
-    link="/standorte/lesum/"
-    linktext="Mehr über Lesum →"
->}}
-Junge Digital Natives helfen geduldig. Kein Termin in den Schulferien!
-{{< /standort >}}
-
-{{< standort
-    nummer="6"
-    name="Bürgerhaus Vegesack"
-    typ="PC-Treff"
-    adresse="Kirchheide 49, 28757 Bremen"
-    zeiten="Jeden 2. und 4. Donnerstag · 10:30–12:30 Uhr"
+    stadtteil="Vegesack"
     link="/standorte/vegesack/"
     linktext="Mehr über Vegesack →"
 >}}
-Offener PC-Treff – Fragen zu PC, Tablet und Smartphone, ohne Anmeldung.
-{{< /standort >}}
-
-{{< standort
-    nummer="7"
-    name="Heimatverein Lesum"
-    typ="Kurs"
-    adresse="Alter Schulhof 11, 28717 Bremen"
-    zeiten="Jeden 1. Montag im Monat · 10:30–12:00 Uhr"
-    kontakt="Anmeldung: 0421 6361262"
-    link="/standorte/lesum/"
-    linktext="Mehr über Lesum →"
->}}
-Apple iPad &amp; iPhone für Fortgeschrittene – eigenes Gerät mitbringen, Anmeldung erforderlich.
-{{< /standort >}}
+{{< standort-venue
+    typ="PC-Treff"
+    ort="Bürgerhaus Vegesack, Kirchheide 49"
+    zeiten="Jeden 2. und 4. Donnerstag · 10:30–12:30 Uhr"
+/>}}
+{{< /stadtteil-karte >}}
 
 </div>
 
