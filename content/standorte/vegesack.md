@@ -2,6 +2,7 @@
 title: "Computer- & Smartphone-Hilfe für Senioren in Vegesack Bremen"
 description: "Offener PC-Treff im Bürgerhaus Vegesack – kostenlose Hilfe bei Fragen zu PC, Tablet und Smartphone, ohne Anmeldung."
 h1: "Digitale Hilfe für Senioren in Vegesack"
+hero_image: "/images/standort-vegesack.jpg"
 ---
 
 Im Bürgerhaus Vegesack gibt es zweimal im Monat einen offenen PC-Treff. Sie müssen sich nicht anmelden und keinen festen Zeitpunkt einhalten – kommen Sie, wann es Ihnen passt, und bringen Sie Ihre Frage oder Ihr Gerät mit. Egal ob PC, Tablet oder Smartphone: Wir schauen uns Ihr Problem gemeinsam mit Ihnen an. Der Treff ist offen für alle, auch wenn Sie noch nie zuvor da waren.

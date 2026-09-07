@@ -2,6 +2,7 @@
 title: "Smartphone- & Computerhilfe für Senioren in St. Magnus Bremen"
 description: "Offene Sprechstunde im Begegnungszentrum St. Magnus – kostenlose Hilfe bei Fragen zu Smartphone, Tablet und Computer, Kurse und Workshops sind in Planung."
 h1: "Digitale Hilfe für Senioren in St. Magnus"
+hero_image: "/images/standort-st-magnus.jpg"
 ---
 
 Im Begegnungszentrum St. Magnus bieten wir zweimal im Monat eine offene Sprechstunde an. Bringen Sie einfach Ihr Smartphone, Tablet oder Ihren Computer mit – eine Anmeldung ist nicht nötig. Über die Sprechstunde hinaus planen wir aktuell feste Kurse und Workshops für St. Magnus; sobald Termine feststehen, finden Sie sie hier und unter Angebote. Wenn Sie an einem Kurs vor Ort interessiert sind, sagen Sie uns gerne Bescheid.

@@ -2,6 +2,7 @@
 title: "Smartphone- & Computerhilfe für Senioren in Farge Bremen"
 description: "Offene Sprechstunde im Begegnungszentrum Farge – kostenlose digitale Hilfe für Senioren im Bremer Norden, Ansprechpartner Klaus Martin."
 h1: "Digitale Hilfe für Senioren in Farge"
+hero_image: "/images/standort-farge.jpg"
 ---
 
 Farge ist unser nördlichster Standort in Bremen. Im Begegnungszentrum Farge bieten wir zweimal im Monat eine Sprechstunde an, zu der Sie ohne Anmeldung kommen können – mit Fragen zu Smartphone, Tablet oder Computer. Wenn Sie vorab wissen möchten, ob der Termin stattfindet oder was Sie mitbringen sollten, erreichen Sie unseren Ansprechpartner Klaus Martin telefonisch.

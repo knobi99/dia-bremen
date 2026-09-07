@@ -6,7 +6,7 @@ description: "So erreichen Sie Digital im Alter Bremen-Nord – per Telefon, E-M
 {{< section-banner
     titel="Wir sind für Sie da"
     beschreibung="Fragen, Anmeldungen, Anregungen – sprechen Sie uns einfach an."
-    bild="/images/placeholder-kontakt.svg"
+    bild="/images/kontakt.jpg"
     farbe="tuerkis"
 >}}
 

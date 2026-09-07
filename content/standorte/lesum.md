@@ -2,6 +2,7 @@
 title: "Smartphone- & Computerhilfe für Senioren in Lesum Bremen"
 description: "Sprechstunde und iPad-Kurs in der Stadtbibliothek Lesum, Apple-Kurs im Heimatverein, Workshop in Nebelthau – kostenlose digitale Hilfe für Senioren in Lesum."
 h1: "Digitale Hilfe für Senioren in Lesum"
+hero_image: "/images/standort-lesum.jpg"
 ---
 
 In Lesum gibt es gleich drei Anlaufstellen für digitale Fragen. In der Stadtbibliothek Lesum können Sie ohne Anmeldung zu unserer Sprechstunde kommen und Ihr Smartphone, Tablet oder Ihren Computer mitbringen. Wer noch kein eigenes Tablet besitzt, kann am iPad-Kurs für Einsteiger teilnehmen – wir stellen dafür ein Gerät zur Verfügung, das Sie während der zehn Kurstermine behalten. Im Heimatverein Lesum treffen sich einmal im Monat erfahrenere Apple-Nutzer, um ihr Wissen zu vertiefen. Und wer es lieber mit jüngeren Helfern hat: In Nebelthau bieten Schülerinnen und Schüler von New Technology Guides einen offenen Workshop an. Alle vier Angebote sind kostenlos und werden ehrenamtlich durchgeführt.

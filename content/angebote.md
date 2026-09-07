@@ -6,7 +6,7 @@ description: "Sprechstunden, Kurse und Veranstaltungen von Digital im Alter Brem
 {{< section-banner
     titel="Unsere Angebote"
     beschreibung="Kostenlos, ohne Vorkenntnisse – einfach vorbeikommen oder anmelden."
-    bild="/images/placeholder-angebote.svg"
+    bild="/images/angebote.jpg"
     farbe="lila"
 >}}
 
@@ -15,7 +15,7 @@ description: "Sprechstunden, Kurse und Veranstaltungen von Digital im Alter Brem
 {{< section-banner
     titel="1. Sprechstunden"
     beschreibung="Kommen Sie einfach vorbei – ohne Anmeldung. Unsere Trainer helfen direkt vor Ort."
-    bild="/images/placeholder-sprechstunde.svg"
+    bild="/images/sprechstunde.jpg"
     farbe="gruen"
 >}}
 
@@ -95,7 +95,7 @@ Offener Austausch rund um PC, Tablet und Smartphone – Fragen willkommen, keine
 {{< section-banner
     titel="2. Kurse"
     beschreibung="Kleine Gruppen, maximal 6 Personen, über mehrere Wochen. Anmeldung erforderlich."
-    bild="/images/placeholder-kurs.svg"
+    bild="/images/kurs.jpg"
     farbe="blau"
 >}}
 
@@ -142,7 +142,7 @@ In 10 Terminen lernen Sie Schritt für Schritt den Umgang mit dem Apple iPad. Da
 {{< section-banner
     titel="3. Veranstaltungen"
     beschreibung="Einzelne Termine zu aktuellen digitalen Themen – offen für alle, meist ohne Anmeldung."
-    bild="/images/placeholder-veranstaltung.svg"
+    bild="/images/veranstaltung.jpg"
     farbe="orange"
 >}}
 

@@ -2,6 +2,7 @@
 title: "Smartphone- & Tablet-Hilfe für Senioren in Marßel Bremen"
 description: "Sprechstunde und Tablet-Anfängerkurs in der SG Marßel – kostenlose digitale Hilfe für Senioren in Marßel, betreut von Birgit Wencelides."
 h1: "Digitale Hilfe für Senioren in Marßel"
+hero_image: "/images/standort-marssel.jpg"
 ---
 
 In der SG Marßel treffen wir uns zweimal im Monat zur offenen Sprechstunde – kommen Sie einfach mit Ihrem Smartphone, Tablet oder Computer vorbei, eine Anmeldung brauchen Sie dafür nicht. Ab dem 29. September starten wir zusätzlich einen Tablet-Kurs für Anfänger, in dem wir über zehn Termine hinweg die Grundlagen zeigen: Wie Sie das Gerät bedienen, wie Sie sich im Internet sicher bewegen und wie Sie sich vor Betrug schützen. Ansprechpartnerin vor Ort ist Birgit Wencelides, bei ihr melden Sie sich auch für den Kurs an. Beide Angebote sind kostenlos und finden in kleiner Runde statt.

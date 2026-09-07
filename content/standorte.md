@@ -7,7 +7,7 @@ leaflet: true
 {{< section-banner
     titel="Unsere Standorte"
     beschreibung="Wir sind in fünf Stadtteilen in Bremen-Nord für Sie da – kostenlos, ohne Anmeldung."
-    bild="/images/placeholder-standorte.svg"
+    bild="/images/standorte.jpg"
     farbe="tuerkis"
 >}}
 
