@@ -8,8 +8,10 @@ defaultContentLanguage = "de"
   description = "Digital im Alter Bremen-Nord – Digitale Kompetenzen für Senioren in Bremen-Nord. Tablet- und Smartphone-Kurse in kleinen Gruppen mit viel Geduld."
 
 [params.ankuendigung]
-  aktiv = false
-  text = "Wir machen Sommerpause vom 15. Juli bis 31. August 2026. Ab September sind wir wieder für Sie da!"
+  aktiv = true
+  text = "Wir sind solidarisch dabei 🫱🏽‍🫲🏼 – Demo für den Erhalt der Begegnungszentren, Di. 22. September, 13 Uhr, Bremer Marktplatz."
+  link = "/solidaritaet/"
+  linktext = "Mehr erfahren →"
 
 [markup.goldmark.renderer]
   unsafe = true

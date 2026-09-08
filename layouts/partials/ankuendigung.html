@@ -2,7 +2,8 @@
   {{ if .aktiv }}
   <div class="ankuendigung" role="alert">
     <span class="ankuendigung-icon" aria-hidden="true">📢</span>
-    <p>{{ .text }}</p>
+    {{ $linktext := .linktext | default "Mehr erfahren →" }}
+    <p>{{ .text }}{{ with .link }} <a href="{{ . }}">{{ $linktext }}</a>{{ end }}</p>
   </div>
   {{ end }}
 {{ end }}
