@@ -57,8 +57,6 @@ Die wichtigsten Aufgaben funktionieren problemlos:
 
 ## Was funktioniert nicht?
 
-Ehrlichkeit ist wichtig:
-
 - Microsoft Office läuft nicht nativ
 - Manche Spezialprogramme gibt es nur für Windows
 - Einige ältere Drucker können Probleme machen
@@ -67,11 +65,7 @@ Ehrlichkeit ist wichtig:
 
 ## Ist Linux wirklich für Senioren geeignet?
 
-Unsere ehrliche Antwort lautet:
-
-**Ja – aber mit etwas Offenheit für Neues.**
-
-Linux Mint ist bewusst einsteigerfreundlich gestaltet. Wer mit Windows zurechtkam, findet sich meist schnell zurecht.
+Ja – aber mit etwas Offenheit für Neues. Linux Mint ist bewusst einsteigerfreundlich gestaltet, und wer mit Windows zurechtkam, findet sich meist schnell zurecht.
 
 Dennoch gilt:
 
@@ -103,10 +97,6 @@ Linux ist nicht für jeden die richtige Lösung. Aber es ist eine echte Alternat
 - Datenschutz wichtig ist
 - Sie offen für neue Wege sind
 
-Die wichtigste Botschaft:
-
-**Sie haben die Wahl.**
-
-Microsoft ist nicht die einzige Möglichkeit. Linux zeigt, dass digitale Teilhabe auch ohne teure Software möglich ist.
+Microsoft ist nicht die einzige Möglichkeit – Sie haben die Wahl, und Linux zeigt, dass digitale Teilhabe auch ohne teure Software möglich ist.
 
 > 🌟 Interessiert? Besuchen Sie unsere Sprechstunden oder kommende Veranstaltungen. Wir zeigen Linux unverbindlich und beantworten Ihre Fragen.

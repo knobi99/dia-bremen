@@ -105,8 +105,4 @@ Ja, sofern eine gültige Windows-10-Lizenz vorhanden ist und die Hardware unters
 
 Je länger Windows 10 ohne Sicherheitsupdates genutzt wird, desto größer wird das Risiko.
 
-## Fazit
-
-Viele Menschen stehen aktuell vor derselben Frage.
-
-Kommen Sie gerne in unsere Sprechstunde. Gemeinsam finden wir die passende Lösung.
+Viele Menschen stehen aktuell vor genau dieser Frage – kommen Sie gerne in unsere Sprechstunde, gemeinsam finden wir die passende Lösung für Ihren Computer.

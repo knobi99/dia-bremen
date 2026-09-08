@@ -21,9 +21,9 @@ WhatsApp ist eine kostenlose Messaging-App für Smartphones und Computer. Sie er
 
 ## Sicherheit und Datenschutz
 
-Ein wichtiges Thema bei jeder digitalen Kommunikation ist die Sicherheit. WhatsApp nutzt eine sogenannte Ende-zu-Ende-Verschlüsselung. Das bedeutet: Nur Sie und die Person, mit der Sie schreiben, können die Nachrichten lesen – nicht einmal WhatsApp selbst hat Zugriff darauf.
+WhatsApp nutzt eine sogenannte Ende-zu-Ende-Verschlüsselung. Das bedeutet: Nur Sie und die Person, mit der Sie schreiben, können die Nachrichten lesen – nicht einmal WhatsApp selbst hat Zugriff darauf.
 
-Dennoch gibt es einige Punkte zu beachten:
+Ein paar Punkte sollten Sie trotzdem kennen:
 
 - **Datenweitergabe an Meta (Facebook):** WhatsApp gehört zum Meta-Konzern und teilt bestimmte Nutzungsdaten mit anderen Meta-Diensten. Wer das nicht möchte, kann auf Alternativen wie Signal oder Threema zurückgreifen.
 - **Vorsicht bei unbekannten Kontakten:** Öffnen Sie keine Links oder Dateien von Personen, die Sie nicht kennen. Es könnte sich um Betrugsversuche handeln.
@@ -54,8 +54,4 @@ WhatsApp ist populär und praktisch – aber nicht alternativlos. Wer mehr Wert 
 - **Threema:** Ein kostenpflichtiger, aber sehr datenschutzfreundlicher Messenger aus der Schweiz.
 - **Telegram:** Bietet viele Funktionen, ist aber in puncto Verschlüsselung weniger sicher als WhatsApp oder Signal.
 
-## Fazit
-
-WhatsApp ist ein nützliches Werkzeug, um mit Familie und Freunden in Kontakt zu bleiben. Die App ist einfach zu bedienen und bietet viele praktische Funktionen. Wichtig ist jedoch, sich der Datenschutzaspekte bewusst zu sein und die Privatsphäre-Einstellungen entsprechend anzupassen.
-
-Sie müssen nicht alles perfekt beherrschen. Fangen Sie einfach an – und wenn Sie Fragen haben, sind wir in unseren Sprechstunden gerne für Sie da.
+Sie müssen nicht alles auf einmal beherrschen. Fangen Sie einfach mit dem Nötigsten an – und wenn Sie nicht weiterkommen, sind wir in unseren Sprechstunden gerne für Sie da.

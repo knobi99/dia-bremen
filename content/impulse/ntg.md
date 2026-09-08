@@ -5,7 +5,7 @@ description: "Schülerinnen und Schüler helfen Senioren bei Smartphone, Tablet 
 featured_image: "/images/newtech.jpg"
 ---
 
-Am Nebelthau-Gymnasium Bremen hat sich eine besondere Initiative etabliert, die Generationen verbindet: die New Technology Guides. Bei diesem Projekt engagieren sich Schülerinnen und Schüler ehrenamtlich, um Seniorinnen und Senioren bei technischen Herausforderungen kostenlos zur Seite zu stehen.
+Am Nebelthau-Gymnasium Bremen helfen Schülerinnen und Schüler ehrenamtlich älteren Menschen bei Fragen rund um Smartphone, Tablet und Computer – die New Technology Guides.
 
 ## Schüler helfen Senioren bei Smartphone und Co.
 
@@ -13,9 +13,9 @@ Jeden zweiten Freitag im Monat öffnet das Gymnasium im Rahmen des Brettspielnac
 
 ## Kooperation Nebelthau-Gymnasium und Digital im Alter
 
-Das Projekt wird in Kooperation mit der Initiative „Digital im Alter" in Bremen-Nord durchgeführt und zeigt, wie schulisches Engagement echten gesellschaftlichen Mehrwert schafft. Die Jugendlichen lernen, ihr Wissen verständlich zu vermitteln und Verantwortung zu übernehmen, während die Seniorinnen und Senioren nicht nur technische Kompetenz, sondern auch Selbstvertrauen gewinnen.
+Das Projekt läuft in Kooperation mit „Digital im Alter" in Bremen-Nord. Die Jugendlichen lernen dabei, ihr Wissen verständlich zu vermitteln und Verantwortung zu übernehmen, während die Seniorinnen und Senioren technische Kompetenz und Selbstvertrauen gewinnen.
 
-Die New Technology Guides sind ein leuchtendes Beispiel dafür, dass Jung und Alt voneinander profitieren können – und dass digitale Teilhabe am besten durch persönliche Begegnung gelingt.
+Jung und Alt profitieren hier voneinander – ein gutes Beispiel dafür, dass digitale Teilhabe am besten durch persönliche Begegnung gelingt.
 
 ---
 
