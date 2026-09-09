@@ -11,7 +11,7 @@ Seit Januar 2023 unterstützen unsere ehrenamtlichen Digital-Trainerinnen und -T
 
 ## Wer wir sind
 
-Wir sind ein Projekt der Seniorenvertretung Bremen in Kooperation mit der Abteilung „Denksport & Digitales" der SG Marßel. Unsere Trainerinnen und Trainer arbeiten ehrenamtlich und kennen die Fragen und Sorgen älterer Menschen aus eigener Erfahrung.
+Wir sind ein Projekt der Seniorenvertretung Bremen in Kooperation mit der Abteilung „Denksport & Digitales“ der SG Marßel. Unsere Trainerinnen und Trainer arbeiten ehrenamtlich und kennen die Fragen und Sorgen älterer Menschen aus eigener Erfahrung.
 
 Unser Ziel ist digitale Teilhabe für alle Generationen – denn ein selbstbestimmtes Leben im digitalen Alltag ist keine Frage des Alters.
 

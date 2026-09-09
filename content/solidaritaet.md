@@ -15,6 +15,6 @@ Deshalb unterstützen wir den Protest und sind bei der Demonstration dabei.
 
 **Wir zeigen gemeinsam, wie wichtig diese Orte sind.**
 
-📖 Mehr zum Thema findet ihr im Durchblick 282 – August 2026 der Seniorenvertretung Bremen, im Beitrag „Die Bremer Begegnungszentren machen auf ihre schwierige Lage aufmerksam":
+📖 Mehr zum Thema findet ihr im Durchblick 282 – August 2026 der Seniorenvertretung Bremen, im Beitrag „Die Bremer Begegnungszentren machen auf ihre schwierige Lage aufmerksam“:
 
 👉 <a href="https://seniorenlotsebremen.de/2026/09/durchblick-282-august-2026" target="_blank" rel="noopener">Durchblick 282 – Seniorenlotse Bremen</a>

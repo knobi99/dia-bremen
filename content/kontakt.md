@@ -54,7 +54,7 @@ Neue Termine, Kurse und digitale Tipps direkt aufs Smartphone.
     hauptinfo="SG Marßel"
     farbe="grau"
 >}}
-c/o Abteilung „Denksport & Digitales"
+c/o Abteilung „Denksport & Digitales“
 
 Stader Landstraße 100 · 28719 Bremen
 {{< /kontakt-box >}}

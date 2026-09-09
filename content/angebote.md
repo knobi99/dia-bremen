@@ -40,7 +40,7 @@ Individuelle Hilfe bei Problemen mit Smartphone, Tablet oder Computer. Einfach v
     anmeldung="Ohne Anmeldung"
     hinweis="Bringen Sie Ihr eigenes Gerät mit."
 >}}
-Individuelle Hilfe bei Problemen mit Smartphone, Tablet oder Computer. Einfach vorbeikommen!
+Individuelle Hilfe bei Problemen mit Smartphone, Tablet oder Computer – bringen Sie Ihr Gerät einfach mit.
 {{< /termin >}}
 
 {{< termin
@@ -52,7 +52,7 @@ Individuelle Hilfe bei Problemen mit Smartphone, Tablet oder Computer. Einfach v
     anmeldung="Ohne Anmeldung"
     hinweis="Bringen Sie Ihr eigenes Gerät mit."
 >}}
-Individuelle Hilfe bei Problemen mit Smartphone, Tablet oder Computer. Einfach vorbeikommen!
+Wir helfen individuell bei Fragen zu Smartphone, Tablet oder Computer – einfach vorbeikommen.
 {{< /termin >}}
 
 {{< termin
