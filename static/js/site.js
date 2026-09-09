@@ -38,6 +38,17 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
+    // Nach-oben-Button
+    var nachOben = document.getElementById('back-to-top');
+    if (nachOben) {
+        window.addEventListener('scroll', function () {
+            nachOben.classList.toggle('sichtbar', window.scrollY > 500);
+        });
+        nachOben.addEventListener('click', function () {
+            window.scrollTo(0, 0);
+        });
+    }
+
     // Stats Counter Animation
     var counters = document.querySelectorAll('.stat-number');
     if (!counters.length) return;
