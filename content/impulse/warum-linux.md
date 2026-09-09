@@ -7,7 +7,7 @@ image: "/images/linux-tux.jpg"
 
 ## Ein Thema mit großem Interesse
 
-Das Team von *Digital im Alter* hat relativ spontan das Thema „Umstieg von Windows 10 auf Linux" aufgegriffen – und war selbst überrascht, wie groß das Interesse war.
+Das Team von *Digital im Alter* hat relativ spontan das Thema „Umstieg von Windows 10 auf Linux“ aufgegriffen – und war selbst überrascht, wie groß das Interesse war.
 
 Zur ersten Infoveranstaltung kamen 35–40 Teilnehmer, und nach einem Bericht in der regionalen Presse waren es beim zweiten Termin, der eigentlich nur für die Installation gedacht war, sogar 40–50 Personen. Besonders schön war zu sehen, wie konzentriert und interessiert alle waren – mit vielen klugen Fragen und einer großen Portion Neugier.
 
@@ -33,7 +33,7 @@ Linux Mint sieht sehr ähnlich aus wie Windows. Sie finden sich schnell zurecht 
 
 ### 🛡️ 5. Digitale Souveränität
 
-Bei Linux haben Sie die Kontrolle: keine ungewollten Datenweitergaben, keine Zwangs-Updates. Sie entscheiden selbst, was auf Ihrem Rechner passiert.
+Bei Linux haben Sie die Kontrolle: Ihre Daten bleiben bei Ihnen, und Updates installieren Sie, wann Sie wollen. Sie entscheiden selbst, was auf Ihrem Rechner passiert.
 
 ## Folien zum Nachschauen
 

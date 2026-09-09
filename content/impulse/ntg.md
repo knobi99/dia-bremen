@@ -13,7 +13,7 @@ Jeden zweiten Freitag im Monat öffnet das Gymnasium im Rahmen des Brettspielnac
 
 ## Kooperation Nebelthau-Gymnasium und Digital im Alter
 
-Das Projekt läuft in Kooperation mit „Digital im Alter" in Bremen-Nord. Die Jugendlichen lernen dabei, ihr Wissen verständlich zu vermitteln und Verantwortung zu übernehmen, während die Seniorinnen und Senioren technische Kompetenz und Selbstvertrauen gewinnen.
+Das Projekt läuft in Kooperation mit „Digital im Alter“ in Bremen-Nord. Die Jugendlichen lernen dabei, ihr Wissen verständlich zu vermitteln und Verantwortung zu übernehmen, während die Seniorinnen und Senioren technische Kompetenz und Selbstvertrauen gewinnen.
 
 Jung und Alt profitieren hier voneinander – ein gutes Beispiel dafür, dass digitale Teilhabe am besten durch persönliche Begegnung gelingt.
 

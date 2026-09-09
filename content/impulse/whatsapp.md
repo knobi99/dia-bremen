@@ -27,7 +27,7 @@ Ein paar Punkte sollten Sie trotzdem kennen:
 
 - **Datenweitergabe an Meta (Facebook):** WhatsApp gehört zum Meta-Konzern und teilt bestimmte Nutzungsdaten mit anderen Meta-Diensten. Wer das nicht möchte, kann auf Alternativen wie Signal oder Threema zurückgreifen.
 - **Vorsicht bei unbekannten Kontakten:** Öffnen Sie keine Links oder Dateien von Personen, die Sie nicht kennen. Es könnte sich um Betrugsversuche handeln.
-- **Privatsphäre-Einstellungen:** In den Einstellungen können Sie festlegen, wer Ihr Profilbild, Ihren Status oder Ihre „Zuletzt online"-Zeit sehen kann.
+- **Privatsphäre-Einstellungen:** In den Einstellungen können Sie festlegen, wer Ihr Profilbild, Ihren Status oder Ihre „Zuletzt online“-Zeit sehen kann.
 
 ## Erste Schritte mit WhatsApp
 
