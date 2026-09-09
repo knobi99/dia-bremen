@@ -17,7 +17,7 @@ Hier finden Sie aktuelle Termine und Veranstaltungen in Bremen-Nord: von Tablet-
 
 Entdecken Sie, wie digitale Technologien Ihren Alltag bereichern können.
 
-[Zu den digitalen Tipps](/tipps/)
+[Zu den digitalen Tipps](/impulse/)
 
 
 
