@@ -14,7 +14,7 @@ Die elektronische Patientenakte (ePA) ist seit 2025 für alle da – automatisch
 
 Wer viele Ärzte hat, kennt das Problem: Jeder Arzt kennt nur einen Teil der Geschichte. Mit der ePA können alle Behandler – mit Ihrer Erlaubnis – auf dieselbe Akte zugreifen.
 
-Das größte Plus im Alltag ist die **elektronische Medikamentenliste**. Sie zeigt automatisch an, welche Arzneimittel Sie nehmen. So lassen sich gefährliche Wechselwirkungen erkennen – besonders wichtig für ältere Menschen, die oft viele verschiedene Mittel nehmen.
+Das größte Plus im Alltag ist die elektronische Medikamentenliste. Sie zeigt automatisch an, welche Arzneimittel Sie nehmen. So lassen sich gefährliche Wechselwirkungen erkennen – besonders wichtig für ältere Menschen, die oft viele verschiedene Mittel nehmen.
 
 Weitere Vorteile: Befunde gehen nicht verloren, Doppeluntersuchungen werden vermieden, und im Notfall hat der Arzt sofort alle wichtigen Informationen.
 
@@ -22,13 +22,13 @@ Weitere Vorteile: Befunde gehen nicht verloren, Doppeluntersuchungen werden verm
 
 Die Daten werden in Deutschland gespeichert – das ist gesetzlich vorgeschrieben. Die Server stehen in Frankfurt am Main, Nürnberg und München.
 
-Aber: Den technischen Betrieb übernimmt **IBM**, ein amerikanisches Unternehmen. Die Daten sind zwar verschlüsselt, und IBM hat laut Vertrag keinen Zugriff auf die Inhalte. Trotzdem stellt sich die Frage: Sollten die sensibelsten Daten der deutschen Bevölkerung – nämlich Gesundheitsdaten – in den Händen eines US-Konzerns liegen?
+Aber: Den technischen Betrieb übernimmt IBM, ein amerikanisches Unternehmen. Die Daten sind zwar verschlüsselt, und IBM hat laut Vertrag keinen Zugriff auf die Inhalte. Trotzdem stellt sich die Frage: Sollten die sensibelsten Daten der deutschen Bevölkerung – nämlich Gesundheitsdaten – in den Händen eines US-Konzerns liegen?
 
-Diese Frage nach der **digitalen Souveränität** Deutschlands stellen viele Fachleute – bisher ohne befriedigende Antwort.
+Diese Frage nach der digitalen Souveränität Deutschlands stellen viele Fachleute – bisher ohne befriedigende Antwort.
 
 ## ⚠️ Was der Chaos Computer Club aufgedeckt hat
 
-Kurz vor dem Start der ePA im Januar 2025 machte der **Chaos Computer Club (CCC)** – eine der renommiertesten IT-Sicherheitsorganisationen Deutschlands – eine alarmierende Entdeckung.
+Kurz vor dem Start der ePA im Januar 2025 machte der Chaos Computer Club (CCC) – eine der renommiertesten IT-Sicherheitsorganisationen Deutschlands – eine alarmierende Entdeckung.
 
 Sicherheitsexperten zeigten öffentlich, wie sie auf fremde Patientenakten zugreifen konnten. Der Weg dorthin war erschreckend einfach: Sie beschafften sich gültige Heilberufsausweise – also die digitalen Ausweise, die Ärzte und Praxen für den Zugriff brauchen. Diese Ausweise waren nicht ausreichend gesichert.
 
@@ -36,13 +36,13 @@ Der Präsident der Bundesärztekammer sagte damals deutlich: Er würde seinen Pa
 
 ## Die Antwort der Behörden
 
-Die zuständige Behörde – die **Gematik** (Nationale Agentur für Digitale Medizin) – räumte ein, dass solche Angriffe technisch möglich seien. Sie betonte jedoch, dass ein echter Angriff in der Praxis sehr aufwändig sei und mehrere illegale Schritte erfordere.
+Die zuständige Behörde – die Gematik (Nationale Agentur für Digitale Medizin) – räumte ein, dass solche Angriffe technisch möglich seien. Sie betonte jedoch, dass ein echter Angriff in der Praxis sehr aufwändig sei und mehrere illegale Schritte erfordere.
 
 Nachbesserungen wurden versprochen. Der CCC fordert bis heute mehr Transparenz und eine unabhängige Prüfung.
 
 ## Das Opt-out-Problem
 
-Wer keine ePA möchte, muss **aktiv widersprechen**. Wer nichts tut, bekommt sie automatisch.
+Wer keine ePA möchte, muss aktiv widersprechen. Wer nichts tut, bekommt sie automatisch.
 
 Das klingt klein – ist es aber nicht. Denn viele Menschen, besonders ältere, haben die Informationsschreiben ihrer Krankenkasse vielleicht nicht verstanden, nicht gelesen oder gar nicht erhalten. Sie haben eine Akte, von der sie gar nichts wissen.
 

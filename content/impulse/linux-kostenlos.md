@@ -10,7 +10,7 @@ image: "/images/linux-tux.jpg"
 
 Für Millionen Nutzer bedeutet das: Entweder ein neues Gerät kaufen, das Windows 11 unterstützt, oder auf ein Betriebssystem ohne Sicherheitsupdates weiterlaufen – ein erhebliches Risiko.
 
-Doch es gibt eine dritte Option, über die viel zu wenig gesprochen wird: **Linux**. Ein kostenloses, sicheres und für Senioren durchaus geeignetes Betriebssystem.
+Doch es gibt eine dritte Option, über die viel zu wenig gesprochen wird: Linux. Ein kostenloses, sicheres und für Senioren durchaus geeignetes Betriebssystem.
 
 ## Das Windows-10-Problem
 
@@ -22,7 +22,7 @@ Windows 10 läuft auf vielen älteren Computern einwandfrei. Doch Microsoft zwin
 
 Linux ist ein Betriebssystem wie Windows – mit einem entscheidenden Unterschied:
 
-Es ist **komplett kostenlos** und **Open Source**.
+Es ist komplett kostenlos und Open Source.
 
 - Keine Lizenzkosten
 - Keine Werbung im System
@@ -32,7 +32,7 @@ Es ist **komplett kostenlos** und **Open Source**.
 
 ## Warum Linux Mint für Senioren passt
 
-Unter den vielen Linux-Varianten empfehlen wir besonders **Linux Mint**.
+Unter den vielen Linux-Varianten empfehlen wir besonders Linux Mint.
 
 Diese Version wurde speziell für Einsteiger entwickelt und ähnelt Windows bewusst in der Bedienung.
 
