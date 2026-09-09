@@ -12,13 +12,13 @@ Für Millionen Nutzer bedeutet das: Entweder ein neues Gerät kaufen, das Window
 
 Doch es gibt eine dritte Option, über die viel zu wenig gesprochen wird: **Linux**. Ein kostenloses, sicheres und für Senioren durchaus geeignetes Betriebssystem.
 
-## Das Windows-10-Problem: Geplante Obsoleszenz?
+## Das Windows-10-Problem
 
 Windows 10 läuft auf vielen älteren Computern einwandfrei. Doch Microsoft zwingt Nutzer praktisch zum Umstieg auf Windows 11 oder zum Neukauf eines Computers. Die Systemanforderungen für Windows 11 sind so hoch angesetzt, dass viele funktionsfähige Geräte ausgeschlossen werden.
 
 > ⚠️ Nach dem Support-Ende erhält Windows 10 keine Sicherheitsupdates mehr. Ihr Computer wird zunehmend anfällig für Viren, Trojaner und andere Bedrohungen. Online-Banking, E-Mails und persönliche Daten sind dann in Gefahr.
 
-## Linux: Die kostenlose Alternative
+## Linux ist die kostenlose Alternative
 
 Linux ist ein Betriebssystem wie Windows – mit einem entscheidenden Unterschied:
 
@@ -30,7 +30,7 @@ Es ist **komplett kostenlos** und **Open Source**.
 - Regelmäßige Sicherheitsupdates
 - Mehr Datenschutz und Kontrolle
 
-## Linux Mint: Ideal für Senioren
+## Warum Linux Mint für Senioren passt
 
 Unter den vielen Linux-Varianten empfehlen wir besonders **Linux Mint**.
 
@@ -88,7 +88,7 @@ Kontakt:
 - Telefon: 0178 1603960
 - E-Mail: hallo@dia-bremen.de
 
-## Fazit: Eine Überlegung wert
+## Lohnt sich der Umstieg?
 
 Linux ist nicht für jeden die richtige Lösung. Aber es ist eine echte Alternative, besonders wenn:
 
