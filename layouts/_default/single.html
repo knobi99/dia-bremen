@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<div class="page-hero" role="presentation" aria-hidden="true"{{ with .Params.hero_image }} data-image="{{ . }}"{{ end }}></div>
+<div class="page-hero" role="presentation" aria-hidden="true"{{ with .Params.hero_image }} data-image="{{ . }}"{{ end }}{{ with $.Params.hero_position }} style="background-position: {{ . }};"{{ end }}></div>
 
 <article class="content-page">
     <div class="content-wrapper">
