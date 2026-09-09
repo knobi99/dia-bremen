@@ -17,11 +17,11 @@ Dieser Blog ist kein Ratgeber im klassischen Sinne. Wir werden Ihnen nicht sagen
 
 Vielleicht fragen Sie sich: Brauche ich wirklich eine Cloud? Ist Online-Banking sicher? Was hat es mit diesem WhatsApp auf sich, von dem alle sprechen? Wir zeigen Ihnen, wo Sie verlässliche Informationen finden, damit Sie selbst entscheiden können, was zu Ihnen passt.
 
-Denn am Ende entscheiden Sie – nicht die Technik, nicht ein Verkäufer und auch nicht Kinder oder Enkel, die es nur gut meinen.
+Denn am Ende entscheiden Sie selbst – nicht die Technik, ein Verkäufer oder die gut gemeinten Ratschläge von Kindern und Enkeln.
 
 ## Wir sind keine Profis – und das ist gut so
 
-Vielleicht fragen Sie sich jetzt: Wer schreibt hier eigentlich? Wir sind ein Team. Eine gemischte, engagierte Gruppe mit ganz unterschiedlichen Berufen und Lebenswegen. Keine IT-Fachleute. Keine Profis. Sondern Menschen, die sich mit digitalen Themen auseinandersetzen – aus Neugier, aus Notwendigkeit, aus Interesse.
+Vielleicht fragen Sie sich jetzt: Wer schreibt hier eigentlich? Wir sind ein Team. Eine gemischte, engagierte Gruppe mit ganz unterschiedlichen Berufen und Lebenswegen. Wir sind keine IT-Profis, sondern Menschen, die sich aus Neugier, aus Notwendigkeit oder aus Interesse mit digitalen Themen beschäftigen.
 
 Und genau das ist unsere Stärke. Wir wählen Themen nach unserer eigenen Einschätzung aus – danach, was uns in den Sprechstunden immer wieder begegnet oder worüber wir selbst gestolpert sind.
 
