@@ -4,6 +4,6 @@
         <p>{{ .Get "beschreibung" }}</p>
     </div>
     <div class="section-banner-bild">
-        <img src="{{ .Get "bild" }}" alt="{{ .Get "titel" }}" loading="lazy">
+        <img src="{{ .Get "bild" }}" alt="{{ .Get "alt" | default (.Get "titel") }}" loading="lazy">
     </div>
 </div>

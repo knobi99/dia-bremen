@@ -1,5 +1,6 @@
 ---
 title: "Barrierefreiheit"
+description: "Erklärung zur Barrierefreiheit von dia-bremen.de – große Schrift, hoher Kontrast, Tastaturnavigation und Alternativtexte für Bilder."
 ---
 
 ## Erklärung zur Barrierefreiheit

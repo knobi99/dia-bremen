@@ -9,7 +9,7 @@
             {{ with .Content }}<p>{{ . }}</p>{{ end }}
         </div>
         <div class="section-banner-bild">
-            <img src="/images/impulse.jpg" alt="" loading="lazy">
+            <img src="/images/impulse.webp" alt="Beleuchtetes Fachwerkhaus bei Nacht" loading="lazy">
         </div>
     </div>
 
@@ -21,7 +21,7 @@
             <a href="{{ .RelPermalink }}" class="tipp-karte-bild-link" tabindex="-1" aria-hidden="true">
                 {{ if $img }}
                 <div class="tipp-karte-bild">
-                    <img src="{{ $img }}" alt="" loading="lazy">
+                    <img src="{{ $img }}" alt="{{ .Params.image_alt | default .Title }}" loading="lazy">
                 </div>
                 {{ else }}
                 <div class="tipp-karte-placeholder">
@@ -33,7 +33,7 @@
             <div class="tipp-karte-inhalt">
                 <p class="tipp-karte-datum">📅 {{ .Date.Format "02. January 2006" }}</p>
                 <h2 class="tipp-karte-titel">
-                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    <a href="{{ .RelPermalink }}">{{ .Params.h1 | default .Title }}</a>
                 </h2>
                 {{ with .Description }}
                 <p class="tipp-karte-beschreibung">{{ . }}</p>

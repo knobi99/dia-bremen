@@ -1,5 +1,6 @@
 ---
 title: "Impressum"
+description: "Impressum von Digital im Alter Bremen-Nord – ein Projekt der Seniorenvertretung Bremen in Kooperation mit der SG Marßel."
 ---
 
 ## Angaben gemäß § 5 TMG

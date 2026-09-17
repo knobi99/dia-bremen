@@ -1,8 +1,10 @@
 ---
-title: "Windows 10 Support endet: Was bedeutet das für Sie?"
+title: "Windows 10 Support endet – was tun?"
+h1: "Windows 10 Support endet: Was bedeutet das für Sie?"
 date: 2025-12-01
 description: "Was das Ende des Windows-10-Supports bedeutet und welche Möglichkeiten Sie haben."
-image: "/images/windows10-ende.jpg"
+image: "/images/windows10-ende.webp"
+image_alt: "Aufgeklapptes Notebook mit Windows-Startbildschirm im Dunkeln"
 ---
 
 **Warum dieser Artikel?**

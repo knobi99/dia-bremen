@@ -1,10 +1,42 @@
 ---
-title: "Smartphone- & Computerhilfe für Senioren in Lesum Bremen"
-description: "Sprechstunde und iPad-Kurs in der Stadtbibliothek Lesum, Apple-Kurs im Heimatverein, Workshop in Nebelthau – kostenlose digitale Hilfe für Senioren in Lesum."
+title: "Smartphone-Hilfe für Senioren in Lesum Bremen"
+description: "Sprechstunde und iPad-Kurs in der Stadtbibliothek Lesum, Apple-Kurs im Heimatverein – kostenlose digitale Hilfe für Senioren in Lesum."
 h1: "Digitale Hilfe für Senioren in Lesum"
-hero_image: "/images/standort-lesum.jpg"
+hero_image: "/images/standort-lesum.webp"
 hero_position: "center 72%"
 ---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Digital im Alter Bremen-Nord – Sprechstunde Lesum",
+  "parentOrganization": { "@type": "Organization", "name": "Digital im Alter Bremen-Nord", "url": "https://dia-bremen.de/" },
+  "description": "Sprechstunde und iPad-Kurs in der Stadtbibliothek Lesum, Apple-Kurs im Heimatverein, Workshop in Nebelthau – kostenlose digitale Hilfe für Senioren in Lesum.",
+  "url": "https://dia-bremen.de/standorte/lesum/",
+  "telephone": "+491781603960",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Hindenburgstraße 31",
+    "addressLocality": "Bremen",
+    "postalCode": "28717",
+    "addressCountry": "DE"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 53.1691, "longitude": 8.6942 },
+  "makesOffer": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Start", "item": "https://dia-bremen.de/" },
+    { "@type": "ListItem", "position": 2, "name": "Standorte", "item": "https://dia-bremen.de/standorte/" },
+    { "@type": "ListItem", "position": 3, "name": "Lesum", "item": "https://dia-bremen.de/standorte/lesum/" }
+  ]
+}
+</script>
 
 In Lesum gibt es gleich drei Anlaufstellen für digitale Fragen. In der Stadtbibliothek Lesum können Sie ohne Anmeldung zu unserer Sprechstunde kommen und Ihr Smartphone, Tablet oder Ihren Computer mitbringen. Wer noch kein eigenes Tablet besitzt, kann am iPad-Kurs für Einsteiger teilnehmen – wir stellen dafür ein Gerät zur Verfügung, das Sie während der zehn Kurstermine behalten. Im Heimatverein Lesum treffen sich einmal im Monat erfahrenere Apple-Nutzer, um ihr Wissen zu vertiefen. Und wer es lieber mit jüngeren Helfern hat: In Nebelthau bieten Schülerinnen und Schüler von New Technology Guides einen offenen Workshop an. Alle vier Angebote sind kostenlos und werden ehrenamtlich durchgeführt.
 
@@ -62,6 +94,10 @@ Junge Digital Natives erklären geduldig Smartphone, Tablet und Computer – von
 ## Was Sie erwartet
 
 Egal für welches der vier Angebote Sie sich entscheiden: Niemand muss vorher etwas können. Wir erklären in normaler Sprache, ohne Fachbegriffe, und nehmen uns die Zeit, die Sie brauchen. Kommen Sie einfach vorbei, oder rufen Sie vorher an, wenn Sie unsicher sind, welches Angebot zu Ihnen passt.
+
+## Auch in der Nähe
+
+Nicht der passende Standort für Sie? Wir sind auch in [Marßel](/standorte/marssel/), [St. Magnus](/standorte/st-magnus/), [Farge](/standorte/farge/) und [Vegesack](/standorte/vegesack/) für Sie da.
 
 ## Kontakt
 

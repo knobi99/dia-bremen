@@ -1,8 +1,10 @@
 ---
-title: "Die elektronische Patientenakte – und ich habe gar kein Smartphone"
+title: "Elektronische Patientenakte ohne Smartphone"
+h1: "Die elektronische Patientenakte – und ich habe gar kein Smartphone"
 date: 2026-04-21
 description: "Was bedeutet die elektronische Patientenakte für Menschen ohne Smartphone? Eine verständliche Erklärung."
-featured_image: "/images/epa.png"
+featured_image: "/images/epa.webp"
+image_alt: "Wortwolke mit Begriffen rund um die elektronische Patientenakte"
 ---
 
 Seit Anfang 2025 hat fast jeder in Deutschland automatisch eine elektronische Patientenakte bekommen. Aber was ist, wenn Sie kein Smartphone haben? Oder wenn Tippen auf einem kleinen Bildschirm mit zittrigen Fingern schlicht nicht klappt?

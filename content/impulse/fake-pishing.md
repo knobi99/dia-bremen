@@ -1,8 +1,10 @@
 ---
-title: "Der Anruf mit der Stimme der eigenen Tochter – und die E-Mail, die zu echt aussah"
+title: "Der Anruf mit der Stimme der eigenen Tochter"
+h1: "Der Anruf mit der Stimme der eigenen Tochter – und die E-Mail, die zu echt aussah"
 date: 2026-09-14
 description: "Zwei Betrugsversuche, die uns selbst begegnet sind – am Telefon und per E-Mail – und wie Sie sich schützen, wenn plötzlich Druck aufgebaut wird."
-featured_image: "/images/fake-telefon.jpg"
+featured_image: "/images/fake-telefon.webp"
+image_alt: "Altes Wählscheibentelefon"
 draft: true
 ---
 

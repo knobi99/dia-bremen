@@ -6,7 +6,8 @@ description: "So erreichen Sie Digital im Alter Bremen-Nord – per Telefon, E-M
 {{< section-banner
     titel="Wir sind für Sie da"
     beschreibung="Fragen, Anmeldungen, Anregungen – sprechen Sie uns einfach an."
-    bild="/images/kontakt.jpg"
+    bild="/images/kontakt.webp"
+    alt="Bildcollage vom Vegesacker Hafen mit historischen Segelschiffen"
     farbe="tuerkis"
 >}}
 

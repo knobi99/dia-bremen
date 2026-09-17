@@ -1,9 +1,11 @@
 ---
-title: "Linux ist kostenlos – Warum noch für Windows bezahlen?"
+title: "Linux ist kostenlos – Alternative zu Windows"
+h1: "Linux ist kostenlos – Warum noch für Windows bezahlen?"
 date: 2024-12-15
 draft: false
 description: "Linux als kostenlose Alternative zu Windows – besonders für ältere Computer und den Umstieg nach Windows 10."
-image: "/images/linux-tux.jpg"
+image: "/images/linux-tux.webp"
+image_alt: "Tux, das Maskottchen von Linux"
 ---
 
 **Im Oktober 2025 ist Schluss:** Microsoft beendet den Support für Windows 10.
@@ -34,7 +36,7 @@ Es ist komplett kostenlos und Open Source.
 
 Unter den vielen Linux-Varianten empfehlen wir besonders Linux Mint.
 
-Diese Version wurde speziell für Einsteiger entwickelt und ähnelt Windows bewusst in der Bedienung.
+Diese Version wurde speziell für Einsteiger entwickelt und ähnelt Windows bewusst in der Bedienung. Wie die Installation Schritt für Schritt abläuft, zeigen wir in der [Anleitung zur Linux-Mint-Installation](/impulse/linux-mint-installieren/).
 
 ### Vorteile von Linux Mint
 

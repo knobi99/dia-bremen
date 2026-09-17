@@ -2,7 +2,8 @@
 title: "Warum Linux?"
 date: 2026-03-03
 description: "Warum immer mehr Menschen von Windows auf Linux umsteigen."
-image: "/images/linux-tux.jpg"
+image: "/images/linux-tux.webp"
+image_alt: "Tux, das Maskottchen von Linux"
 ---
 
 ## Ein Thema mit großem Interesse
@@ -29,7 +30,7 @@ Ihr Computer ist schon etwas in die Jahre gekommen? Linux läuft selbst auf 10 J
 
 ### 🖥️ 4. Vertraut und einfach zu bedienen
 
-Linux Mint sieht sehr ähnlich aus wie Windows. Sie finden sich schnell zurecht und können wie gewohnt arbeiten, was den Umstieg erheblich erleichtert.
+Linux Mint sieht sehr ähnlich aus wie Windows. Sie finden sich schnell zurecht und können wie gewohnt arbeiten, was den Umstieg erheblich erleichtert. Eine [Schritt-für-Schritt-Anleitung zur Installation](/impulse/linux-mint-installieren/) haben wir ebenfalls für Sie vorbereitet.
 
 ### 🛡️ 5. Digitale Souveränität
 

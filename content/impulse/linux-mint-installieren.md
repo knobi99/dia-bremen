@@ -2,7 +2,8 @@
 title: "Linux Mint installieren – einfach erklärt"
 date: 2026-03-30
 description: "Schritt-für-Schritt-Anleitung zur Installation von Linux Mint."
-featured_image: "/images/linux_install.jpg"
+featured_image: "/images/linux_install.webp"
+image_alt: "Startmenü der Linux-Mint-Installation am Bildschirm"
 ---
 
 Linux Mint ist eine kostenlose, sichere und benutzerfreundliche Alternative zu Windows. Diese Anleitung zeigt, wie Sie es Schritt für Schritt installieren – ganz ohne Vorkenntnisse.

@@ -1,8 +1,10 @@
 ---
-title: "Ein Passwort für alles? Und wo bewahre ich das Foto vom Ausweis auf?"
+title: "Ein Passwort für alles – und für den Ausweis?"
+h1: "Ein Passwort für alles? Und wo bewahre ich das Foto vom Ausweis auf?"
 date: 2026-09-13
-description: "Warum in unseren Sprechstunden immer wieder Fragen kommen, wie man Passwörter und das Foto vom Personalausweis sicher aufbewahrt – und wie ein Passwort-Manager bei beidem hilft."
-featured_image: "/images/passwort-manager.jpg"
+description: "Warum in unseren Sprechstunden ständig Fragen zu Passwörtern und zum Ausweisfoto kommen – und wie ein Passwort-Manager bei beidem hilft."
+featured_image: "/images/passwort-manager.webp"
+image_alt: "Elektronisches Zahlenschloss als Sinnbild für Passwortschutz"
 draft: false
 ---
 

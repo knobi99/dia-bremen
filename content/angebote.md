@@ -1,21 +1,70 @@
 ---
 title: "Angebote"
 description: "Sprechstunden, Kurse und Veranstaltungen von Digital im Alter Bremen-Nord – kostenlos in Bremen-Nord."
+aliases:
+  - /termine.html
 ---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationEvent",
+  "name": "Tablet-Kurs für Anfänger – SG Marßel",
+  "description": "Grundlagen im Umgang mit Tablets, Internet-Sicherheit, sichere Passwörter und Schutz vor Betrug. 10 Termine, kostenlos, max. 6 Teilnehmende.",
+  "startDate": "2026-09-29T15:30:00+02:00",
+  "endDate": "2026-09-29T17:30:00+02:00",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "location": {
+    "@type": "Place",
+    "name": "SG Marßel",
+    "address": { "@type": "PostalAddress", "streetAddress": "Stader Landstraße 100", "addressLocality": "Bremen", "postalCode": "28719", "addressCountry": "DE" }
+  },
+  "organizer": { "@type": "Organization", "name": "Digital im Alter Bremen-Nord", "url": "https://dia-bremen.de/" },
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR", "availability": "https://schema.org/LimitedAvailability", "url": "https://dia-bremen.de/angebote/" },
+  "maximumAttendeeCapacity": 6
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationEvent",
+  "name": "Tablet-Kurs für Einsteiger – Stadtbibliothek Lesum",
+  "description": "In 10 Terminen Schritt für Schritt den Umgang mit dem Apple iPad lernen. Das Gerät wird für die Dauer der Schulung kostenlos zur Verfügung gestellt.",
+  "startDate": "2026-09-23T10:30:00+02:00",
+  "endDate": "2026-09-23T12:00:00+02:00",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "location": {
+    "@type": "Place",
+    "name": "Stadtbibliothek Lesum",
+    "address": { "@type": "PostalAddress", "streetAddress": "Hindenburgstraße 31", "addressLocality": "Bremen", "postalCode": "28717", "addressCountry": "DE" }
+  },
+  "organizer": { "@type": "Organization", "name": "Digital im Alter Bremen-Nord", "url": "https://dia-bremen.de/" },
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR", "availability": "https://schema.org/LimitedAvailability", "url": "https://dia-bremen.de/angebote/" },
+  "maximumAttendeeCapacity": 6
+}
+</script>
+<!-- startDate/endDate bei neuem Kurstermin aktualisieren -->
+
 
 {{< section-banner
     titel="Unsere Angebote"
     beschreibung="Kostenlos, ohne Vorkenntnisse – einfach vorbeikommen oder anmelden."
-    bild="/images/angebote.jpg"
+    bild="/images/angebote.webp"
+    alt="Sonnenuntergang an einem Gewässer in Bremen-Nord"
     farbe="lila"
 >}}
+
+Sie möchten wissen, welches Angebot in Ihrer Nähe liegt? Alle Standorte in Bremen-Nord finden Sie auf einen Blick auf unserer [Standorte-Seite](/standorte/).
 
 ---
 
 {{< section-banner
     titel="1. Sprechstunden"
     beschreibung="Kommen Sie einfach vorbei – ohne Anmeldung. Unsere Trainer helfen direkt vor Ort."
-    bild="/images/sprechstunde.jpg"
+    bild="/images/sprechstunde.webp"
+    alt="Blick auf den Vegesacker Hafen mit historischem Segelschiff"
     farbe="gruen"
 >}}
 
@@ -95,7 +144,8 @@ Offener Austausch rund um PC, Tablet und Smartphone – Fragen willkommen, keine
 {{< section-banner
     titel="2. Kurse"
     beschreibung="Kleine Gruppen, maximal 6 Personen, über mehrere Wochen. Anmeldung erforderlich."
-    bild="/images/kurs.jpg"
+    bild="/images/kurs.webp"
+    alt="Bürogebäude am Vegesacker Hafen"
     farbe="blau"
 >}}
 
@@ -142,7 +192,8 @@ In 10 Terminen lernen Sie Schritt für Schritt den Umgang mit dem Apple iPad. Da
 {{< section-banner
     titel="3. Veranstaltungen"
     beschreibung="Einzelne Termine zu aktuellen digitalen Themen – offen für alle, meist ohne Anmeldung."
-    bild="/images/veranstaltung.jpg"
+    bild="/images/veranstaltung.webp"
+    alt="Historische Villa in Bremen-Nord"
     farbe="orange"
 >}}
 

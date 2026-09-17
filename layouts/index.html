@@ -1,5 +1,50 @@
 {{ define "main" }}
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "additionalType": "https://schema.org/NGO",
+  "name": "Digital im Alter Bremen-Nord",
+  "description": "Kostenlose Tablet- und Smartphone-Kurse sowie Sprechstunden für Senioren in Bremen-Nord. Ehrenamtlich, ohne Vorkenntnisse, mit viel Geduld.",
+  "url": "https://dia-bremen.de/",
+  "logo": "https://dia-bremen.de/images/dia-logo-komplett.png",
+  "image": "https://dia-bremen.de/images/dia-logo-komplett.png",
+  "telephone": "+491781603960",
+  "email": "hallo@dia-bremen.de",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Stader Landstraße 100",
+    "addressLocality": "Bremen",
+    "postalCode": "28719",
+    "addressCountry": "DE"
+  },
+  "areaServed": [
+    { "@type": "Place", "name": "Bremen-Lesum" },
+    { "@type": "Place", "name": "Bremen-Marßel" },
+    { "@type": "Place", "name": "Bremen-St. Magnus" },
+    { "@type": "Place", "name": "Bremen-Farge" },
+    { "@type": "Place", "name": "Bremen-Vegesack" }
+  ],
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": "Wednesday",
+    "opens": "10:00",
+    "closes": "11:00",
+    "description": "Telefonische Sprechzeit"
+  },
+  "makesOffer": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR",
+    "description": "Kostenlose Sprechstunden, Kurse und Workshops für Senioren in Bremen-Nord"
+  },
+  "sameAs": [
+    "https://whatsapp.com/channel/0029Vb6dx9mBVJl9rWTHLi0x"
+  ]
+}
+</script>
+
 <!-- Hero Section -->
 <section class="hero" id="start" aria-label="Willkommen">
     <div class="hero-content">
@@ -56,11 +101,11 @@
         <div class="teaser-inhalt">
             {{ with .Params.featured_image }}
             <div class="teaser-bild">
-                <img src="{{ . }}" alt="" loading="lazy">
+                <img src="{{ . }}" alt="{{ $.Params.image_alt | default $.Title }}" loading="lazy">
             </div>
             {{ end }}
             <div class="teaser-text">
-                <h2 id="teaser-heading">{{ .Title }}</h2>
+                <h2 id="teaser-heading">{{ .Params.h1 | default .Title }}</h2>
                 <p class="teaser-datum">📅 {{ .Date.Format "02. January 2006" }}</p>
                 {{ with .Summary }}<p>{{ . }}</p>{{ end }}
                 <a href="{{ .RelPermalink }}" class="weiterlesen-link">

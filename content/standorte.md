@@ -7,7 +7,8 @@ leaflet: true
 {{< section-banner
     titel="Unsere Standorte"
     beschreibung="Wir sind in fünf Stadtteilen in Bremen-Nord für Sie da – kostenlos, ohne Anmeldung."
-    bild="/images/standorte.jpg"
+    bild="/images/standorte.webp"
+    alt="Marktplatz in Bremen-Vegesack mit Geschäften und Cafés"
     farbe="tuerkis"
 >}}
 

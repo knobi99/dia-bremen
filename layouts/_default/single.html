@@ -10,11 +10,15 @@
         {{ $img := or .Params.featured_image .Params.image }}
         {{ with $img }}
         <div class="article-image">
-            <img src="{{ . }}" alt="{{ $.Title }}">
+            <img src="{{ . }}" alt="{{ $.Params.image_alt | default $.Title }}">
         </div>
         {{ end }}
 
         {{ .Content }}
+
+        {{ if eq .Section "impulse" }}
+        <p class="artikel-standorte-hinweis">Haben Sie noch Fragen dazu? Kommen Sie einfach zu einer <a href="/standorte/">Sprechstunde in Ihrer Nähe</a>.</p>
+        {{ end }}
 
     </div>
 </article>

@@ -1,5 +1,6 @@
 ---
 title: "Datenschutz"
+description: "Datenschutzerklärung von Digital im Alter Bremen-Nord – keine Tracking-Cookies, keine Analyse-Tools, nur anonyme Besucherstatistik."
 ---
 
 ## 1. Verantwortliche Stelle

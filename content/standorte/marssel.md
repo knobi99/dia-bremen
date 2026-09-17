@@ -1,9 +1,41 @@
 ---
-title: "Smartphone- & Tablet-Hilfe für Senioren in Marßel Bremen"
+title: "Smartphone- & Tablet-Hilfe in Marßel Bremen"
 description: "Sprechstunde und Tablet-Anfängerkurs in der SG Marßel – kostenlose digitale Hilfe für Senioren in Marßel, betreut von Birgit Wencelides."
 h1: "Digitale Hilfe für Senioren in Marßel"
-hero_image: "/images/standort-marssel.jpg"
+hero_image: "/images/standort-marssel.webp"
 ---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Digital im Alter Bremen-Nord – Sprechstunde Marßel",
+  "parentOrganization": { "@type": "Organization", "name": "Digital im Alter Bremen-Nord", "url": "https://dia-bremen.de/" },
+  "description": "Sprechstunde und Tablet-Anfängerkurs in der SG Marßel – kostenlose digitale Hilfe für Senioren in Marßel, betreut von Birgit Wencelides.",
+  "url": "https://dia-bremen.de/standorte/marssel/",
+  "telephone": "+4915773860418",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Stader Landstraße 100",
+    "addressLocality": "Bremen",
+    "postalCode": "28719",
+    "addressCountry": "DE"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 53.1778, "longitude": 8.7294 },
+  "makesOffer": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Start", "item": "https://dia-bremen.de/" },
+    { "@type": "ListItem", "position": 2, "name": "Standorte", "item": "https://dia-bremen.de/standorte/" },
+    { "@type": "ListItem", "position": 3, "name": "Marßel", "item": "https://dia-bremen.de/standorte/marssel/" }
+  ]
+}
+</script>
 
 In der SG Marßel treffen wir uns zweimal im Monat zur offenen Sprechstunde – kommen Sie einfach mit Ihrem Smartphone, Tablet oder Computer vorbei, eine Anmeldung brauchen Sie dafür nicht. Ab dem 29. September starten wir zusätzlich einen Tablet-Kurs für Anfänger, in dem wir über zehn Termine hinweg die Grundlagen zeigen: Wie Sie das Gerät bedienen, wie Sie sich im Internet sicher bewegen und wie Sie sich vor Betrug schützen. Ansprechpartnerin vor Ort ist Birgit Wencelides, bei ihr melden Sie sich auch für den Kurs an. Beide Angebote sind kostenlos und finden in kleiner Runde statt.
 
@@ -37,6 +69,10 @@ Grundlagen im Umgang mit Tablets, Internet-Sicherheit, sichere Passwörter und S
 ## Was Sie erwartet
 
 Sie müssen für keines der beiden Angebote Vorkenntnisse mitbringen. In der Sprechstunde beantworten wir konkrete Fragen zu Ihrem eigenen Gerät, im Kurs bauen wir gemeinsam Schritt für Schritt Wissen auf. Bei Fragen vorab erreichen Sie Birgit Wencelides telefonisch.
+
+## Auch in der Nähe
+
+Nicht der passende Standort für Sie? Wir sind auch in [Lesum](/standorte/lesum/), [St. Magnus](/standorte/st-magnus/), [Farge](/standorte/farge/) und [Vegesack](/standorte/vegesack/) für Sie da.
 
 ## Kontakt
 

@@ -1,5 +1,8 @@
 ---
 title: "Bilderrechte"
+description: "Nutzungsrechte der Bilder auf dia-bremen.de – Digital im Alter Bremen-Nord."
+aliases:
+  - /bilderrechte.html
 ---
 
 ## Verwendete Bilder

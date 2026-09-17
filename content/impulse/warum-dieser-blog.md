@@ -2,7 +2,8 @@
 title: "Warum dieser Blog?"
 date: 2025-12-28
 description: "Warum wir über digitale Themen schreiben – und für wen."
-featured_image: "/images/blog.jpg"
+featured_image: "/images/blog.webp"
+image_alt: "Füllfederhalter auf weißem Papier"
 ---
 
 In unseren Sprechstunden erleben wir das immer wieder – zuletzt bei Hertha, die zum dritten Mal fragte, wie sie ein Foto an ihre Enkelin schicken kann. Nicht weil sie es vergessen hätte, sondern weil sie sich nicht traute, es allein zu versuchen. „Ich will nichts kaputt machen“, sagte sie. Dabei geht es nie nur um Technik, sondern um Mut, um Teilhabe, um das Gefühl, dazuzugehören in einer Welt, die immer digitaler wird.
