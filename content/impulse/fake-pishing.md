@@ -5,7 +5,7 @@ date: 2026-09-14
 description: "Zwei Betrugsversuche, die uns selbst begegnet sind – am Telefon und per E-Mail – und wie Sie sich schützen, wenn plötzlich Druck aufgebaut wird."
 featured_image: "/images/fake-telefon.webp"
 image_alt: "Altes Wählscheibentelefon"
-draft: true
+draft: false
 ---
 
 Vor Kurzem bekam jemand aus unserem Team einen Anruf: Am anderen Ende behauptete eine Stimme, die eigene Tochter habe einen Unfall verursacht und sitze in Untersuchungshaft, nur eine sofortige Geldüberweisung könne sie wieder freibekommen. Im Hintergrund war eine Stimme zu hören, die der Tochter täuschend ähnlich klang.
