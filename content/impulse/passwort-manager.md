@@ -5,7 +5,7 @@ date: 2026-09-13
 description: "Warum in unseren Sprechstunden ständig Fragen zu Passwörtern und zum Ausweisfoto kommen – und wie ein Passwort-Manager bei beidem hilft."
 featured_image: "/images/passwort-manager.webp"
 image_alt: "Elektronisches Zahlenschloss als Sinnbild für Passwortschutz"
-draft: false
+draft: true
 ---
 
 In unseren Sprechstunden taucht eine Frage immer wieder auf: Wo bewahre ich persönliche Dokumente sicher auf, wenn ich sie einmal als Foto oder Scan auf dem Computer habe – den Ausweis, die Krankenversicherungskarte, einen Arztbrief oder die eigenen Bankverbindungen? Genau daraus ist die Idee zu diesem Artikel entstanden.
