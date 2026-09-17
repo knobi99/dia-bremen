@@ -33,3 +33,5 @@ Die Einrichtung dauert etwa 15 Minuten:
 3. Nach und nach die wichtigsten Zugangsdaten und Dokumente eintragen
 
 Die Sorge, die uns dabei am häufigsten begegnet: Was, wenn ich das Hauptpasswort vergesse? Ohne dieses eine Passwort kommt man tatsächlich an nichts mehr heran. Es lohnt sich deshalb, es aufzuschreiben und an einem sicheren Ort aufzubewahren, zum Beispiel in einem verschlossenen Umschlag zu Hause.
+
+Ein gut gesichertes Passwort schützt allerdings nur, wenn man es nicht selbst weitergibt – wie beim [Anruf mit der gefälschten Stimme](/impulse/fake-pishing/), bei dem Betrüger gezielt Druck aufbauen, damit man nicht mehr nachdenkt.
