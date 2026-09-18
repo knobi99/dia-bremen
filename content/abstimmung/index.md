@@ -1,5 +1,6 @@
 ---
 title: "Abstimmung: Digital Dabei"
+draft: true
 h1: "Digital Dabei – worüber möchten Sie mehr erfahren?"
 description: "Stimmen Sie ab: Welches digitale Thema interessiert Sie am meisten? Die Ergebnisse aller Besucher sehen Sie direkt im Anschluss."
 abstimmung: true
