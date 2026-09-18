@@ -36,6 +36,9 @@
 {{ if .Params.leaflet }}
   <link rel="stylesheet" href="/css/leaflet.css">
   {{ end }}
+{{ if .Params.abstimmung }}
+  <link rel="stylesheet" href="/css/abstimmung.css">
+  {{ end }}
 </head>
 <body>
 
@@ -58,6 +61,10 @@
   </button>
 
   <script src="/js/site.js"></script>
+{{ if .Params.abstimmung }}
+  <script>window.ABSTIMMUNG_API = {{ .Params.abstimmung_api }};</script>
+  <script src="/js/abstimmung.js" defer></script>
+  {{ end }}
 
   <!-- Datenschutzfreundliche Besucherstatistik (selbst gehostet, keine Cookies) -->
   <script data-goatcounter="https://stat.knobi99.de/count" async src="https://stat.knobi99.de/count.js"></script>

@@ -1,0 +1,7 @@
+name = "dia-bremen-abstimmung"
+main = "worker.js"
+compatibility_date = "2026-09-01"
+
+[[kv_namespaces]]
+binding = "ABSTIMMUNG_KV"
+id = "e8837a21e1c14ba9b227f1156bc90ce1"

@@ -1,0 +1,176 @@
+/* ===== Abstimmung: Digital Dabei ===== */
+.abstimmung-widget {
+    --ab-blau-hell: #3b64c6;
+    --ab-blau: var(--helles-blau, #1e40af);
+    --ab-blau-dunkel: var(--hauptblau, #1a365d);
+    --ab-gruen-hell: #3f9863;
+    --ab-gruen: #2f7d4f;
+    --ab-gruen-dunkel: #1f5c38;
+    --ab-grau: var(--grau-hell, #f8f9fa);
+    --ab-grau-rand: #d5dbe0;
+    max-width: 900px;
+    margin: 40px auto 0;
+}
+
+.abstimmung-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+}
+
+.abstimmung-btn {
+    font-family: inherit;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.35;
+    color: white;
+    background-image: linear-gradient(160deg, var(--ab-blau-hell) 0%, var(--ab-blau) 55%, var(--ab-blau-dunkel) 100%);
+    border: 3px solid var(--ab-blau-dunkel);
+    border-radius: 12px;
+    padding: 22px 20px;
+    min-height: 90px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(26, 54, 93, 0.3);
+    transition: box-shadow 0.15s ease, transform 0.15s ease, filter 0.15s ease;
+}
+
+.abstimmung-btn:hover,
+.abstimmung-btn:focus-visible {
+    filter: brightness(1.08);
+    box-shadow: 0 6px 14px rgba(26, 54, 93, 0.38);
+    transform: translateY(-2px);
+    text-decoration: none !important;
+}
+
+.abstimmung-btn:active {
+    transform: translateY(0) scale(0.98);
+    box-shadow: 0 2px 6px rgba(26, 54, 93, 0.3);
+    filter: brightness(0.97);
+}
+
+.abstimmung-btn:nth-child(even) {
+    background-image: linear-gradient(160deg, var(--ab-gruen-hell) 0%, var(--ab-gruen) 55%, var(--ab-gruen-dunkel) 100%);
+    border-color: var(--ab-gruen-dunkel);
+    box-shadow: 0 4px 10px rgba(31, 92, 56, 0.3);
+}
+
+.abstimmung-btn:nth-child(even):hover,
+.abstimmung-btn:nth-child(even):focus-visible {
+    box-shadow: 0 6px 14px rgba(31, 92, 56, 0.38);
+}
+
+.abstimmung-btn:nth-child(even):active {
+    box-shadow: 0 2px 6px rgba(31, 92, 56, 0.3);
+}
+
+.abstimmung-btn:disabled {
+    opacity: 0.6;
+    cursor: default;
+    transform: none;
+}
+
+.abstimmung-ergebnisse h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.abstimmung-gesamt {
+    color: #52606d;
+    margin-bottom: 24px;
+}
+
+.abstimmung-balken {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.abstimmung-zeile {
+    background: var(--ab-grau);
+    border: 2px solid var(--ab-grau-rand);
+    border-radius: 10px;
+    padding: 14px 16px;
+}
+
+.abstimmung-zeile.gewaehlt {
+    border-color: var(--ab-blau);
+    background: #eaf1fb;
+}
+
+.abstimmung-zeile-kopf {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.abstimmung-zeile-prozent {
+    font-weight: bold;
+    color: var(--ab-blau-dunkel);
+    white-space: nowrap;
+}
+
+.abstimmung-balken-grund {
+    background: #e2e8f0;
+    border-radius: 8px;
+    height: 22px;
+    overflow: hidden;
+}
+
+.abstimmung-balken-fuellung {
+    height: 100%;
+    background: var(--ab-blau);
+    border-radius: 8px 0 0 8px;
+    transition: width 0.5s ease;
+}
+
+.abstimmung-zeile.gewaehlt .abstimmung-balken-fuellung {
+    background: var(--ab-gruen);
+}
+
+.abstimmung-zeile-stimmen {
+    font-size: 16px;
+    color: #52606d;
+    margin-top: 6px;
+}
+
+.abstimmung-zurueck {
+    margin-top: 28px;
+    font-family: inherit;
+    font-size: 18px;
+    background: none;
+    border: 2px solid var(--ab-blau);
+    color: var(--ab-blau-dunkel);
+    border-radius: 8px;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+.abstimmung-zurueck:hover,
+.abstimmung-zurueck:focus-visible {
+    background: var(--ab-grau);
+}
+
+.abstimmung-status {
+    margin-top: 20px;
+    font-size: 18px;
+    color: var(--ab-blau-dunkel);
+    min-height: 1.4em;
+}
+
+@media (max-width: 720px) {
+    .abstimmung-buttons {
+        grid-template-columns: 1fr;
+    }
+    .abstimmung-btn {
+        font-size: 20px;
+    }
+}

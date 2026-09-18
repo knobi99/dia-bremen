@@ -1,0 +1,14 @@
+{
+  "hinweis": "Statische Startwerte / Offline-Fallback. Die echten Live-Ergebnisse liefert der Cloudflare Worker unter der in content/abstimmung/index.md hinterlegten abstimmung_api-URL. Diese Datei wird nicht automatisch aktualisiert.",
+  "stimmen": {
+    "sicher-bestellen": 0,
+    "fahrplaner-oepnv": 0,
+    "abfallkalender-behoerden": 0,
+    "zeitung-online": 0,
+    "messenger-alternativen": 0,
+    "email-sicher": 0,
+    "browser-google-alternativen": 0,
+    "fotos-verwalten": 0,
+    "libreoffice-word": 0
+  }
+}
