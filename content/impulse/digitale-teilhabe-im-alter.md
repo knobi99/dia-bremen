@@ -1,7 +1,7 @@
 ---
 title: "Digitale Teilhabe im Alter: Wer in Bremen-Nord noch Unterstützung braucht"
 h1: "Digitale Teilhabe im Alter: Wer in Bremen-Nord noch Unterstützung braucht"
-date: 2026-10-01
+date: 2026-09-29
 description: "Rund 12.000 ältere Menschen in Bremen-Nord brauchen Unterstützung im Netz. Was die Zahlen bedeuten, was wir tun und wo noch Hilfe fehlt."
 featured_image: "/images/digitale-teilhabe.webp"
 image_alt: "Zwei Hände einer älteren Person auf der Tastatur eines Laptops"
