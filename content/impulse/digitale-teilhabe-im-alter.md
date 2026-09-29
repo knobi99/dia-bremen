@@ -30,7 +30,7 @@ Wer wenig Geld und wenig Bildung hat, hat oft auch weniger Zugang zu digitalen A
 
 Seit 2023 baut „Digital im Alter Bremen-Nord" ein ehrenamtliches Netzwerk auf. Wir arbeiten in kleinen Gruppen mit höchstens sechs Teilnehmenden, ohne Fachjargon und kostenlos. Das Angebot:
 
-1. **Digitale Sprechstunden** in [fast] allen Stadtteilen von Bremen-Nord [Blumenthal folgt noch]. Hier erreichen wir jährlich 400 bis 500 Seniorinnen und Senioren.
+1. **Digitale Sprechstunden** in fast allen Stadtteilen von Bremen-Nord – Blumenthal folgt noch. Hier erreichen wir jährlich 400 bis 500 Seniorinnen und Senioren.
 2. **Grundlagenkurse** für Menschen, die bewusst offline sind und ganz von vorn anfangen wollen.
 3. **Vorträge und Workshops**, zum Beispiel zu Betrugsmaschen am Telefon. Ein [Anruf mit der gefälschten Stimme](/impulse/fake-pishing/) der vermeintlichen Tochter, die dringend Geld braucht, ist bei uns im Norden schon vorgekommen.
 
