@@ -5,7 +5,7 @@ date: 2026-09-29
 description: "Rund 12.000 ältere Menschen in Bremen-Nord brauchen Unterstützung im Netz. Was die Zahlen bedeuten, was wir tun und wo noch Hilfe fehlt."
 featured_image: "/images/digitale-teilhabe.webp"
 image_alt: "Zwei Hände einer älteren Person auf der Tastatur eines Laptops"
-draft: true
+draft: false
 ---
 
 Arzttermine, Behördengänge, Kontakt zur Familie, Banking: Vieles läuft heute über das Internet. Wer dort nicht mitkommt, meldet sich selten laut. Er zieht sich zurück, und das fällt kaum jemandem auf. Zum Internationalen Tag der älteren Menschen am 1. Oktober zeigen wir, wie groß die Lücke bei uns im Norden ist.
