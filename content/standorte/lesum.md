@@ -1,6 +1,6 @@
 ---
 title: "Smartphone-Hilfe für Senioren in Lesum Bremen"
-description: "Sprechstunde und iPad-Kurs in der Stadtbibliothek Lesum, Workshop in Nebelthau – kostenlose digitale Hilfe für Senioren in Lesum."
+description: "Sprechstunde, iPad-Kurs und Linux-Café in der Stadtbibliothek Lesum, Workshop in Nebelthau – kostenlose digitale Hilfe für Senioren in Lesum."
 h1: "Digitale Hilfe für Senioren in Lesum"
 hero_image: "/images/standort-lesum.webp"
 hero_position: "center 72%"
@@ -12,7 +12,7 @@ hero_position: "center 72%"
   "@type": "LocalBusiness",
   "name": "Digital im Alter Bremen-Nord – Sprechstunde Lesum",
   "parentOrganization": { "@type": "Organization", "name": "Digital im Alter Bremen-Nord", "url": "https://dia-bremen.de/" },
-  "description": "Sprechstunde und iPad-Kurs in der Stadtbibliothek Lesum, Workshop in Nebelthau – kostenlose digitale Hilfe für Senioren in Lesum.",
+  "description": "Sprechstunde, iPad-Kurs und Linux-Café in der Stadtbibliothek Lesum, Workshop in Nebelthau – kostenlose digitale Hilfe für Senioren in Lesum.",
   "url": "https://dia-bremen.de/standorte/lesum/",
   "telephone": "+491781603960",
   "address": {
@@ -38,7 +38,7 @@ hero_position: "center 72%"
 }
 </script>
 
-In Lesum gibt es zwei Anlaufstellen für digitale Fragen. In der Stadtbibliothek Lesum können Sie ohne Anmeldung zu unserer Sprechstunde kommen und Ihr Smartphone, Tablet oder Ihren Computer mitbringen. Wer noch kein eigenes Tablet besitzt, kann am iPad-Kurs für Einsteiger teilnehmen – wir stellen dafür ein Gerät zur Verfügung, das Sie während der zehn Kurstermine behalten. Und wer es lieber mit jüngeren Helfern hat: In Nebelthau bieten Schülerinnen und Schüler von New Technology Guides einen offenen Workshop an. Alle drei Angebote sind kostenlos und werden ehrenamtlich durchgeführt.
+In Lesum gibt es zwei Anlaufstellen für digitale Fragen. In der Stadtbibliothek Lesum können Sie ohne Anmeldung zu unserer Sprechstunde kommen und Ihr Smartphone, Tablet oder Ihren Computer mitbringen. Wer noch kein eigenes Tablet besitzt, kann am iPad-Kurs für Einsteiger teilnehmen – wir stellen dafür ein Gerät zur Verfügung, das Sie während der zehn Kurstermine behalten. Ab dem 20. Oktober 2026 trifft sich dort außerdem jeden 3. Dienstag das Linux-Café, ein offener Treff für alle, die Linux ausprobieren oder schon damit arbeiten. Und wer es lieber mit jüngeren Helfern hat: In Nebelthau bieten Schülerinnen und Schüler von New Technology Guides einen offenen Workshop an. Alle vier Angebote sind kostenlos und werden ehrenamtlich durchgeführt.
 
 ## Wann und wo
 
@@ -68,6 +68,19 @@ Schritt für Schritt den Umgang mit dem Apple iPad lernen. Das Gerät stellen wi
 {{< /termin >}}
 
 {{< termin
+    typ="PC-Treff"
+    name="Linux-Café"
+    datum="Ab 20. Oktober 2026 · jeden 3. Dienstag im Monat"
+    uhrzeit="Dienstags 16:00–18:00 Uhr"
+    ort="Stadtbibliothek Lesum, Hindenburgstraße 31"
+    anmeldung="Ohne Anmeldung"
+    status="neu"
+    hinweis="Eigenen Laptop gern mitbringen, Installationsmaterial ist vorhanden. Gemeinsam mit der Stadtbibliothek Bremen."
+>}}
+Offener Treff rund um Linux und freie Software, für Anfänger und Erfahrene. Bei Kaffee wird zusammen ausprobiert, installiert und gefragt.
+{{< /termin >}}
+
+{{< termin
     typ="Workshop"
     name="New Technology Guides – Nebelthau"
     datum="Jeden 2. Freitag im Monat"
@@ -81,7 +94,7 @@ Junge Digital Natives erklären geduldig Smartphone, Tablet und Computer – von
 
 ## Was Sie erwartet
 
-Egal für welches der drei Angebote Sie sich entscheiden: Niemand muss vorher etwas können. Wir erklären in normaler Sprache, ohne Fachbegriffe, und nehmen uns die Zeit, die Sie brauchen. Kommen Sie einfach vorbei, oder rufen Sie vorher an, wenn Sie unsicher sind, welches Angebot zu Ihnen passt.
+Egal für welches der vier Angebote Sie sich entscheiden: Niemand muss vorher etwas können. Wir erklären in normaler Sprache, ohne Fachbegriffe, und nehmen uns die Zeit, die Sie brauchen. Kommen Sie einfach vorbei, oder rufen Sie vorher an, wenn Sie unsicher sind, welches Angebot zu Ihnen passt.
 
 ## Auch in der Nähe
 

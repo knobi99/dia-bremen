@@ -185,6 +185,19 @@ In 10 Terminen lernen Sie Schritt für Schritt den Umgang mit dem Apple iPad. Da
     farbe="orange"
 >}}
 
+{{< termin
+    typ="PC-Treff"
+    name="Linux-Café"
+    datum="Ab 20. Oktober 2026 · jeden 3. Dienstag im Monat"
+    uhrzeit="Dienstags 16:00–18:00 Uhr"
+    ort="Stadtbibliothek Lesum, Hindenburgstraße 31, 28717 Bremen"
+    anmeldung="Ohne Anmeldung"
+    status="neu"
+    hinweis="Eigenen Laptop gern mitbringen, Installationsmaterial ist vorhanden. Gemeinsam mit der Stadtbibliothek Bremen."
+>}}
+Offener Treff rund um Linux und freie Software, für Anfänger und Erfahrene. Bei Kaffee wird zusammen ausprobiert, installiert und gefragt.
+{{< /termin >}}
+
 ---
 
 ## Fragen zu unseren Angeboten?

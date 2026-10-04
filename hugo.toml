@@ -8,9 +8,9 @@ defaultContentLanguage = "de"
   description = "Digital im Alter Bremen-Nord – Digitale Kompetenzen für Senioren in Bremen-Nord. Tablet- und Smartphone-Kurse in kleinen Gruppen mit viel Geduld."
 
 [params.ankuendigung]
-  aktiv = false
-  text = "Wir sind solidarisch dabei 🫱🏽‍🫲🏼 – Demo für den Erhalt der Begegnungszentren, Di. 22. September, 13 Uhr, Bremer Marktplatz."
-  link = "/solidaritaet/"
+  aktiv = true
+  text = "Neu: Linux-Café in der Stadtbibliothek Lesum – ab Di. 20. Oktober, jeden 3. Dienstag 16–18 Uhr."
+  link = "/angebote/"
   linktext = "Mehr erfahren →"
 
 [markup.goldmark.renderer]

@@ -31,6 +31,11 @@ leaflet: true
     zeiten="Ab 23. September 2026 · Mittwochs 10:30–12:00 Uhr"
 />}}
 {{< standort-venue
+    typ="PC-Treff"
+    ort="Linux-Café, Stadtbibliothek Lesum"
+    zeiten="Ab 20. Oktober 2026 · jeden 3. Dienstag · 16:00–18:00 Uhr"
+/>}}
+{{< standort-venue
     typ="Workshop"
     ort="New Technology Guides, Nebelthau"
     zeiten="Jeden 2. Freitag im Monat · 16:00–20:00 Uhr"
@@ -133,7 +138,7 @@ leaflet: true
       lat: 53.1691, lon: 8.6942,
       name: "Stadtbibliothek Lesum",
       adresse: "Hindenburgstraße 31, 28717 Bremen",
-      zeiten: "Jeden 2. + 4. Freitag · 11–13 Uhr"
+      zeiten: "Jeden 2. + 4. Freitag · 11–13 Uhr<br>📅 Linux-Café: jeden 3. Dienstag · 16–18 Uhr"
     },
     {
       lat: 53.1778, lon: 8.7294,
