@@ -6,7 +6,7 @@ description: "Ab dem 20. Oktober 2026 treffen wir uns jeden 3. Dienstag im Monat
 tags: ["Linux"]
 image: "/images/linux-tux.webp"
 image_alt: "Tux, das Maskottchen von Linux"
-draft: true
+draft: false
 ---
 
 Seit dem Ende von Windows 10 haben wir bei mehreren Terminen Linux auf mitgebrachte Laptops installiert, inzwischen über 30-mal. Nach diesen Terminen haben viele gefragt, wie es weitergeht. Mit der Installation ist es ja nicht getan: Danach fängt man an, mit dem neuen System zu arbeiten, und dabei tauchen Fragen auf. Mehrere Teilnehmende wollten sich deshalb gern regelmäßig treffen. Daraus ist das Linux-Café entstanden, das wir zusammen mit der Stadtbibliothek Bremen anbieten.

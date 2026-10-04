@@ -195,7 +195,7 @@ In 10 Terminen lernen Sie Schritt für Schritt den Umgang mit dem Apple iPad. Da
     status="neu"
     hinweis="Eigenen Laptop gern mitbringen, Installationsmaterial ist vorhanden. Gemeinsam mit der Stadtbibliothek Bremen."
 >}}
-Offener Treff rund um Linux und freie Software, für Anfänger und Erfahrene. Bei Kaffee wird zusammen ausprobiert, installiert und gefragt.
+Offener Treff rund um Linux und freie Software, für Anfänger und Erfahrene. Bei Kaffee wird zusammen ausprobiert, installiert und gefragt. <a href="/impulse/linux-cafe-lesum/">Mehr zum Linux-Café</a>
 {{< /termin >}}
 
 ---
