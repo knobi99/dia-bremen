@@ -31,12 +31,6 @@ leaflet: true
     zeiten="Ab 23. September 2026 · Mittwochs 10:30–12:00 Uhr"
 />}}
 {{< standort-venue
-    typ="Kurs"
-    ort="Apple-Kurs, Heimatverein Lesum"
-    zeiten="Jeden 1. Montag im Monat · 10:30–12:00 Uhr"
-    kontakt="Anmeldung: 0421 6361262"
-/>}}
-{{< standort-venue
     typ="Workshop"
     ort="New Technology Guides, Nebelthau"
     zeiten="Jeden 2. Freitag im Monat · 16:00–20:00 Uhr"
@@ -170,12 +164,6 @@ leaflet: true
       name: "Bürgerhaus Vegesack",
       adresse: "Kirchheide 49, 28757 Bremen",
       zeiten: "Jeden 2. + 4. Donnerstag · 10:30–12:30 Uhr"
-    },
-    {
-      lat: 53.1688, lon: 8.6900,
-      name: "Heimatverein Lesum",
-      adresse: "Alter Schulhof 11, 28717 Bremen",
-      zeiten: "Jeden 1. Montag · 10:30–12:00 Uhr (Apple-Kurs)"
     }
   ];
 

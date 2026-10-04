@@ -151,18 +151,6 @@ Offener Austausch rund um PC, Tablet und Smartphone – Fragen willkommen, keine
 
 {{< termin
     typ="Kurs"
-    name="Apple iPad & iPhone für Fortgeschrittene"
-    datum="Jeden 1. Montag im Monat"
-    uhrzeit="Montags 10:30–12:00 Uhr"
-    ort="Heimatverein Lesum, Alter Schulhof 11"
-    anmeldung="Anmeldung erforderlich · max. 10 Personen"
-    hinweis="Anmeldung: 📞 0421 6361262 · Eigenes iPhone oder iPad mitbringen"
->}}
-Für Apple-Nutzer, die ihre Kenntnisse vertiefen möchten – von Apps bis zu Sicherheitseinstellungen.
-{{< /termin >}}
-
-{{< termin
-    typ="Kurs"
     name="Tablet-Kurs für Anfänger"
     datum="Ab 29. September 2026 · 10 Termine"
     uhrzeit="Dienstags 15:30–17:30 Uhr"
