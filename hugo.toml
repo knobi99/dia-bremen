@@ -12,6 +12,7 @@ defaultContentLanguage = "de"
   text = "Neu: Linux-Café in der Stadtbibliothek Lesum – ab Di. 20. Oktober, jeden 3. Dienstag 16–18 Uhr."
   link = "/impulse/linux-cafe-lesum/"
   linktext = "Mehr erfahren →"
+  bis = "2026-10-20"  # letzter Tag mit Banner, ab 21.10. automatisch ausgeblendet
 
 [markup.goldmark.renderer]
   unsafe = true

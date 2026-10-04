@@ -1,9 +1,22 @@
 {{ with .Site.Params.ankuendigung }}
-  {{ if .aktiv }}
-  <div class="ankuendigung" role="alert">
+  {{/* bis = letzter Tag, an dem der Banner angezeigt wird (YYYY-MM-DD), optional */}}
+  {{ $abgelaufen := and .bis (gt (now.Format "2006-01-02") .bis) }}
+  {{ if and .aktiv (not $abgelaufen) }}
+  <div class="ankuendigung" role="alert"{{ with .bis }} data-bis="{{ . }}"{{ end }}>
     <span class="ankuendigung-icon" aria-hidden="true">📢</span>
     {{ $linktext := .linktext | default "Mehr erfahren →" }}
     <p>{{ .text }}{{ with .link }} <a href="{{ . }}">{{ $linktext }}</a>{{ end }}</p>
   </div>
+  {{ with .bis }}
+  <script>
+    (function () {
+      var heute = new Date().toLocaleDateString("en-CA", { timeZone: "Europe/Berlin" });
+      if (heute > "{{ . }}") {
+        var b = document.querySelector(".ankuendigung[data-bis]");
+        if (b) b.remove();
+      }
+    })();
+  </script>
+  {{ end }}
   {{ end }}
 {{ end }}
