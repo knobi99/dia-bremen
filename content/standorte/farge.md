@@ -46,7 +46,7 @@ Farge ist unser nördlichster Standort in Bremen. Im Begegnungszentrum Farge bie
     name="Digitale Sprechstunde Farge"
     datum="Jeden 1. und 3. Donnerstag im Monat"
     uhrzeit="Donnerstags 10:00–12:00 Uhr"
-    ort="Begegnungszentrum Farge, Rönnebecker Straße"
+    ort="Begegnungszentrum Farge, Farger Straße 136"
     anmeldung="Ohne Anmeldung"
     hinweis="Fragen vorab: Klaus Martin 📞 0152 34284457"
 >}}
