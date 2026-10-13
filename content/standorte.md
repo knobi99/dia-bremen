@@ -82,7 +82,7 @@ leaflet: true
 >}}
 {{< standort-venue
     typ="Sprechstunde"
-    ort="Begegnungszentrum Farge, Fsrger Straße 136"
+    ort="Begegnungszentrum Farge, Farger Straße 136"
     zeiten="Jeden 1. und 3. Donnerstag · 10:00–12:00 Uhr"
     kontakt="Klaus Martin · 0152 34284457"
 />}}
