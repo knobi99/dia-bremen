@@ -1,6 +1,6 @@
 ---
 title: "Linux-Café in der Stadtbibliothek Lesum"
-h1: "Neu ab Oktober: das Linux-Café in der Stadtbibliothek Lesum"
+h1: "Das Linux-Café in der Stadtbibliothek Lesum"
 date: 2026-10-04
 description: "Ab dem 20. Oktober 2026 treffen wir uns jeden 3. Dienstag im Monat von 16 bis 18 Uhr zum Linux-Café in der Stadtbibliothek Lesum. Für Anfänger und Erfahrene, kostenlos."
 tags: ["Linux"]
@@ -13,9 +13,24 @@ Seit dem Ende von Windows 10 haben wir bei mehreren Terminen Linux auf mitgebrac
 
 <!--more-->
 
+## Nachtrag: So war das erste Treffen
+
+Am 20. Oktober war das erste Linux-Café. Wir hatten vorher keine Vorstellung, wie viele Leute kommen würden. Es waren dann ständig mehr als 20, zeitweise bis zu 28, in einem Raum, in dem eigentlich etwa 12 Personen gut Platz haben. Gestört hat die Enge niemanden. Es wurde geklönt, gefragt und von eigenen Erfahrungen erzählt, jede Frage wurde ernst genommen, und wer etwas wusste, hat den anderen geholfen. Etliche hatten ihre Laptops dabei, und nebenbei haben wir zweimal Linux Mint installiert. Viele haben gesagt, dass sie wiederkommen wollen. Uns hat das sehr gefreut.
+
+Diese Fragen kamen aus der Runde:
+
+- Wie richte ich unter Linux das Netzwerk ein? Unter Windows 11 werden die Geräte im Netzwerk automatisch erkannt, wenn alles per LAN-Kabel verbunden ist. Wie geht das bei Linux, am besten an einem Beispiel?
+- Wird der Drucker automatisch erkannt, und wie installiere ich einen Treiber, wenn er fehlt?
+- Auf einem etwa 15 Jahre alten MacBook ist Ubuntu installiert, aber das WLAN wird nicht erkannt. Liegt das am WLAN-Modul?
+- Wie installiere ich Linux Mint auf einem neuen Laptop mit Windows 11? Was muss ich im BIOS einstellen, und welche Hürden gibt es?
+
+Aus der Gruppe kam auch der Vorschlag, einen Rundbrief zum Linux-Café zu schreiben. Das greifen wir gern auf.
+
+Außerdem hat jemand einen Lesetipp mitgebracht: den [Kuketz-Blog](https://www.kuketz-blog.de/), der sich mit Datenschutz und IT-Sicherheit beschäftigt, und die „Rezepte" vom [Digital Independence Day](https://di.day/). Dort wird Schritt für Schritt erklärt, wie man von den Apps der großen Konzerne auf Alternativen umsteigt.
+
 ## Wann und wo
 
-Wir treffen uns **jeden 3. Dienstag im Monat von 16:00 bis 18:00 Uhr** in der Stadtbibliothek Lesum, Hindenburgstraße 31. Los geht es am **Dienstag, 20. Oktober 2026**. Die nächsten Termine sind dann der 17. November und der 15. Dezember. Die Teilnahme ist kostenlos.
+Wir treffen uns **jeden 3. Dienstag im Monat von 16:00 bis 18:00 Uhr** in der Stadtbibliothek Lesum, Hindenburgstraße 31. Das erste Treffen war am 20. Oktober 2026. Die nächsten Termine sind **Dienstag, 17. November** und **Dienstag, 15. Dezember**. Die Teilnahme ist kostenlos.
 
 ## Was dort passiert
 
