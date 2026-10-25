@@ -5,7 +5,7 @@ date: 2026-10-25
 description: "Neues Angebot in der Stadtbibliothek Lesum: Ab dem 6. November jeden 1. Freitag im Monat 90 Minuten zu einem digitalen Thema. Zum Auftakt geht es um Passwort-Manager. Der erste Termin ist ausgebucht."
 featured_image: "/images/pm-nie-wieder.webp"
 image_alt: "Übersicht verschiedener Passwort-Apps als Icons"
-draft: true
+draft: false
 ---
 
 „Digital Dabei“ ist unsere neue Reihe in der Stadtbibliothek Lesum: jeden 1. Freitag im Monat 90 Minuten zu einem digitalen Thema, mit einem kurzen Vortrag, Zeit zum Ausprobieren und für Fragen. Den Anfang machen am 6. November die Passwort-Manager.
