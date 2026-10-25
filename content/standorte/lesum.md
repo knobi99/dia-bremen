@@ -38,7 +38,7 @@ hero_position: "center 72%"
 }
 </script>
 
-In Lesum gibt es zwei Anlaufstellen für digitale Fragen. In der Stadtbibliothek Lesum können Sie ohne Anmeldung zu unserer Sprechstunde kommen und Ihr Smartphone, Tablet oder Ihren Computer mitbringen. Für Menschen ohne eigenes Tablet läuft dort ein iPad-Kurs für Einsteiger, bei dem wir für die zehn Kurstermine ein Gerät stellen. Der aktuelle Kurs ist ausgebucht. Ab dem 20. Oktober 2026 trifft sich dort außerdem jeden 3. Dienstag das Linux-Café, ein offener Treff für alle, die Linux ausprobieren oder schon damit arbeiten. Und wer es lieber mit jüngeren Helfern hat: In Nebelthau bieten Schülerinnen und Schüler von New Technology Guides einen offenen Workshop an. Alle vier Angebote sind kostenlos und werden ehrenamtlich durchgeführt.
+In Lesum gibt es zwei Anlaufstellen für digitale Fragen. In der Stadtbibliothek Lesum können Sie ohne Anmeldung zu unserer Sprechstunde kommen und Ihr Smartphone, Tablet oder Ihren Computer mitbringen. Für Menschen ohne eigenes Tablet läuft dort ein iPad-Kurs für Einsteiger, bei dem wir für die zehn Kurstermine ein Gerät stellen. Der aktuelle Kurs ist ausgebucht. Ab dem 20. Oktober 2026 trifft sich dort außerdem jeden 3. Dienstag das Linux-Café, ein offener Treff für alle, die Linux ausprobieren oder schon damit arbeiten. Neu ist „Digital Dabei“: jeden 1. Freitag im Monat eine 90-minütige Veranstaltung in der Bibliothek, jedes Mal zu einem anderen Thema, mit Anmeldung über die Stadtbibliothek. Und wer es lieber mit jüngeren Helfern hat: In Nebelthau bieten Schülerinnen und Schüler von New Technology Guides einen offenen Workshop an. Alle Angebote sind kostenlos und werden ehrenamtlich durchgeführt.
 
 ## Wann und wo
 
@@ -82,6 +82,19 @@ Offener Treff rund um Linux und freie Software, für Anfänger und Erfahrene. Be
 
 {{< termin
     typ="Workshop"
+    name="Digital Dabei in … Lesum"
+    datum="Jeden 1. Freitag im Monat · Auftakt am 6. November 2026"
+    uhrzeit="Freitags 10:30–12:00 Uhr (90 Minuten)"
+    ort="Stadtbibliothek Lesum, Hindenburgstraße 31"
+    anmeldung="Anmeldung über die Stadtbibliothek Lesum · max. 15 Personen"
+    status="ausgebucht"
+    hinweis="Anmeldung: 📞 0421 361-7142 (Stadtbibliothek Lesum). Neue Termine veröffentlichen wir in der Presse, hier auf der Website und auf unserem WhatsApp-Kanal."
+>}}
+Jeden Monat ein anderes Thema, mit kurzem Vortrag, Ausprobieren und Zeit für Fragen. Zum Auftakt geht es um Passwort-Manager: Nie wieder Passwörter vergessen. Der erste Termin war schnell ausgebucht.
+{{< /termin >}}
+
+{{< termin
+    typ="Workshop"
     name="New Technology Guides – Nebelthau"
     datum="Jeden 2. Freitag im Monat"
     uhrzeit="Freitags 16:00–20:00 Uhr"
@@ -94,7 +107,7 @@ Junge Digital Natives erklären geduldig Smartphone, Tablet und Computer – von
 
 ## Was Sie erwartet
 
-Egal für welches der vier Angebote Sie sich entscheiden: Niemand muss vorher etwas können. Wir erklären in normaler Sprache, ohne Fachbegriffe, und nehmen uns die Zeit, die Sie brauchen. Kommen Sie einfach vorbei, oder rufen Sie vorher an, wenn Sie unsicher sind, welches Angebot zu Ihnen passt.
+Egal für welches Angebot Sie sich entscheiden: Niemand muss vorher etwas können. Wir erklären in normaler Sprache, ohne Fachbegriffe, und nehmen uns die Zeit, die Sie brauchen. Kommen Sie einfach vorbei, oder rufen Sie vorher an, wenn Sie unsicher sind, welches Angebot zu Ihnen passt.
 
 ## Auch in der Nähe
 

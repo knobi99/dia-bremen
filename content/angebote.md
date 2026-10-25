@@ -230,6 +230,19 @@ In 10 Terminen lernen Sie Schritt für Schritt den Umgang mit einem Android-Tabl
 Offener Treff rund um Linux und freie Software, für Anfänger und Erfahrene. Bei Kaffee wird zusammen ausprobiert, installiert und gefragt. <a href="/impulse/linux-cafe-lesum/">Mehr zum Linux-Café</a>
 {{< /termin >}}
 
+{{< termin
+    typ="Workshop"
+    name="Digital Dabei in … Lesum"
+    datum="Jeden 1. Freitag im Monat · Auftakt am 6. November 2026"
+    uhrzeit="Freitags 10:30–12:00 Uhr (90 Minuten)"
+    ort="Stadtbibliothek Lesum, Hindenburgstraße 31, 28717 Bremen"
+    anmeldung="Anmeldung über die Stadtbibliothek Lesum · max. 15 Personen"
+    status="ausgebucht"
+    hinweis="Anmeldung: 📞 0421 361-7142 (Stadtbibliothek Lesum). Neue Termine veröffentlichen wir in der Presse, hier auf der Website und auf unserem WhatsApp-Kanal."
+>}}
+Jeden Monat ein anderes Thema, mit kurzem Vortrag, Ausprobieren und Zeit für Fragen. Zum Auftakt geht es um Passwort-Manager: Nie wieder Passwörter vergessen. Der erste Termin war schnell ausgebucht.
+{{< /termin >}}
+
 ---
 
 ## Fragen zu unseren Angeboten?
