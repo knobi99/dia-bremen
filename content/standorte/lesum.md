@@ -38,7 +38,7 @@ hero_position: "center 72%"
 }
 </script>
 
-In Lesum gibt es zwei Anlaufstellen für digitale Fragen. In der Stadtbibliothek Lesum können Sie ohne Anmeldung zu unserer Sprechstunde kommen und Ihr Smartphone, Tablet oder Ihren Computer mitbringen. Wer noch kein eigenes Tablet besitzt, kann am iPad-Kurs für Einsteiger teilnehmen – wir stellen dafür ein Gerät zur Verfügung, das Sie während der zehn Kurstermine behalten. Ab dem 20. Oktober 2026 trifft sich dort außerdem jeden 3. Dienstag das Linux-Café, ein offener Treff für alle, die Linux ausprobieren oder schon damit arbeiten. Und wer es lieber mit jüngeren Helfern hat: In Nebelthau bieten Schülerinnen und Schüler von New Technology Guides einen offenen Workshop an. Alle vier Angebote sind kostenlos und werden ehrenamtlich durchgeführt.
+In Lesum gibt es zwei Anlaufstellen für digitale Fragen. In der Stadtbibliothek Lesum können Sie ohne Anmeldung zu unserer Sprechstunde kommen und Ihr Smartphone, Tablet oder Ihren Computer mitbringen. Für Menschen ohne eigenes Tablet läuft dort ein iPad-Kurs für Einsteiger, bei dem wir für die zehn Kurstermine ein Gerät stellen. Der aktuelle Kurs ist ausgebucht. Ab dem 20. Oktober 2026 trifft sich dort außerdem jeden 3. Dienstag das Linux-Café, ein offener Treff für alle, die Linux ausprobieren oder schon damit arbeiten. Und wer es lieber mit jüngeren Helfern hat: In Nebelthau bieten Schülerinnen und Schüler von New Technology Guides einen offenen Workshop an. Alle vier Angebote sind kostenlos und werden ehrenamtlich durchgeführt.
 
 ## Wann und wo
 
@@ -61,8 +61,8 @@ Individuelle Hilfe bei Problemen mit Smartphone, Tablet oder Computer.
     uhrzeit="Mittwochs 10:30–12:00 Uhr"
     ort="Stadtbibliothek Lesum, Hindenburgstraße 31"
     anmeldung="Anmeldung erforderlich · max. 6 Personen"
-    status="neu"
-    hinweis="Anmeldung: 📞 0421 361-7142 (Stadtbibliothek Lesum) – bitte Kontaktdaten hinterlassen, wir rufen zurück"
+    status="ausgebucht"
+    hinweis="Neue Kurstermine veröffentlichen wir in der Presse, hier auf der Website und auf unserem WhatsApp-Kanal."
 >}}
 Schritt für Schritt den Umgang mit dem Apple iPad lernen. Das Gerät stellen wir für die Dauer des Kurses kostenlos zur Verfügung.
 {{< /termin >}}

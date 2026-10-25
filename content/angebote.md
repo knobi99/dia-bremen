@@ -41,8 +41,27 @@ aliases:
     "address": { "@type": "PostalAddress", "streetAddress": "Hindenburgstraße 31", "addressLocality": "Bremen", "postalCode": "28717", "addressCountry": "DE" }
   },
   "organizer": { "@type": "Organization", "name": "Digital im Alter Bremen-Nord", "url": "https://dia-bremen.de/" },
-  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR", "availability": "https://schema.org/LimitedAvailability", "url": "https://dia-bremen.de/angebote/" },
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR", "availability": "https://schema.org/SoldOut", "url": "https://dia-bremen.de/angebote/" },
   "maximumAttendeeCapacity": 6
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationEvent",
+  "name": "Tablet-Kurs für Einsteiger – Begegnungszentrum St. Magnus",
+  "description": "In 10 Terminen den Umgang mit einem Android-Tablet lernen. Das Gerät wird für die Dauer des Kurses kostenlos zur Verfügung gestellt.",
+  "startDate": "2026-09-29T10:00:00+02:00",
+  "endDate": "2026-09-29T12:00:00+02:00",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "location": {
+    "@type": "Place",
+    "name": "Begegnungszentrum St. Magnus",
+    "address": { "@type": "PostalAddress", "streetAddress": "Unter den Linden 24", "addressLocality": "Bremen", "postalCode": "28759", "addressCountry": "DE" }
+  },
+  "organizer": { "@type": "Organization", "name": "Digital im Alter Bremen-Nord", "url": "https://dia-bremen.de/" },
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR", "availability": "https://schema.org/SoldOut", "url": "https://dia-bremen.de/angebote/" }
 }
 </script>
 <!-- startDate/endDate bei neuem Kurstermin aktualisieren -->
@@ -169,10 +188,23 @@ Grundlagen im Umgang mit Tablets, Internet-Sicherheit, sichere Passwörter und S
     uhrzeit="Mittwochs 10:30–12:00 Uhr"
     ort="Stadtbibliothek Lesum, Hindenburgstraße 31, 28717 Bremen"
     anmeldung="Anmeldung erforderlich · max. 6 Personen"
-    status="neu"
-    hinweis="Anmeldung: 📞 0421 361-7142 (Stadtbibliothek Lesum) – bitte Kontaktdaten hinterlassen, wir rufen zurück"
+    status="ausgebucht"
+    hinweis="Neue Kurstermine veröffentlichen wir in der Presse, hier auf der Website und auf unserem WhatsApp-Kanal."
 >}}
 In 10 Terminen lernen Sie Schritt für Schritt den Umgang mit dem Apple iPad. Das Beste: Für die Dauer der Schulung stellen wir Ihnen das Gerät kostenlos zur Verfügung.
+{{< /termin >}}
+
+{{< termin
+    typ="Kurs"
+    name="Tablet-Kurs für Einsteiger"
+    datum="Seit 29. September 2026 · 10 Termine"
+    uhrzeit="Dienstags 10:00–12:00 Uhr"
+    ort="Begegnungszentrum St. Magnus, Unter den Linden 24"
+    anmeldung="Anmeldung erforderlich"
+    status="ausgebucht"
+    hinweis="Das Android-Tablet bekommen Sie für die Dauer des Kurses kostenlos gestellt."
+>}}
+In 10 Terminen lernen Sie Schritt für Schritt den Umgang mit einem Android-Tablet.
 {{< /termin >}}
 
 ---

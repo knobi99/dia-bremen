@@ -28,7 +28,7 @@ leaflet: true
 {{< standort-venue
     typ="Kurs"
     ort="Tablet-Kurs, Stadtbibliothek Lesum"
-    zeiten="Ab 23. September 2026 · Mittwochs 10:30–12:00 Uhr"
+    zeiten="Seit 23. September 2026 · Mittwochs 10:30–12:00 Uhr · ausgebucht"
 />}}
 {{< standort-venue
     typ="PC-Treff"
@@ -71,6 +71,11 @@ leaflet: true
     typ="Sprechstunde"
     ort="Begegnungszentrum St. Magnus, Unter den Linden 24"
     zeiten="Jeden 1. und 3. Donnerstag · 15:00–17:00 Uhr"
+/>}}
+{{< standort-venue
+    typ="Kurs"
+    ort="Tablet-Kurs, Begegnungszentrum St. Magnus"
+    zeiten="Seit 29. September 2026 · Dienstags 10:00–12:00 Uhr · ausgebucht"
 />}}
 {{< /stadtteil-karte >}}
 
@@ -150,7 +155,7 @@ leaflet: true
       lat: 53.1748, lon: 8.6619,
       name: "Begegnungszentrum St. Magnus",
       adresse: "Unter den Linden 24, 28759 Bremen",
-      zeiten: "Jeden 1. + 3. Donnerstag · 15–17 Uhr"
+      zeiten: "Jeden 1. + 3. Donnerstag · 15–17 Uhr<br>📅 Tablet-Kurs: dienstags 10–12 Uhr (ausgebucht)"
     },
     {
       lat: 53.2138, lon: 8.5219,

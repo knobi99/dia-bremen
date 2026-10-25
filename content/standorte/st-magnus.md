@@ -1,6 +1,6 @@
 ---
 title: "Smartphone-Hilfe für Senioren in St. Magnus"
-description: "Offene Sprechstunde im Begegnungszentrum St. Magnus – kostenlose Hilfe bei Fragen zu Smartphone, Tablet und Computer, Kurse und Workshops sind in Planung."
+description: "Offene Sprechstunde und Tablet-Kurs im Begegnungszentrum St. Magnus – kostenlose Hilfe bei Fragen zu Smartphone, Tablet und Computer."
 h1: "Digitale Hilfe für Senioren in St. Magnus"
 hero_image: "/images/standort-st-magnus.webp"
 ---
@@ -11,7 +11,7 @@ hero_image: "/images/standort-st-magnus.webp"
   "@type": "LocalBusiness",
   "name": "Digital im Alter Bremen-Nord – Sprechstunde St. Magnus",
   "parentOrganization": { "@type": "Organization", "name": "Digital im Alter Bremen-Nord", "url": "https://dia-bremen.de/" },
-  "description": "Offene Sprechstunde im Begegnungszentrum St. Magnus – kostenlose Hilfe bei Fragen zu Smartphone, Tablet und Computer, Kurse und Workshops sind in Planung.",
+  "description": "Offene Sprechstunde und Tablet-Kurs im Begegnungszentrum St. Magnus – kostenlose Hilfe bei Fragen zu Smartphone, Tablet und Computer.",
   "url": "https://dia-bremen.de/standorte/st-magnus/",
   "telephone": "+491781603960",
   "address": {
@@ -37,7 +37,7 @@ hero_image: "/images/standort-st-magnus.webp"
 }
 </script>
 
-Im Begegnungszentrum St. Magnus bieten wir zweimal im Monat eine offene Sprechstunde an. Bringen Sie einfach Ihr Smartphone, Tablet oder Ihren Computer mit – eine Anmeldung ist nicht nötig. Über die Sprechstunde hinaus planen wir aktuell feste Kurse und Workshops für St. Magnus; sobald Termine feststehen, finden Sie sie hier und unter Angebote. Wenn Sie an einem Kurs vor Ort interessiert sind, sagen Sie uns gerne Bescheid.
+Im Begegnungszentrum St. Magnus bieten wir zweimal im Monat eine offene Sprechstunde an. Bringen Sie einfach Ihr Smartphone, Tablet oder Ihren Computer mit – eine Anmeldung ist nicht nötig. Seit dem 29. September läuft außerdem dienstags ein Tablet-Kurs für Einsteiger mit Android-Tablets, die wir kostenlos stellen. Der Kurs ist ausgebucht. Neue Kurstermine veröffentlichen wir in der Presse, hier auf der Website und auf unserem [WhatsApp-Kanal](https://whatsapp.com/channel/0029Vb6dx9mBVJl9rWTHLi0x).
 
 ## Wann und wo
 
@@ -51,6 +51,19 @@ Im Begegnungszentrum St. Magnus bieten wir zweimal im Monat eine offene Sprechst
     hinweis="Bringen Sie Ihr eigenes Gerät mit."
 >}}
 Individuelle Hilfe bei Problemen mit Smartphone, Tablet oder Computer.
+{{< /termin >}}
+
+{{< termin
+    typ="Kurs"
+    name="Tablet-Kurs für Einsteiger"
+    datum="Seit 29. September 2026 · 10 Termine"
+    uhrzeit="Dienstags 10:00–12:00 Uhr"
+    ort="Begegnungszentrum St. Magnus, Unter den Linden 24"
+    anmeldung="Anmeldung erforderlich"
+    status="ausgebucht"
+    hinweis="Das Android-Tablet bekommen Sie für die Dauer des Kurses kostenlos gestellt."
+>}}
+In 10 Terminen lernen Sie Schritt für Schritt den Umgang mit einem Android-Tablet.
 {{< /termin >}}
 
 ## Was Sie erwartet
