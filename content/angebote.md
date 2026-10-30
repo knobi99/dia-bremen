@@ -158,6 +158,19 @@ Junge Digital Natives erklären geduldig Smartphone, Tablet und Computer – von
 Offener Austausch rund um PC, Tablet und Smartphone – Fragen willkommen, keine Vorkenntnisse nötig.
 {{< /termin >}}
 
+{{< termin
+    typ="Sprechstunde"
+    name="Digitale Sprechstunde in Grohn"
+    datum="Jeden 1. und 3. Montag im Monat"
+    uhrzeit="Montags 13:00–15:00 Uhr"
+    ort="Arbeit und Lernzentrum e.V. (Seminarraum 2), Hermann-Fortmann-Str. 18, 28759 Bremen"
+    anmeldung="Für alle Menschen – einfach vorbeikommen"
+    status="neu"
+    hinweis="Eigenes Gerät gern mitbringen – ein Computer steht bei Bedarf bereit. Ansprechpartnerin: Jabina Bless · Telefonnummer folgt"
+>}}
+Wir helfen bei Smartphones und Apps, bei Internet und E-Mail, bei digitalen Anträgen und vielem mehr. <a href="/standorte/grohn/">Mehr zum Standort Grohn</a>
+{{< /termin >}}
+
 ---
 
 {{< section-banner

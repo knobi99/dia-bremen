@@ -72,7 +72,7 @@ Sie müssen für keines der beiden Angebote Vorkenntnisse mitbringen. In der Spr
 
 ## Auch in der Nähe
 
-Nicht der passende Standort für Sie? Wir sind auch in [Lesum](/standorte/lesum/), [St. Magnus](/standorte/st-magnus/), [Farge](/standorte/farge/) und [Vegesack](/standorte/vegesack/) für Sie da.
+Nicht der passende Standort für Sie? Wir sind auch in [Lesum](/standorte/lesum/), [St. Magnus](/standorte/st-magnus/), [Farge](/standorte/farge/), [Vegesack](/standorte/vegesack/) und [Grohn](/standorte/grohn/) für Sie da.
 
 ## Kontakt
 

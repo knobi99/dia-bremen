@@ -6,7 +6,7 @@ leaflet: true
 
 {{< section-banner
     titel="Unsere Standorte"
-    beschreibung="Wir sind in fünf Stadtteilen in Bremen-Nord für Sie da – kostenlos, ohne Anmeldung."
+    beschreibung="Wir sind in sechs Stadtteilen in Bremen-Nord für Sie da – kostenlos, ohne Anmeldung."
     bild="/images/standorte.webp"
     alt="Marktplatz in Bremen-Vegesack mit Geschäften und Cafés"
     farbe="tuerkis"
@@ -111,6 +111,20 @@ leaflet: true
 />}}
 {{< /stadtteil-karte >}}
 
+{{< stadtteil-karte
+    nummer="6"
+    stadtteil="Grohn"
+    link="/standorte/grohn/"
+    linktext="Mehr über Grohn →"
+>}}
+{{< standort-venue
+    typ="Sprechstunde"
+    ort="Arbeit und Lernzentrum e.V., Hermann-Fortmann-Str. 18"
+    zeiten="Jeden 1. und 3. Montag · 13:00–15:00 Uhr"
+    kontakt="Jabina Bless · Telefonnummer folgt"
+/>}}
+{{< /stadtteil-karte >}}
+
 </div>
 
 ---
@@ -179,6 +193,12 @@ leaflet: true
       name: "Bürgerhaus Vegesack",
       adresse: "Kirchheide 49, 28757 Bremen",
       zeiten: "Jeden 2. + 4. Donnerstag · 10:30–12:30 Uhr"
+    },
+    {
+      lat: 53.1707, lon: 8.6341,
+      name: "Arbeit und Lernzentrum Grohn",
+      adresse: "Hermann-Fortmann-Straße 18, 28759 Bremen",
+      zeiten: "Jeden 1. + 3. Montag · 13–15 Uhr"
     }
   ];
 

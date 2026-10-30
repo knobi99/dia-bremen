@@ -111,7 +111,7 @@ Egal für welches Angebot Sie sich entscheiden: Niemand muss vorher etwas könne
 
 ## Auch in der Nähe
 
-Nicht der passende Standort für Sie? Wir sind auch in [Marßel](/standorte/marssel/), [St. Magnus](/standorte/st-magnus/), [Farge](/standorte/farge/) und [Vegesack](/standorte/vegesack/) für Sie da.
+Nicht der passende Standort für Sie? Wir sind auch in [Marßel](/standorte/marssel/), [St. Magnus](/standorte/st-magnus/), [Farge](/standorte/farge/), [Vegesack](/standorte/vegesack/) und [Grohn](/standorte/grohn/) für Sie da.
 
 ## Kontakt
 

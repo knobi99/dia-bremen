@@ -72,7 +72,7 @@ Die Sprechstunde ist für alle Fragen offen, egal wie klein sie erscheinen. Sie 
 
 ## Auch in der Nähe
 
-Nicht der passende Standort für Sie? Wir sind auch in [Lesum](/standorte/lesum/), [Marßel](/standorte/marssel/), [Farge](/standorte/farge/) und [Vegesack](/standorte/vegesack/) für Sie da.
+Nicht der passende Standort für Sie? Wir sind auch in [Lesum](/standorte/lesum/), [Marßel](/standorte/marssel/), [Farge](/standorte/farge/), [Vegesack](/standorte/vegesack/) und [Grohn](/standorte/grohn/) für Sie da.
 
 ## Kontakt
 

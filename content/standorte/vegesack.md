@@ -58,7 +58,7 @@ Der PC-Treff ist bewusst offen gehalten: kein Kursplan, keine feste Reihenfolge 
 
 ## Auch in der Nähe
 
-Nicht der passende Standort für Sie? Wir sind auch in [Lesum](/standorte/lesum/), [Marßel](/standorte/marssel/), [St. Magnus](/standorte/st-magnus/) und [Farge](/standorte/farge/) für Sie da.
+Nicht der passende Standort für Sie? Wir sind auch in [Lesum](/standorte/lesum/), [Marßel](/standorte/marssel/), [St. Magnus](/standorte/st-magnus/), [Farge](/standorte/farge/) und [Grohn](/standorte/grohn/) für Sie da.
 
 ## Kontakt
 

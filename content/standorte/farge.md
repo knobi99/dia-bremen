@@ -59,7 +59,7 @@ Die Sprechstunde in Farge läuft ohne Anmeldung und ohne Zeitdruck. Klaus Martin
 
 ## Auch in der Nähe
 
-Nicht der passende Standort für Sie? Wir sind auch in [Vegesack](/standorte/vegesack/), [Lesum](/standorte/lesum/), [St. Magnus](/standorte/st-magnus/) und [Marßel](/standorte/marssel/) für Sie da.
+Nicht der passende Standort für Sie? Wir sind auch in [Vegesack](/standorte/vegesack/), [Lesum](/standorte/lesum/), [St. Magnus](/standorte/st-magnus/), [Marßel](/standorte/marssel/) und [Grohn](/standorte/grohn/) für Sie da.
 
 ## Kontakt
 

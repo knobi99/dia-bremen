@@ -20,6 +20,7 @@ Alle auf dieser Website verwendeten Bilder sind entweder eigenes Material des Pr
 | New Technology Guides | Eigenes Material |
 | Blog-Titelbild | lizenzfreie Datei |
 | Patientenakte | lizenzfreie Datei |
+| Logo alz (Standort Grohn) | Mit freundlicher Genehmigung des Arbeit und Lernzentrum e.V. |
 
 ---
 
