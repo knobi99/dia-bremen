@@ -240,7 +240,7 @@ In 10 Terminen lernen Sie Schritt für Schritt den Umgang mit einem Android-Tabl
     status="neu"
     hinweis="Eigenen Laptop gern mitbringen, Installationsmaterial ist vorhanden. Gemeinsam mit der Stadtbibliothek Bremen."
 >}}
-Offener Treff rund um Linux und freie Software, für Anfänger und Erfahrene. Bei Kaffee wird zusammen ausprobiert, installiert und gefragt. <a href="/impulse/linux-cafe-lesum/">Mehr zum Linux-Café</a>
+Offener Treff rund um Linux und freie Software, für Anfänger und Erfahrene. Bei Kaffee wird zusammen ausprobiert, installiert und gefragt. Den Rundbrief zum Linux-Café bekommen Sie, wenn Sie uns an <a href="mailto:hallo@dia-bremen.de">hallo@dia-bremen.de</a> schreiben. <a href="/impulse/linux-cafe-lesum/">Mehr zum Linux-Café</a>
 {{< /termin >}}
 
 {{< termin

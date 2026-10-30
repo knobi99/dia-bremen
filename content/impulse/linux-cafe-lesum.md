@@ -24,13 +24,19 @@ Diese Fragen kamen aus der Runde:
 - Auf einem etwa 15 Jahre alten MacBook ist Ubuntu installiert, aber das WLAN wird nicht erkannt. Liegt das am WLAN-Modul?
 - Wie installiere ich Linux Mint auf einem neuen Laptop mit Windows 11? Was muss ich im BIOS einstellen, und welche Hürden gibt es?
 
-Aus der Gruppe kam auch der Vorschlag, einen Rundbrief zum Linux-Café zu schreiben. Das greifen wir gern auf.
+Aus der Gruppe kam auch der Vorschlag, einen Rundbrief zum Linux-Café zu schreiben. Den gibt es inzwischen, [mehr dazu weiter unten](#der-rundbrief-zum-linux-café).
 
 Außerdem hat jemand einen Lesetipp mitgebracht: den [Kuketz-Blog](https://www.kuketz-blog.de/), der sich mit Datenschutz und IT-Sicherheit beschäftigt, und die „Rezepte" vom [Digital Independence Day](https://di.day/). Dort wird Schritt für Schritt erklärt, wie man von den Apps der großen Konzerne auf Alternativen umsteigt.
 
 ## Wann und wo
 
 Wir treffen uns **jeden 3. Dienstag im Monat von 16:00 bis 18:00 Uhr** in der Stadtbibliothek Lesum, Hindenburgstraße 31. Das erste Treffen war am 20. Oktober 2026. Die nächsten Termine sind **Dienstag, 17. November** und **Dienstag, 15. Dezember**. Die Teilnahme ist kostenlos.
+
+## Der Rundbrief zum Linux-Café
+
+Die Idee zum Rundbrief (Newsletter) kam beim ersten Treffen aus der Runde, und so ist er auch gedacht: Jeder aus der Gruppe kann etwas beitragen. Wer auf etwas Interessantes gestoßen ist, ein Problem gelöst hat oder einen Tipp aufschreiben möchte, schickt uns den Text, und wir veröffentlichen ihn im nächsten Rundbrief. Er muss nicht perfekt formuliert sein. In der ersten Ausgabe geht es darum, wie man die Microsoft-Schriften unter Linux Mint nachrüstet, damit Word-Dokumente in LibreOffice so aussehen wie gedacht. Die [Anleitung dazu gibt es auch als PDF](/downloads/microsoft-schriften-linux-mint-anleitung.pdf).
+
+Wenn Sie den Rundbrief bekommen möchten, schreiben Sie uns eine kurze E-Mail an [hallo@dia-bremen.de](mailto:hallo@dia-bremen.de). Sie müssen dafür nicht beim Linux-Café gewesen sein. Der Rundbrief ist kostenlos, und wenn Sie ihn nicht mehr haben möchten, reicht wieder eine kurze Nachricht an uns.
 
 ## Was dort passiert
 
