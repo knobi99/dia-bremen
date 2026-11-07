@@ -12,6 +12,9 @@
   <title>{{ $title }}</title>
   <meta name="description" content="{{ $desc }}">
   <link rel="canonical" href="{{ $canonical }}">
+  {{- with .Params.robots }}
+  <meta name="robots" content="{{ . }}">
+  {{- end }}
 
   <!-- Open Graph -->
   <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
