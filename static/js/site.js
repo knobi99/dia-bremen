@@ -1,11 +1,20 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Zufälliges Hero-Motiv aus Bremen-Nord
+    // Herbst (Nov. 2026). Im Frühjahr/Sommer wieder die Sommerliste unten verwenden.
     var motive = [
-        '/images/hero-hafen.jpg',
-        '/images/hero-weser.webp',
-        '/images/hero-kirche.jpg',
-        '/images/hero-natur.webp'
+        '/images/hugo-herbst-baron.webp',
+        '/images/hugo-herbst-fluss.webp',
+        '/images/hugo-herbst-laub.webp',
+        '/images/hugo-herbst-lesum.webp',
+        '/images/hugo-herbst-sonne.webp'
     ];
+    // Sommer:
+    // var motive = [
+    //     '/images/hero-hafen.jpg',
+    //     '/images/hero-weser.webp',
+    //     '/images/hero-kirche.jpg',
+    //     '/images/hero-natur.webp'
+    // ];
     var motiv = motive[Math.floor(Math.random() * motive.length)];
     var hero = document.querySelector('.hero');
     if (hero) {
