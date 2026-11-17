@@ -60,6 +60,22 @@ Im Vortrag habe ich die Einrichtung von Proton Pass live gezeigt. Zu Hause sind 
 4. Die Erweiterung für den Browser oder die App fürs Handy installieren.
 5. Das erste Passwort speichern und beim nächsten Anmelden automatisch einfügen lassen.
 
+### Nachtrag: Videos zum Mitmachen
+
+Damit Sie die Einrichtung in aller Ruhe zu Hause nachmachen können, habe ich sechs kurze Videos gedreht, jedes dauert drei bis vier Minuten. Sie sehen, wie Proton Pass installiert und eingerichtet wird, und können jedes Video anhalten und beliebig oft wiederholen, während Sie parallel Ihre eigene Installation machen.
+
+[Hier geht's zu den Videos](https://nx44139.your-storageshare.de/s/y8MmNXNQSbcEWCq)
+
+So einfach geht das:
+
+1. Link anklicken. Es öffnet sich eine Seite im Browser. Ein Konto oder ein extra Programm brauchen Sie nicht.
+2. Sie sehen die sechs Videos. Ein Klick auf ein Video, und es läuft.
+3. Wenn Sie ein Video behalten möchten: rechts daneben auf die drei Punkte und dann auf „Herunterladen“. Es landet in Ihrem Ordner „Downloads“. Den großen blauen Knopf oben rechts lassen Sie besser links liegen, der packt alle Videos in eine gemeinsame ZIP-Datei.
+
+Keine Sorge wegen der Passwörter, die Sie in den Videos sehen: Die sind alle erfunden, ich habe dafür extra ein Übungskonto angelegt. Die Wiederherstellungsphrase habe ich trotzdem schwarz abgedeckt. Machen Sie es mit Ihrer eigenen genauso: Die zeigt man niemandem, und sie liegt am besten auf Papier an einem sicheren Ort.
+
+Der Link funktioniert bis zum 4. Dezember. Wer die Videos länger behalten möchte, lädt sie sich vorher herunter.
+
 ## Das Master-Passwort
 
 Das Master-Passwort ist der eine Schlüssel zum Tresor, deshalb lohnt es sich, hier etwas Mühe hineinzustecken. Es sollte mindestens 25 Zeichen lang sein, am besten ohne Umlaute und ß, weil die auf fremden Tastaturen Ärger machen können. Im Vortrag haben wir drei Wege gezeigt:
