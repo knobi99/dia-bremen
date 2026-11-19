@@ -9,10 +9,10 @@ defaultContentLanguage = "de"
 
 [params.ankuendigung]
   aktiv = true
-  text = "Nachtrag zu Digital Dabei: Sechs kurze Videos zeigen Schritt für Schritt, wie Sie Proton Pass installieren."
-  link = "/impulse/dabei-passwortmanager/#nachtrag-videos-zum-mitmachen"
-  linktext = "Zu den Videos →"
-  bis = "2026-12-04"  # letzter Tag mit Banner (Videolink läuft ab), ab 5.12. automatisch ausgeblendet
+  text = "Wir sind für den Publikumspreis des Digitaltags nominiert. Abstimmen können Sie noch bis zum 25. November."
+  link = "https://digitaltag.eu/bewerbung/publikumspreis/Digital-im-Alter"
+  linktext = "Jetzt abstimmen →"
+  bis = "2026-11-25"  # Voting endet 25.11. 23:59, danach automatisch ausgeblendet
 
 [markup.goldmark.renderer]
   unsafe = true
